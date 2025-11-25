@@ -1,0 +1,12 @@
+.TextImagenSelector{
+    margin-top: clamp(0px, 7.2917vw, 140px);
+    margin-bottom: clamp(0px, 3.6458vw, 70px);
+}
+.CuadriculaDeModals{
+    margin-top: clamp(0px, 5.2083vw, 100px);
+    margin-bottom: clamp(0px, 6.25vw, 120px);
+}
+.CardGrid{
+    margin-top: clamp(0px, 6.25vw, 120px) ;
+    margin-bottom: clamp(0px, 6.25vw, 120px);
+}

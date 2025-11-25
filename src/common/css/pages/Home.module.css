@@ -1,0 +1,38 @@
+.contenedorPadre {
+    height: auto;
+    width: 100vw;
+    background: white;
+    overflow: hidden;
+    margin-top: clamp(0px, 3.125vw, 60px); /* 60px */
+}
+
+.TituloCardWithExpand {
+    margin-top: clamp(0px, 3.125vw, 60px);     /* 60px */
+    margin-bottom: clamp(0px, 4.167vw, 80px);  /* 80px */
+}
+
+.Marquee {
+    margin-top: clamp(0px, 8.333vw, 160px);     /* 160px */
+    margin-bottom: clamp(0px, 5.208vw, 100px);  /* 100px */
+}
+.TextoGeneral {
+    margin-top: clamp(0px, 3.646vw, 70px);      /* 70px */
+    margin-bottom: 0;
+}
+
+.PorcentajeDeNegocio {
+    margin-top: clamp(0px, 15.625vw, 300px);    /* 300px */
+    margin-bottom: 0;
+}
+
+.ImagenYGrid {
+    margin-top: clamp(0px, 13.021vw, 250px);    /* 250px */
+    margin-bottom: -3px;
+}
+
+.DespuesDelImagenYGrid {
+    height: clamp(0px, 5.208vw, 100px);         /* 100px */
+    background: white;
+    transform: scale(100%,150%);
+
+}

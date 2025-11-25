@@ -1,0 +1,191 @@
+/* TextImageSelector.module.css */
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    height: auto;
+    flex-direction: row;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Contenedor de contenido flexible */
+.contentBox {
+    width: 60vw;
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 0.2px solid var(--color-texto-negro-cambio);
+    border-radius: 20px;
+    background-color: var(--color-fondo);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Contenedor de texto ajustable */
+.textContainer {
+}
+
+/* Descripción responsive */
+.description {
+    font-size: clamp(10px, 1.1vw, 20px);
+    color: var(--color-texto-negro-cambio2);
+    line-height: 1.7;
+    text-align: left;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    word-break: break-word;
+}
+
+/* Imagen flexible */
+.image {
+    width: 100%;
+    min-height: 250px;
+    max-height: 50vh;
+    object-fit: cover;
+    object-position: center;
+    flex-shrink: 0;
+}
+
+/* Botones como títulos */
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.3rem;
+    height: 70vh;
+    width: 20vw;
+    padding: 1.5rem;
+}
+
+.button {
+    padding: 1rem;
+    font-size: clamp(10px, 1vw, 20px);
+    background-color: white;
+    color: #444;
+    border: 2px solid #888;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.button:hover {
+    background-color: var(--color-rojo-general);
+    transform: translateY(-3px);
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.active {
+    border: none;
+    color: var(--color-texto-blanco);
+    background-color: var(--color-rojo-general);
+    box-shadow: 0 4px 15px rgba(255, 77, 77, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .description {
+        font-size: 1.2rem;
+        max-width: 90%;
+        padding: 1rem;
+    }
+
+    .button {
+        font-size: 1.1rem;
+        padding: 1.2rem;
+    }
+
+    .contentBox {
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        padding:0;
+        margin: 0 auto;
+        gap: 1.5rem;
+    }
+
+    .contentBox {
+        width: 90vw;
+        min-height: 300px;
+    }
+
+    .textContainer {
+        padding: 1.5rem;
+        min-height: 120px;
+    }
+
+    .image {
+        min-height: 200px;
+    }
+
+    .buttonContainer {
+        width: 90vw;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    .button {
+        flex: 1 1 40%;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .description {
+        font-size: 1.1rem;
+        padding: 0.8rem;
+    }
+
+    .button {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+
+    .contentBox {
+        min-height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contentBox {
+        min-height: 200px;
+    }
+
+    .textContainer {
+        padding: 1rem;
+        min-height: 100px;
+    }
+
+    .description {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .image {
+        min-height: 150px;
+    }
+
+    .button {
+        flex: 1 1 100%;
+        font-size: 0.8rem;
+    }
+}

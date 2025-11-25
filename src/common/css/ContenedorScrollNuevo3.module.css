@@ -1,0 +1,238 @@
+/* ContenedorScrollNuevo1.module.css */
+
+.contenedorExterno {
+    width: 100vw;
+    height: 800px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: pan-y;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer y Edge Legacy */
+}
+.contenedorExterno::-webkit-scrollbar {
+    display: none; /* Chrome, Safari y Edge moderno */
+}
+
+.contenedorInterno {
+    display: grid;
+    grid-template-columns: 0.7fr repeat(10, 2fr  0.4fr) 2fr 0.7fr;
+    width: 300vw;
+    min-width: 5000px;
+    pointer-events: auto;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    gap: 8px; /* opcional para separar nodos */
+}
+
+/* Nodos tipo 1 y 2 (por ejemplo puntos en la línea de tiempo) */
+.tipo-1 {
+    background-color: #3498db;
+    width: 1.72%;
+    height: 10%;
+    justify-self: center; /* para centrar en la celda */
+    align-self: center;
+}
+
+.tipo-2 {
+    background-color: var(--color-rojo-general-cambio);
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    align-self: center;
+}
+
+.lineaDeTiempoImg {
+    width: 100%;
+    height: 4%;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+
+.TextoDePunto{
+    position: absolute;
+    color: var(--color-texto-negro-cambio2);
+    width:100px ;
+    height: 100px;
+    bottom:calc(30% + 30px);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    text-align: center;
+    z-index:0 ;
+
+}
+.EstiloGeneralPunto{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 101;
+}
+
+.EstiloGeneralConTexto{
+    max-width: 90%;
+    width: auto;
+    min-width: 79%;
+    height: auto;
+    position: absolute;
+    bottom: clamp(calc(40% + 190px), 50%, 10000px);
+    font-size: 16px;
+    color: var(--color-texto-blanco);
+    background: var(--color-rojo-general);
+    white-space: normal;
+    transform: translateX(-50%);
+    left: 50%;
+    border-radius: 15px;
+    padding: 0 3%;
+}
+.EstiloGeneralConTextoInvertido{
+    bottom: auto;
+    top: clamp(calc(72% + 30px), 55%, 10000px)!important;
+}
+
+.EstiloGeneralConTextoEImagen{
+    width: 90%;
+    height: auto;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: clamp(calc(30% + 140px), 30%, 10000px);
+    font-size: 16px;
+    color: var(--color-texto-blanco);
+    background: var(--color-rojo-general);
+    white-space: normal;
+    border-radius: 15px;
+    padding: 0 3%;
+    display: flex;
+    flex-direction: column;
+}
+.Titulo{
+    margin-top: 18.72px;
+    margin-bottom: 0;
+}
+.Imagen{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.texto{
+    margin: 16px 0;
+}
+.EstiloGeneralConTextoEImagenInvertido{
+    bottom: auto !important;
+    top: clamp(calc(60% + 30px), 55%, 10000px)!important;
+}
+
+.Posicion1, .Posicion2, .Posicion3,
+.Posicion4, .Posicion5, .Posicion6,
+.Posicion7, .Posicion8, .Posicion9,
+.Posicion10, .Posicion11{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background: #3adf21;*/
+}
+
+
+
+
+.Posicion1 {
+    grid-column: 2;
+    position: relative;
+}
+
+.Posicion2 {
+    grid-column: 4;
+}
+
+.Posicion3 {
+    grid-column: 6;
+}
+
+.Posicion4 {
+    grid-column: 8;
+}
+
+.Posicion5 {
+    grid-column: 10;
+}
+
+.Posicion6 {
+    grid-column: 12;
+}
+
+.Posicion7 {
+    grid-column: 14;
+}
+
+.Posicion8 {
+    grid-column: 16;
+}
+
+.Posicion9 {
+    grid-column: 18;
+}
+
+.Posicion10 {
+    grid-column: 20;
+}
+
+.Posicion11 {
+    grid-column: 22;
+}
+/*(max-width: 1920px) and*/
+@media (min-width: 1500px) {
+    .Titulo{
+        margin-top: 18.72px;
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .texto{
+        margin: 16px 0;
+        font-size: 20px;
+    }
+    .contenedorExterno {
+        height: 900px;
+    }
+    .TextoDePunto{
+        bottom:calc(30% + 40px);
+        font-size: 26px;
+    }
+    .EstiloGeneralConTextoEImagen{
+        bottom: calc(30% + 150px);
+    }
+}
+
+@media (max-width: 700px) {
+    .contenedorInterno {
+        display: grid;
+        grid-template-columns: 0.5fr repeat(10, 2fr  0.07fr) 2fr 0.7fr;
+        width: 600vw;
+        min-width: 3000px;
+    }
+    .Titulo{
+        font-size: 16px;
+    }
+    .texto{
+        font-size: 14px;
+    }
+}
+@media (max-width: 500px) {
+    .Titulo{
+        font-size: 16px;
+    }
+    .texto{
+        font-size: 14px;
+    }
+}

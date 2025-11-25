@@ -1,0 +1,108 @@
+/* Switch.module.css */
+
+.checkbox {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.switchLabel {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: clamp(35px, 3.13vw, 60px);
+    height: clamp(22px, 1.72vw, 33px);
+    background: var(--color-rojo-general);
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+.switchLabel:after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: clamp(15px, 1.31vw, 25px);
+    height: clamp(15px, 1.31vw, 25px);
+
+
+    background: #ffffff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+.checkbox:checked + .switchLabel {
+    background: #000000;
+}
+
+.checkbox:checked + .switchLabel:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+.switchLabel:active:after {
+    width: clamp(20px, 2vw, 35px);
+}
+
+/* Centering */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/*
+
+
+.checkbox {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+.switchLabel {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 60px;
+    height: 33px;
+    background: #ff0000;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+.switchLabel:after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+.checkbox:checked + .switchLabel {
+    background: #000000;
+}
+
+.checkbox:checked + .switchLabel:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+}
+
+.switchLabel:active:after {
+    width: 35px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+*/

@@ -1,0 +1,5 @@
+.LineaDeTiempo{
+    /*margin-top: clamp(0px, 13.021vw, 250px);    !* 250px *!*/
+    margin-top: clamp(50px, 6.5104vw, 125px);    /* 250px */
+    margin-bottom: clamp(0px,  1.5625vw, 30px);
+}

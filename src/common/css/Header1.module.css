@@ -1,0 +1,314 @@
+.header {
+    width: 100vw;
+    overflow: hidden; /* Evita desbordamientos */
+    position: relative; /* Para posicionar correctamente la imagen, textos y logo */
+    padding-bottom: 4%; /* Espacio vacío debajo del contenedor padre */
+}
+
+.headerImageContainer {
+    position: relative; /* Asegura que los elementos absolutos dentro de este contenedor se posicionen en relación con él */
+    width: 100%;
+    height: auto;
+}
+
+.headerImage {
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener la relación de aspecto */
+    display: block; /* Elimina espacios adicionales debajo de la imagen */
+    min-height: 300px;
+    object-fit: cover;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.textContainer {
+    position: absolute; /* Posiciona el contenedor de textos de manera absoluta */
+    top: 35%; /* Posición relativa desde la parte superior */
+    left: 10%; /* Posición relativa desde la izquierda */
+    width: 45%; /* Ancho relativo al contenedor */
+    height: auto; /* Altura automática */
+    z-index: 1; /* Asegura que los textos estén por encima de la imagen */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.text1, .text2, .text3 {
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el padding predeterminado */
+    line-height: 1; /* Ajusta la altura de línea para reducir el espacio */
+}
+
+.text1 {
+    font-size: 5vw; /* Tamaño relativo al contenedor */
+    color: var(--color-texto-blanco); /* Color del primer texto */
+}
+
+.text2 {
+    font-weight: bold; /* Texto en negrita */
+    font-size: 5.2vw; /* Tamaño relativo al contenedor */
+    color: var(--color-rojo-general-cambio); /* Color del segundo texto */
+    margin-bottom: 2vw;
+}
+
+.text3 {
+    width: 85%;
+    text-shadow: none; /* Elimina la sombra del texto */
+    font-size: clamp(20px,1.35vw,28px); /* Tamaño relativo al contenedor */
+    color: var(--color-texto-blanco); /* Color del tercer texto */
+}
+
+.logo {
+    position: absolute; /* Posiciona el logo de manera absoluta dentro del header */
+    top: 5%; /* Posición relativa desde la parte superior */
+    left: 5%; /* Posición relativa desde la izquierda */
+    width: 10%; /* Tamaño relativo al contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    z-index: 1; /* Asegura que el logo esté por encima de la imagen */
+}
+
+.buttonContainer {
+    position: absolute; /* Posiciona el contenedor de botones de manera absoluta */
+    top: 75%; /* Ajusta la posición vertical según sea necesario */
+    left: 10%; /* Misma posición horizontal que el textContainer */
+    width: 40%; /* Mismo ancho que el textContainer */
+    height: 6%; /* Altura relativa al contenedor */
+    display: flex; /* Usa flexbox para alinear los botones horizontalmente */
+    gap: 2vw; /* Espacio entre los botones */
+    z-index: 1; /* Asegura que los botones estén por encima de la imagen */
+}
+
+/* Estilo para el botón primario */
+.buttonPrimary {
+    width: 30%; /* Ancho relativo al contenedor */
+    /*padding: 1vw 2vw; !* Espaciado interno relativo al contenedor *!*/
+    font-size: clamp(16px, 1.3vw, 25px);
+    color: var(--color-texto-blanco); /* Color del texto */
+    background-color: var(--color-rojo-general-cambio);
+    border: none; /* Elimina el borde */
+    border-radius: 10px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    outline: none; /* Elimina el borde azul al hacer clic */
+    display: flex; /* Habilita Flexbox */
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    height: 100%; /* Asegura que el botón ocupe toda la altura del contenedor */
+    font-weight: 600;
+
+}
+
+/* Estilo para el botón secundario */
+.buttonSecondary {
+    width: 30%; /* Ancho relativo al contenedor */
+    /*padding: 1vw 2vw; !* Espaciado interno relativo al contenedor *!*/
+    font-size: clamp(16px, 1.3vw, 25px);
+    background-color: var(--color-rojo-general-cambio);
+    color: var(--color-texto-blanco); /* Color del texto */
+    border-radius: 10px; /* Bordes redondeados */
+
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave para el hover */
+    outline: none; /* Elimina el borde azul al hacer clic */
+    display: flex; /* Habilita Flexbox */
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+    height: 100%; /* Asegura que el botón ocupe toda la altura del contenedor */
+    font-weight: 600;
+}
+
+.centeredBottomContainer {
+    position: absolute; /* Posiciona el contenedor de manera absoluta */
+    left: 50%; /* Lo coloca en el centro horizontal */
+    bottom: 0;
+    border-radius: 25px; /* Bordes redondeados */
+    transform: translateX(-50%); /* Centra el contenedor horizontalmente */
+    width: 60%; /* Reducimos el ancho a 50% (ajusta este valor según tus necesidades) */
+    height: auto; /* Altura automática */
+    z-index: 1; /* Asegura que esté por encima de otros elementos */
+    text-align: center; /* Alinea el contenido al centro */
+    background-color: var(--color-rojo-general-cambio); /* Fondo semitransparente (opcional) */
+    padding: 0; /* Espaciado interno (opcional) */
+    color: var(--color-texto-blanco); /* Color del texto (opcional) */
+    display: grid; /* Usa CSS Grid */
+    grid-template-columns: repeat(3, 0.7fr); /* 3 columnas de igual ancho */
+    grid-template-rows: 0.6fr 0.1fr; /* La primera fila tiene el doble de altura que la segunda */
+    gap: 1vw; /* Espacio entre los elementos del grid */
+}
+
+/* Estilo para los elementos de la fila superior */
+.gridItemTop {
+    font-weight: bold;
+    border-radius: 10px; /* Bordes redondeados */
+    font-size: clamp(20px, 4vw, 60px); /* Reducimos el tamaño de fuente para que se ajuste mejor */
+    display: flex; /* Usa Flexbox para centrar el contenido */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+}
+
+/* Estilo para los elementos de la fila inferior */
+.gridItemBottom {
+    font-weight: normal;
+    border-radius: 10px; /* Bordes redondeados */
+    font-size: clamp(12px, 1vw, 24px); /* Tamaño de fuente relativo al contenedor */
+    display: flex; /* Usa Flexbox para centrar el contenido */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    padding-bottom: 8%; /* Espacio vacío debajo del contenedor padre */
+}
+@media (max-width: 1550px) {
+    .text3 {
+        width: 85%;
+        font-size: clamp(20px,1.5vw,28px); /* Tamaño relativo al contenedor */
+    }
+}
+@media (max-width: 1200px) {
+    .buttonContainer{
+        top: 78%; /* Ajusta la posición vertical según sea necesario */
+    }
+}
+@media (max-width: 1024px) {
+
+    .text3 {
+        font-size: 1.5vw;
+    }
+
+    .logo {
+        width: 12%; /* Aumenta un poco el tamaño del logo para mayor visibilidad */
+    }
+    .buttonContainer{
+        top: 78%;
+    }
+
+}
+@media (max-width: 945px){
+    .buttonContainer{
+        /*top: 390px;*/
+    }
+}
+@media (max-width: 910px){
+    .buttonContainer{
+        /*top: 370px;*/
+    }
+}
+@media (max-width: 900px){
+    .buttonPrimary,.buttonSecondary{
+        width: 35%; /* Ancho relativo al contenedor */
+
+    }
+    .buttonContainer{
+        /*top: 360px;*/
+    }
+    .header {
+        padding-bottom: 8%; /* Espacio vacío debajo del contenedor padre */
+    }
+    .centeredBottomContainer{
+        bottom: 0px;
+        /*bottom: clamp(-25px, -0.5vw, 0px);*/
+        width: 75%;
+        gap: 0; /* Espacio entre los elementos del grid */
+    }
+}
+@media (max-width: 800px) {
+    .text3 {
+        font-size: clamp(12px, 1vw, 24px);
+    }
+    .buttonPrimary,.buttonSecondary{
+        font-size: clamp(12px, 1vw, 24px);
+
+    }
+}
+@media (max-width: 768px) {
+    .text1 {
+        font-size: clamp(18px, 5vw, 35px);
+    }
+
+    .text2 {
+        font-size: clamp(18px, 6vw, 35px);
+    }
+
+
+
+    .logo {
+        width: 15%; /* Hace el logo más visible en pantallas pequeñas */
+    }
+
+    .textContainer {
+        left: 8%; /* Asegura que el texto se mantenga centrado */
+        top: 25%;
+    }
+    .buttonContainer{
+        /*top: clamp(250px, 75%, 270px); !* Ajusta la posición vertical según sea necesario *!*/
+        left: 8%;
+        width: 50%;
+    }
+
+    .centeredBottomContainer{
+        bottom: 20px;
+        /*bottom: clamp(-25px, -0.5vw, 0px);*/
+        width: 75%;
+        gap: 0; /* Espacio entre los elementos del grid */
+    }
+
+    .gridItemTop{
+        font-size: clamp(20px, 3vw, 60px);
+    }
+
+    .gridItemBottom{
+        font-size: clamp(12px, 0.8vw, 24px);
+    }
+
+    .header {
+        padding-bottom: 9%; /* Espacio vacío debajo del contenedor padre */
+    }
+}
+
+
+@media (max-width: 600px){
+    .header {
+        padding-bottom: 13%; /* Espacio vacío debajo del contenedor padre */
+    }
+
+
+    .buttonContainer{
+        /*top: clamp(230px, 80%, 250px); !* Ajusta la posición vertical según sea necesario *!*/
+        left: 8%;
+        width: 50%;
+        height: 23px;
+    }
+
+    .centeredBottomContainer{
+        bottom: clamp(0px, 1%, 10px);
+        width: 85%;
+        gap: 0; /* Espacio entre los elementos del grid */
+    }
+
+    .gridItemTop{
+        font-size: 17px;
+    }
+
+    .gridItemBottom{
+        font-size: 12px;
+    }
+
+
+}
+
+
+@media (max-width: 470px){
+    .header {
+        padding-bottom: 15%; /* Espacio vacío debajo del contenedor padre */
+    }
+    .buttonContainer{
+        /*top: 70%;*/
+    }
+    .buttonPrimary,.buttonSecondary{
+        min-width: 75px;
+    }
+}
+@media (max-width: 337px) {
+    .centeredBottomContainer{
+        bottom: 0;
+        width: 90%;
+    }
+}

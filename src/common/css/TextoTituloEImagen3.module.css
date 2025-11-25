@@ -1,0 +1,209 @@
+.contenedor {
+    width: 100vw;
+    display: flex;
+    flex-direction: column; /* Cambiamos a columna para que los botones estén debajo */
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Necesario para el posicionamiento de los botones */
+}
+
+.contenido {
+    display: flex;
+    align-items: center; /* Centramos los elementos en el eje vertical */
+    justify-content: flex-start; /* Alineamos al principio en el eje horizontal */
+    max-width: 1800px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+
+.imagenContainer {
+    width: 65%; /* La imagen ocupará el 65% del ancho */
+    height: 500px; /* Ajusta la altura de la imagen según tu preferencia */
+    padding: 10px;
+
+}
+
+.imagen {
+    width: 100%;
+    height: 100%; /* La imagen ocupará toda la altura disponible */
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin deformarse */
+    border-radius: 20px;
+}
+
+/* Clases base */
+.textoContainer {
+    width: 35%; /* El texto ocupará el 35% del ancho */
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Aseguramos que el título y texto estén en columna */
+    justify-content: center; /* Centra el contenido verticalmente */
+    height: 100%; /* Asegura que el contenedor ocupe todo el alto disponible */
+}
+
+.titulo {
+    font-size: clamp(2rem, 6vw,4rem);
+    margin-bottom: 1rem;
+    color: var(--color-rojo-general); /* Ejemplo: color azul para la variante 1 */
+}
+
+.texto {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: var(--color-texto-negro-cambio2);
+}
+
+/* Variantes para textoContainer */
+.textoContainer-1 {
+    text-align: right; /* Ejemplo: alinea el texto a la derecha */
+    padding-left: 20px; /* Ejemplo: añade un padding a la izquierda */
+}
+
+.textoContainer-2 {
+    text-align: left; /* Ejemplo: alinea el texto a la izquierda */
+    padding-right: 20px; /* Ejemplo: añade un padding a la derecha */
+}
+
+/* Variantes para titulo */
+.titulo-1 {
+    text-align: right;
+}
+
+.titulo-2 {
+    text-align: left;
+}
+
+/* Variantes para texto */
+/*
+.texto-1 {
+    font-style: italic;
+}
+
+.texto-2 {
+    font-weight: bold;
+}
+*/
+
+/* Estilos para los botones */
+.botonesContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre botones */
+    margin-top: 10px; /* Movemos los botones hacia arriba */
+    padding: 10px;
+    width: 100%;
+    max-width: 1740px;
+    height: 50%;
+    position: relative; /* Posicionamiento relativo */
+    z-index: 1; /* Aseguramos que los botones estén sobre la imagen */
+}
+
+.boton {
+    padding: 15px 0; /* Ajustamos el padding para que los botones tengan más altura */
+    background-color: var(--color-Boton);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: var(--color-texto-blanco);
+    border: none;
+    border-radius: 15px;
+    width: 15%;
+    min-height: 100px; /* Altura mínima para los botones */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color:  var(--color-boton-Hover);
+    color: var(--color-texto-blanco);
+}
+.boton.active{
+    background-color: var(--color-rojo-general);
+    color: var(--color-texto-blanco);
+}
+
+
+
+
+@media (max-width: 1080px) {
+    .contenido {
+        flex-direction: column;
+
+        align-items: center; /* Centra imagen y texto en columna */
+        text-align: center; /* Opcional: centra el texto si quieres */
+    }
+
+    .imagenContainer {
+        width: 100%;
+        height: auto; /* Para que la altura se ajuste al contenido */
+        padding: 10px 0;
+    }
+
+    .textoContainer {
+        width: 100%;
+        height: auto; /* El alto ya no necesita ser el 100% del contenedor */
+        padding: 10px 20px;
+    }
+
+    .botonesContainer {
+
+        margin-top: 20px; /* Espacio encima de los botones */
+        position: static; /* Quitamos el posicionamiento relativo si ya no hace falta */
+    }
+}
+@media (max-width: 1050px){
+    .boton{
+        /*width: 20%;*/
+        width: clamp(1px, calc(472px - 20vw),400px);
+    }
+    .botonesContainer{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 922px) {
+    .boton{
+        width: 270px;
+    }
+}
+@media (max-width: 904px) {
+    .boton{
+        width: 250px;
+    }
+}
+@media (max-width: 900px){
+    .boton{
+        width: 25%;
+    }
+}
+@media (max-width: 768px) {
+
+
+    .boton {
+        width: 45%; /* Dos botones por línea con algo de espacio entre ellos */
+        min-width: 150px; /* Evita que se hagan muy pequeños */
+    }
+}
+
+@media (max-width: 718px){
+    .botonesContainer {
+        /* Permite que los botones pasen a la siguiente línea */
+        gap: 20px;
+        width: 60vw;
+
+    }
+    .boton {
+        width: 45%; /* Dos botones por línea con algo de espacio entre ellos */
+        min-width: 150px; /* Evita que se hagan muy pequeños */
+    }
+}
+@media (max-width: 600px) {
+    .botonesContainer {
+        width: 80vw;
+    }
+}
+@media (max-width: 500px) {
+    .botonesContainer {
+        width: 100vw;
+    }
+}

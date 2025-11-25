@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102.04 102.04">
+  <defs>
+    <!-- Máscara de recorte: el logo de LinkedIn será transparente -->
+    <mask id="mascara-linkedin">
+      <rect width="100%" height="100%" fill="white"/> <!-- Área visible -->
+      <!-- Grupo con las tres partes del logo LinkedIn (áreas recortadas) -->
+      <g fill="black">
+        <path d="M78.73,78.73v-20.29c0-9.97-2.15-17.59-13.78-17.59-5.61,0-9.35,3.05-10.87,5.96h-.14v-5.06h-11.01v36.99h11.5v-18.36c0-4.85.9-9.49,6.86-9.49s5.96,5.47,5.96,9.77v18.01h11.5v.07Z"/>
+        <path d="M24.22,41.74h11.5v36.99h-11.5v-36.99Z"/>
+        <path d="M29.96,23.32c-3.67,0-6.65,2.98-6.65,6.65s2.98,6.72,6.65,6.72,6.65-3.05,6.65-6.72-2.98-6.65-6.65-6.65Z"/>
+      </g>
+    </mask>
+  </defs>
+
+  <!-- Fondo gris con máscara aplicada -->
+  <rect width="102.04" height="102.04" rx="11.93" ry="11.93" fill="#ffffff" mask="url(#mascara-linkedin)"/>
+</svg>

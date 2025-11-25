@@ -1,0 +1,176 @@
+.ContenedorPadre{
+    width: 100vw;
+    height: auto;
+    max-height: 10000px;
+    margin-bottom: 150px;
+}
+.contenedorCentrado{
+    max-width: 1632px;
+    width: 85%;
+    max-height: 10000px;
+    margin: 0 auto;
+    height: auto;
+}
+.ContenedorSecciones{
+    display: flex;
+    gap: 10px;
+}
+.Seccion{
+    color: var(--color-texto-negro-cambio2);
+    font-size: clamp(1rem, 1.1vw , 1.3rem);
+    background: transparent;
+    border-radius: 0;
+    border: 0px;
+}
+.Seccion:hover{
+    background: rgba(255, 0, 0, 0.71);
+
+}
+.Seccion.active{
+    color: var(--color-texto-blanco);
+    background: var(--color-rojo-general);
+}
+.Separador{
+    width: 100%;
+    height: 2px;
+    background: var(--color-rojo-general);
+    margin-bottom: 20px;
+}
+.GridPadre{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 3%;
+    row-gap: 30px;
+    height: auto;
+    max-height: 10000px;
+}
+
+.GridObjeto{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 169px auto;
+    background: #cacaca;
+    padding: 10px;
+    border-radius: 20px;
+    height: 300px;
+    row-gap: 0;
+}
+.EspacioImagen{
+    grid-row: 1;
+    display: flex;
+    padding-top: 30px;
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden; /* Para que el border-radius también afecte a la imagen */
+    align-items: center;   /* centra verticalmente */
+    justify-content: center; /* centra horizontalmente */
+}
+
+.EspacioTexto{
+    grid-row: 2;
+    max-height: 100%;
+    display: flex;
+    align-items: center;   /* centra verticalmente */
+    justify-content: center; /* centra horizontalmente */
+}
+.EspacioImagen img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+.TextoDelObjeto{
+    /*font-size: 1.3rem;*/
+    font-size: calc(0.89rem + (clamp(320px, 100vw, 1920px)* 4/1600));
+    text-align: center;
+    color: black;
+    margin: auto 0;
+    transition: all 0.3s ease;
+}
+
+.GridObjeto:hover .EspacioImagen img{
+    transform: translateY(-20px) scale(1.05);
+}
+.GridObjeto:hover .TextoDelObjeto{
+    color: red;
+}
+
+
+@media (max-width: 1550px){
+    .GridPadre{
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+@media (max-width: 1024px) {
+    /*.GridObjeto{*/
+    /*    padding-top: 0;*/
+    /*}*/
+    .EspacioImagen{
+        padding-top: 0;
+    }
+    .GridObjeto:hover .EspacioImagen img{
+        transform: none;
+    }
+    .GridObjeto{
+        height: 350px;
+    }
+}
+@media (max-width: 1000px){
+    .GridPadre{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .GridObjeto{
+        height: 330px;
+    }
+}
+@media (max-width: 700px){
+    .GridPadre{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 25px;
+    }
+    .GridObjeto{
+        grid-template-rows: 112.5px auto;
+        height: 250px;
+    }
+
+}
+@media (max-width: 450px){
+    .contenedorCentrado{
+        width: 90%;
+    }
+    .GridObjeto{
+        height: 300px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+}
+@media (max-width: 420px) {
+    .ContenedorSecciones{
+        flex-direction: column;
+    }
+    .Seccion{
+        border-radius: 10px;
+    }
+    .Separador{
+        background: transparent;
+    }
+}
+@media (max-width: 370px) {
+    .GridPadre{
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+    .GridObjeto{
+        height: 250px;
+    }
+    .contenedorCentrado{
+        width: 90%;
+    }
+}

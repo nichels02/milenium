@@ -1,0 +1,416 @@
+/* ===== CONTENEDOR PADRE ===== */
+.footerContainer {
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ===== FOOTER PRINCIPAL ===== */
+.footer {
+    color: var(--color-texto-negro-cambio);
+    padding: 40px 20px 20px;
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+/* ===== PRIMERA SECCIÓN ===== */
+.topSection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: clamp(40px, 5vw,100px);
+}
+
+.logoSection {
+    width: 25%;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.logo {
+    width:clamp( 150px, 90%,1000px);
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.logoText {
+    font-size: clamp(1rem, 1.3vw,1.5rem);
+    line-height: 1.4;
+    font-weight: 400;
+    width: clamp(150px, 100%, 10000px);
+}
+
+/* Columnas más compactas y alineadas a izquierda */
+.columnsContainer {
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    gap: clamp(40px, 5.3vw ,100px);
+}
+
+.column {
+    flex: 0 1 auto;
+    max-width: 180px;
+    margin: 0;
+}
+
+.column h4 {
+    color: var(--color-texto-negro-cambio);
+    margin-bottom: 15px;
+    font-size: clamp(1.1rem, 1.3vw,1.5rem);
+    font-weight: 700;
+}
+.column a {
+    font-size: clamp(1rem, 1vw,1.1rem);
+}
+.menuButton {
+    display: block;
+    width: 100%;
+    padding: 6px 0;
+    margin: 4px 0;
+    background: none;
+    border: none;
+    color: var(--color-texto-negro-cambio);
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+.menuButton:hover {
+    color: var(--color-rojo-general);
+    transform: translateX(5px);
+}
+
+/* ===== ACTION CARDS (ESTILOS MODULARES) ===== */
+.actionCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px 30px;
+    width: 50%;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.actionCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Variantes de color para cards */
+.actionCard.primary {
+    background-color: var(--color-texto-negro-cambio2);
+}
+
+.actionCard.secondary {
+    background-color: var(--color-blancoATransparente);
+}
+
+/* ===== CONTENIDO DE CARDS (ESTILOS MODULARES) ===== */
+.cardTextContent {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Estilos base para textos */
+.cardTitle,
+.cardSubtitle {
+    margin: 0;
+    transition: all 0.3s;
+}
+
+/* Variante primary */
+.cardTextContent.primary .cardTitle {
+    color: var(--color-texto-blanco-cambio2);
+    font-size: clamp(18px, 1.8vw, 30px);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.cardTextContent.primary .cardSubtitle {
+    color: var(--color-texto-blanco-cambio2);
+    font-size: clamp(16px, 1.1vw, 30px);
+    font-weight: 400;
+    opacity: 0.9;
+
+
+}
+
+/* Variante secondary */
+.cardTextContent.secondary .cardTitle {
+    color: var(--color-texto-negro-cambio);
+    font-size: clamp(18px, 1.8vw, 30px);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.cardTextContent.secondary .cardSubtitle {
+    color: var(--color-texto-negro-cambio);
+    font-size: clamp(16px, 1.1vw, 30px);
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+/* ===== BOTONES CUADRADOS (ESTILOS MODULARES) ===== */
+.squareButton {
+    border: none;
+    border-radius: 8px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: clamp(1.5rem, 100vw, 2rem);
+    transition: all 0.3s;
+    flex-shrink: 0;
+    padding: 0;
+}
+
+/* Variantes de botones */
+.squareButton.primary {
+    background-color: var(--color-rojo-general);
+    color: var(--color-texto-negro-cambio2);
+
+}
+
+.squareButton.secondary {
+    background-color: var(--color-texto-negro-cambio2);
+    color: var(--color-texto-blanco-cambio-rojo);
+}
+
+/* ===== SEGUNDA SECCIÓN ===== */
+.middleSection {
+    margin-top: 20px;
+    margin-bottom: clamp(30px, 3vw,60px);
+}
+
+.actionCardsContainer {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+}
+
+/* ===== TERCERA SECCIÓN ===== */
+.divider {
+    border-top: 1px solid #555;
+    margin: 20px 0;
+}
+
+.bottomContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: clamp(70px, 5vw,100px);
+}
+
+.legal {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-grow: 1;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.copyright {
+    white-space: nowrap;
+}
+
+.legalLinks {
+    display: flex;
+    gap: 20px;
+}
+.copyright,
+.legalButton{
+    font-size: 1.1rem;
+}
+.legalButton {
+    background: none;
+    border: none;
+    color: var(--color-texto-negro-cambio);
+    cursor: pointer;
+    padding: 0;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.legalButton:hover {
+    color: #00a8ff;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.socialIcon {
+    width: clamp(30px, 3vw,56px);
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.socialIcon:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 1200px) and (min-width: 920px) {
+    .columnsContainer{
+        margin-left: 36px;
+        gap: 10px;
+    }
+}
+@media (max-width: 1341px){
+    .bottomContent {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .legal {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+@media (max-width: 919px) and (min-width: 769px) {
+    .columnsContainer{
+        margin-left: 50px;
+    }
+}
+
+/* ===== VERSIÓN MÓVIL ===== */
+@media (max-width: 768px) {
+    .footerContainer{
+        height: auto;
+    }
+    .topSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logoSection {
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .logo {
+        width: clamp(150px, 50%, 250px);
+        margin: 0 auto 15px;
+    }
+
+    .columnsContainer {
+        width: 100%;
+        justify-content: space-between;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .column {
+        flex: 1 1 45%;
+        min-width: 160px;
+        max-width: none;
+        margin: 0;
+    }
+    .column h4{
+        text-align: center;
+    }
+    .menuButton {
+        text-align: center;
+        padding: 8px 0;
+        font-size: 0.8rem;
+    }
+
+    .actionCardsContainer {
+        flex-direction: column;
+    }
+
+    .actionCard {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cardTextContent {
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+
+    /* Ajustes de texto para móvil */
+    .cardTextContent.primary .cardTitle,
+    .cardTextContent.secondary .cardTitle{
+        font-size: 1.4rem;
+    }
+
+    .cardTextContent.primary .cardSubtitle,
+    .cardTextContent.secondary .cardSubtitle {
+        font-size: 1.1rem;
+    }
+
+    .squareButton {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3rem;
+        align-self: flex-end;
+    }
+
+
+
+    .legalLinks {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .socialIcon {
+        width: clamp(30px, 7vw,56px);
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .footerContainer{
+        height: auto;
+    }
+    .footer {
+        padding: 30px 15px;
+    }
+
+    .columnsContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .column {
+        flex: 1 1 100%;
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .column h4 {
+        font-size: 0.95rem;
+        margin-bottom: 12px;
+    }
+
+    .menuButton {
+        font-size: 0.78rem;
+    }
+
+    .socialLinks {
+        gap: 12px;
+    }
+}

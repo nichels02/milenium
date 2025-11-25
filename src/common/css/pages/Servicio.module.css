@@ -1,0 +1,8 @@
+.GridGenerico{
+    margin-bottom: clamp(0px, 6.25vw, 120px);
+    margin-top: clamp(0px, 10.4167vw, 200px);
+}
+.gridBarajeable{
+    margin-bottom: clamp(0px, 8.8542vw, 170px);
+    margin-top: clamp(0px, 6.7708vw, 130px);
+}

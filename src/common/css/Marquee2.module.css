@@ -1,0 +1,29 @@
+/* Marquee2.module.css */
+.marqueeContainer {
+    width: 100vw;
+    overflow: hidden; /* Oculta el contenido que sale de la caja */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.marqueeText {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 24px;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    animation: marquee 10s linear infinite; /* Aquí se hace el efecto */
+}
+
+/* Animación de desplazamiento */
+@keyframes marquee {
+    0% {
+        transform: translateX(100%); /* Comienza a la derecha */
+    }
+    100% {
+        transform: translateX(-100%); /* Se mueve hasta fuera de la pantalla */
+    }
+}

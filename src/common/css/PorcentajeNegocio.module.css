@@ -1,0 +1,339 @@
+
+
+.contenedorPadre {
+    width: 100vw;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorImagenGrande {
+    position: relative;
+    min-width: 0 !important;
+    width: 90%;
+    max-width: 1670px;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Contenedores de fondo */
+.contenedorFondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 10%, rgba(0, 0, 0, 0)40%),
+    linear-gradient(270deg, rgba(0, 0, 0, 0.75) 20%, rgba(0, 0, 0, 0)50%);
+    z-index: 2;
+    pointer-events: none;
+    border-radius: inherit;
+}
+
+.contenedorFondo2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 10%, rgba(0, 0, 0, 0)40%),
+    linear-gradient(270deg, rgba(0, 0, 0, 0.75) 20%, rgba(0, 0, 0, 0)50%),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0, rgba(0, 0, 0, 0)40%);
+    z-index: 2;
+    pointer-events: none;
+    border-radius: inherit;
+}
+
+.imagenGrande {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedorGrafico {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 40%;
+    height: 80%;
+    z-index: 5;
+    overflow: visible;
+    pointer-events: none;
+}
+
+.contenedorGrafico canvas {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    width: 100%;
+    height: 100%;
+    pointer-events: auto;
+}
+
+.contenedorTextoFijo {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 15px;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.textoFijo {
+    font-size: 16px;
+    color: white;
+    line-height: 1.4;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.texto {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    text-align: center;
+    white-space: nowrap;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: clamp(16px, 1.8vw, 24px);
+    z-index: 3;
+}
+
+.activo {
+    font-weight: bold;
+    font-size: clamp(20px, 2.5vw, 28px); /* O el tamaño que quieras para destacados */
+    transition: font-size 0.3s, font-weight 0.3s; /* Para que el cambio sea suave */
+}
+
+.texto-0 { right: 10%; bottom: 10%; }
+.texto-1 { right: 20%; bottom: 35%; }
+.texto-2 { right: 20%; top: 40%; }
+.texto-3 { right: 10%; top: 10%; }
+
+.textoOtros {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    width: 100px;
+    color: white;
+    /*line-height: 1.4;*/
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 3;
+    white-space: pre-line;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.itemCategoria{
+
+}
+@media (min-width: 1920px) {
+    .textoOtros {
+        font-size:20px;
+        width: 20%;
+    }
+}
+@media(max-width: 1920px){
+    .textoOtros {
+        top: 45%;
+        font-size: clamp(16px, 1.1vw, 20px);
+        width: 20%;
+        line-height: 1;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .textoFijo {
+        font-size: clamp(16px, 1.1vw, 20px);
+        width: 100%;
+        line-height: 1;
+    }
+    .contenedorTextoFijo{
+        left: 3.5%;
+        width: 70%;
+    }
+}
+@media(max-width: 1400px){
+    .textoOtros {
+        top: 37%;
+        font-size: 16px;
+        width: 20%;
+        line-height: 1;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .textoFijo {
+        font-size: 16px;
+        width: 90%;
+        line-height: 1;
+    }
+}
+@media(max-width: 930px) {
+
+    .contenedorFondo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 10%, rgba(0, 0, 0, 0)40%),
+        linear-gradient(270deg, rgba(0, 0, 0, 0.75) 10%, rgba(0, 0, 0, 0)40%);
+        z-index: 2;
+        pointer-events: none;
+        border-radius: inherit;
+    }
+
+    .contenedorFondo2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 10%, rgba(0, 0, 0, 0)40%),
+        linear-gradient(270deg, rgba(0, 0, 0, 0.75) 20%, rgba(0, 0, 0, 0)50%),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0)40%);
+        z-index: 2;
+        pointer-events: none;
+        border-radius: inherit;
+    }
+
+    .contenedorImagenGrande {
+        border-radius: 20px;
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .contenedorGrafico {
+        width: 60%;
+        height: 70%;
+    }
+
+    .contenedorGrafico canvas {
+        transform: translate(50%, -50%) scale(0.9);
+    }
+
+    .texto {
+        font-size: clamp(16px, 2vw, 24px);
+
+    }
+    .activo {
+        font-size: clamp(20px, 3vw, 28px);
+
+    }
+
+
+    .texto-0 { right: -5%; bottom: 10%; }
+    .texto-1 { right: 20%; bottom: 35%; }
+    .texto-2 { right: 20%; top: 35%; }
+    .texto-3 { right: 5%; top: 20%; }
+
+    .textoOtros {
+        width: 150px;
+        top: 35%;
+    }
+    .textoFijo {
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 550px){
+    .textoOtros {
+        width: 150px;
+        top: 35%;
+        left: 3%;
+    }
+
+    .contenedorTextoFijo{
+        left: 0;
+        bottom: 0;
+        width: 70%;
+    }
+}
+
+@media(max-width: 586px){
+
+    .contenedorPadre{
+        padding: 10px;
+    }
+    .contenedorImagenGrande {
+        width: 90vw;
+        height: 150vw;
+    }
+    .texto {
+        font-size: clamp(16px, 1vw, 24px);
+
+    }
+    .activo {
+        font-size: clamp(16px, 2vw, 28px);
+
+    }
+    .textoOtros {
+        width: 150px;
+        top: 35%;
+        font-size: 16px;
+    }
+    .contenedorTextoFijo{
+        width: 70%;
+    }
+    .textoFijo {
+        font-size: 16px;
+        width: 100%;
+        line-height: 1;
+    }
+    .texto-0 { right: -2%; bottom: 12%; }
+    .texto-1 { right: 25%; bottom: 35%; }
+    .texto-2 { right: 30%; top: 40%; }
+    .texto-3 { right: 5%; top: 20%; }
+
+}
+@media (max-width: 450px) {
+    .texto-3 { right: 0; top: 25%; }
+    .texto-2 { right: 27%; top: 40%; }
+    .texto-1 { right: 25%; bottom: 40%; }
+    .texto-0 { right: -5%; bottom: 20%; }
+    .contenedorTextoFijo{
+        width: 60%;
+    }
+    .contenedorImagenGrande{
+        height: 170vw;
+        min-height: 730px;
+    }
+}
+@media (max-width: 400px){
+    .texto-3 { right: 0; top: 25%; }
+    .texto-2 { right: 25%; top: 40%; }
+    .texto-1 { right: 25%; bottom: 40%; }
+    .texto-0 { right: -5%; bottom: 20%; }
+    .contenedorImagenGrande{
+        height: 190vw;
+    }
+}
+@media(max-width: 350px){
+    .texto-3 { right: 0; top: 25%; }
+    .texto-2 { right: 20%; top: 40%; }
+    .texto-1 { right: 25%; bottom: 40%; }
+    .texto-0 { right: -5%; bottom: 30%; }
+
+    .contenedorImagenGrande{
+        height: 900px;
+    }
+    .contenedorTextoFijo{
+        width: 60%;
+    }
+}

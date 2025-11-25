@@ -1,0 +1,1815 @@
+{
+  "Common": {
+
+    "IconoUbicacion": "/assets/ImagenesPrueba/2776067.png"
+
+  },
+  "filtrosDisponibles": {
+    "Ubicacion": ["Callao", "Lima", "Zona Norte", "Zona Sur"],
+    "NivelDeEstudios": ["Secundaria", "Tecnico", "Universitario"],
+    "ExperienciaMinimaMeses": ["Sin experiencia", "3 meses", "6 meses", "9 meses", "1 año", "+2 años"],
+    "DisponibilidadLaboral": ["6 horas", "8 horas", "12 horas"]
+  },
+  "listaDeTrabajos": [
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 1",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 1" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "+2 años",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 2",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 2" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "6 meses",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 3",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 3" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 4",
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 4" ,
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Lima",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "6 meses",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 5",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 5" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "Sin experiencia",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 6",
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 6" ,
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Lima",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "+2 años",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 7",
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 7" ,
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Lima",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "6 meses",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 8",
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 8" ,
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Lima",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "6 meses",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 9",
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 9" ,
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Lima",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "9 meses",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 10",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 10" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "+2 años",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 11",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 11" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "6 meses",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 12",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 12" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 13",
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 13" ,
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Callao",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "9 meses",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 14",
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 14" ,
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Lima",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "+2 años",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 15",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 15" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "9 meses",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 16",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 16" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "+2 años",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 17",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 17" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "9 meses",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 18",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 18" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "9 meses",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 19",
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 19" ,
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Lima",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "1 año",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 20",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 20" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "1 año",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 21",
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 21" ,
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Callao",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "6 meses",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 22",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 22" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 23",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 23" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 24",
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 24" ,
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Callao",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "+2 años",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 25",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 25" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "Sin experiencia",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 26",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 26" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 27",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 27" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "Sin experiencia",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 28",
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 28" ,
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Lima",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 29",
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 29" ,
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Callao",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "+2 años",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 30",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 30" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "6 meses",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 31",
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 31" ,
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Callao",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 32",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 32" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "6 meses",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 33",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 33" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "1 año",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 34",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 34" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "1 año",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 35",
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 35" ,
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Callao",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "9 meses",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 36",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 36" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "9 meses",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 37",
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 37" ,
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Callao",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "6 meses",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 38",
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 38" ,
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Lima",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 39",
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 39" ,
+        "Ubicacion": "Lima",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Lima",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "Sin experiencia",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 40",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 40" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 41",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 41" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 42",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 42" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 43",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 43" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "+2 años",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 44",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 44" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "+2 años",
+        "DisponibilidadLaboral": "12 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 45",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 45" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "6 meses",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 46",
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 46" ,
+        "Ubicacion": "Zona Sur",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Sur",
+        "NivelDeEstudios": "Universitario",
+        "ExperienciaMinimaMeses": "Sin experiencia",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 47",
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 47" ,
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Callao",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 48",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 48" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Tecnico",
+        "ExperienciaMinimaMeses": "6 meses",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 49",
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 49" ,
+        "Ubicacion": "Callao",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Callao",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "1 año",
+        "DisponibilidadLaboral": "6 horas"
+      }
+    },
+    {
+      "es": {
+        "Titulo": "Agente de seguridad/zona norte 50",
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Secundaria completa certificada o C4.",
+          "Curso sucamec vigente (deseable), en caso no esté vigente Liderman te capacita.",
+          "Experiencia mínima de 03 meses como Agente de Seguridad (certificada).",
+          "Disponibilidad para laborar 12 horas rotativas.",
+          "Disponibilidad para laborar en Callao."
+        ],
+        "MasInformacion": "Más información en:"
+      },
+      "en": {
+        "Titulo": "Security Agent/North Zone 50" ,
+        "Ubicacion": "Zona Norte",
+        "Descripcion": [
+          "Certified high school or C4.",
+          "Valid Sucamec course (desirable), if not valid, Liderman will provide training.",
+          "At least 3 months of experience as a Security Agent (certified).",
+          "Availability to work 12-hour rotating shifts.",
+          "Availability to work in Callao."
+        ],
+        "MasInformacion": "More information at:"
+      },
+      "Common": {
+        "Logo": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "Link": "https://www.linkedin.com/feed/?trk=onboarding-landing"
+      },
+      "Filtros": {
+        "Ubicacion": "Zona Norte",
+        "NivelDeEstudios": "Secundaria",
+        "ExperienciaMinimaMeses": "3 meses",
+        "DisponibilidadLaboral": "8 horas"
+      }
+    }
+  ]
+}

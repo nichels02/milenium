@@ -1,0 +1,172 @@
+.contenedorPadre{
+    width: 100vw;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 4%;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 10fr 10fr 10fr 10fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 1670px;
+    width: 87%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.mainItem {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-right: 3.125vw;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;  /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+}
+
+.smallItem {
+    grid-column: span 1;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;  /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+    filter: grayscale(100%) brightness(70%);
+    transition: filter 0.4s ease-in-out;
+}
+
+/* 🔹 Overlay blanco translúcido */
+.smallItem::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3); /* Máscara blanca */
+    pointer-events: none;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.4s ease-in-out;
+}
+
+
+/* 🔹 Quita la escala de grises al hacer hover */
+.smallItem:hover {
+    filter: grayscale(0%) brightness(100%);
+}
+
+.smallItem:hover::before {
+    opacity: 0;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.80);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    z-index: 3;
+    height: clamp(30%, auto, 60%);
+    text-align: center;
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+
+.mainOverlay{
+    composes: overlay;
+    align-items: center;
+    width: clamp(50%, calc(800px - 50%), 80%);
+}
+
+/* 🔹 Cambia la opacidad al hacer hover */
+.smallItem:hover .overlay {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+h2, h3, p {
+    margin: 0;
+    font-size: 17px;
+}
+h2{
+    font-size: 32px;
+    line-height: 1;
+}
+.mainTitle{
+    padding-bottom: 20px;
+}
+@media (max-width: 1452px){
+    h3, p {
+        margin: 0;
+        font-size: 14px;
+    }
+    .p2 {
+        font-weight: 200;
+    }
+    .p1{
+        padding: 0;
+    }
+    .overlay{
+        width: 70%;
+    }
+    .mainOverlay{
+        width: clamp(50%, calc(800px - 50%), 80%);
+    }
+    .mainItem {
+        margin-right: 2vw;
+    }
+}
+
+@media (max-width: 1250px){
+    .mainItem {
+        margin-right: 0;
+    }
+    .gridContainer {
+        display: grid;
+        grid-template-columns: 10fr 10fr;
+        grid-template-rows: repeat(4, 1fr);
+        width: 87%;
+        height: 87vw;
+    }
+    /* gridBarajeable.module.css */
+    .mainTitle {
+        font-size: clamp(1.5rem, 2vw, 2rem);
+        text-shadow: 1px 1px 4px black;
+        margin-bottom: 10px;
+    }
+
+}
+@media (max-width: 686px){
+    .gridContainer {
+        display: grid;
+        grid-template-columns: 10fr 10fr;
+        grid-template-rows: repeat(4, 1fr);
+        width: 87%;
+        height: clamp(730px, 150vw, 10000px);
+    }
+}
+@media (max-width: 470px){
+    .gridContainer {
+        display: grid;
+        grid-template-columns: 10fr;
+        grid-template-rows: 4fr 4fr 2fr 2fr 2fr 2fr;
+        width: 87%;
+        height: clamp(900px, 150vw, 10000px);
+    }
+    .mainItem {
+        grid-column: span 1; /* Ocupa solo una columna */
+    }
+}

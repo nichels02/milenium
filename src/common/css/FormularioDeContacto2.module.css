@@ -1,0 +1,880 @@
+/* Estilos generales para el contenedor de la página */
+.contenedorPagina {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    /*height: clamp(1500px, 90vw, 1728px);*/
+    height: 1400px;
+    width: 100vw;
+    background: none;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.ImagenFondo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+
+
+
+
+.successMessage,
+.errorMessage{
+
+    position: absolute;
+
+    top: 0;
+    /*left:clamp(45px, calc(45px + ((100vw - 1025px) * 15 / 895)), 60px);*/
+    left: 0;
+    font-size: 18px;
+    width: 70%;
+    padding-top: 10px;
+    margin-bottom: -20px;
+    border-radius: 4px;
+
+}
+
+.successMessage{
+
+
+}
+
+.errorMessage {
+    color: #ff0000;
+
+    background-color: #ffeeee;
+
+    border: 1px solid #ffcccc;
+
+}
+
+
+
+
+/* Estilo para el contenedor intermedio */
+.contenedorIntermedio {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    max-width: 1728px;
+    /*max-height: 1008px;*/
+    width: 90%;
+    height: 80%;
+    /*min-height: ;*/
+    background: rgba(122, 122, 122, 0.59);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    overflow: hidden;
+    bottom: 3%;
+    z-index: 1;
+    padding: 0 30px;
+    gap: 20px;
+
+}
+
+.contenidoCentral {
+    position: relative;
+    z-index: 1;
+    width: clamp(10px, 55%, 900px);
+    height: 90%;
+    left: 10px;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background: rgba(76, 189, 51, 0.54);*/
+    padding: 20px;
+    /*max-width: 900px;*/
+}
+
+/* Imagen lateral */
+.imagenLateral {
+    position: absolute;
+    flex: 1;
+    right: 10px;
+    bottom: calc(600px - ((clamp(1500px, 100vw, 1920px) - 1500px)/420)*(600 - 500));
+    width: 50%;
+    transform: translateY(50%);
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Contenedor inferior */
+.contenedorExtraInferior {
+    /*display: none;*/
+    /*transform: translateY( -8px );*/
+    margin-top: 30px;
+    height: auto;
+    padding: 20px;
+    background-color: var(--color-rojo-general);
+    /*background-color: rgba(255, 0, 0, 0.57);*/
+    border-radius: 15px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: clamp(70px, 5.2vw, 100px) 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.contenedorExtraInferior img {
+    width: clamp(70px, 5.2vw, 100px);
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos para los textos */
+.textoEncabezado {
+    font-size: clamp(16px, 1.5vw, 20px);
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.textoPrincipal {
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 3px;
+    color: var(--color-texto-blanco);
+}
+
+.textoSecundario {
+    font-size: clamp(16px, 1.5vw, 20px);
+    font-weight: 350;
+    color: var(--color-texto-blanco);
+    margin: 0;
+}
+
+/* Barra superior */
+/* Estilos para el carrusel de botones */
+.barraSuperior {
+    width: 100%;
+    max-width: 600px;
+    height: 80px;
+    margin: 0 auto 20px;
+    position: relative;
+    padding: 0 30px; /* Espacio para que los botones no toquen los bordes */
+}
+
+
+
+
+/* Estilos para las flechas del carrusel */
+.customPrevArrow,
+.customNextArrow {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.customPrevArrow:hover,
+.customNextArrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.customPrevArrow::before {
+    content: '←';
+    display: block;
+}
+
+.customNextArrow::before {
+    content: '→';
+    display: block;
+}
+
+/* Posicionamiento de las flechas */
+.customPrevArrow {
+    left: -50px;
+}
+
+.customNextArrow {
+    right: -50px;
+}
+
+
+
+
+
+/* Contenedor del slider */
+.slick-slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Evita desbordamiento */
+
+}
+
+/* Cada slide individual */
+.slick-slide {
+    padding: 0 10px; /* Espacio entre botones */
+    display: flex;
+    width: 100px;
+    justify-content: center;
+}
+
+/* Contenedor de los slides */
+.slick-list {
+    margin: 0 -5px;
+    overflow: visible;
+}
+
+/* Estilo para los botones del carrusel */
+.botonCarrusel {
+    margin-left: calc((180px - clamp(100px, 8.9vw, 170px))/2);
+    padding: 8px 16px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.62);
+    backdrop-filter: blur(10px);
+    min-height: clamp(60px, 4.2vw, 80px);
+    width: 100%;
+    min-width: clamp(100px, 8.9vw, 170px);
+    color: #000000;
+    font-size: clamp(12px, 1.5vw, 22px) !important;
+    cursor: pointer;
+    border-radius: 20px !important;
+    transition: all 0.3s ease;
+    /*margin: 0 auto; !* Centrado horizontal *!*/
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.botonCarrusel:hover {
+    background-color: var(--color-rojo-general);
+    color: white;
+}
+
+/* Efecto para el slide activo (centrado) */
+.slick-center .botonCarrusel {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.barraSuperior button {
+
+    /*margin-left: 5px;*/
+    padding: 6px 12px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.62);
+    backdrop-filter: blur(10px);
+    height: 50px;
+    width: 25%;
+    color: #000000;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.barraSuperior button:hover {
+    background-color: var(--color-rojo-general);
+    color: white;
+}
+
+/* Contenedor principal del formulario */
+.formularioContainer {
+    background-color: rgb(32, 32, 32);
+    padding: 15px;
+    height: clamp(880px, 78%, 9000px);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 95%;
+}
+
+/* Encabezado */
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.encabezado h2 {
+    font-size: 40px;
+    margin: 0 0;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.dropdown {
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: transparent !important;
+    color: #ffffff;
+}
+.dropdown option {
+    background: white !important;
+    color: var(--color-texto-negro2) !important;
+}
+
+/* Estilos para el formulario */
+.formulario {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 25px;
+}
+
+/* Estructura de columnas */
+.dosColumnas {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 12px;
+}
+
+.campo {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.campo label {
+    margin-top: 30px;
+    font-size: clamp(16px, 1.05vw, 20px);
+    margin-bottom: 3px;
+    color: #ffffff;
+}
+
+.campo input {
+    padding: 6px;
+    font-size: clamp(16px, 1.05vw, 20px);
+    font-weight: 10;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: none;
+    color: #ffffff;
+}
+
+/* Estilos para el grupo de checkboxes */
+.checkboxGroup {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    border: none;
+}
+
+.checkboxLabel {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.checkbox {
+    display: none;
+}
+
+.checkboxCustom {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.checkbox:checked + .checkboxCustom {
+    background-color: white;
+    box-shadow: 0 0 0 5px #afafaf;
+}
+
+.checkboxGroup label:hover .checkboxCustom {
+    cursor: pointer;
+}
+
+/* Estilo para el área de mensaje */
+.areaMensaje {
+    display: flex;
+    flex-direction: column;
+}
+
+.areaMensaje label {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 3px;
+    color: #ffffff;
+}
+
+.areaMensaje textarea {
+    padding: 6px;
+    font-size: 18px;
+    max-height: 120px;
+    border: 1px solid #ddd;
+    background: none;
+    color: #ffffff;
+    resize: vertical;
+}
+
+.contactoYBoton {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para el contacto alternativo */
+.contactoAlternativo {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.contactoAlternativo p {
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.contactoAlternativo a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contactoAlternativo a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el botón de enviar */
+.botonEnviarContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.botonEnviar {
+    padding: 8px 14px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botonEnviar:hover {
+    background-color: var(--color-rojo-general);
+    color:white;
+}
+
+.InfoExtra1,
+.InfoExtra2{
+    position: absolute;
+    /*width: 370px;*/
+    /*width: 300px;*/
+    width: clamp(300px, calc(300px + (100vw - 1025px) / 895 * 70), 370px);
+    /*height: 130px;*/
+    /*height: 100px;*/
+    height: clamp(120px, calc(100px + (100vw - 1025px) / 895 * 30), 130px);
+    background: var(--color-rojo-general);
+    border-radius: 10px;
+    align-items: center; /* Centrado vertical */
+    display: flex;
+    z-index: 10;
+    right: 2%;
+    line-height: 1.5;
+}
+
+.InfoExtra1{
+    /*bottom: 220px;*/
+    /*bottom: 140px;*/
+    bottom: clamp(160px, calc(140px + (100vw - 1025px) / 895 * 80), 220px);
+    /*display: none;*/
+}
+
+.InfoExtra2{
+    /*bottom: 60px;*/
+    /*bottom: 30px;*/
+    bottom: clamp(30px, calc(30px + (100vw - 1025px) / 895 * 30), 60px);
+}
+.InfoExtraImagen{
+    height: 70%;
+    width: auto;
+    margin: 0 12px;
+}
+.InfoExtraTitulo{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin: 0;
+}
+.InfoExtraNumero{
+    color: white;
+    font-weight: 620;
+    font-size: 34px;
+    margin: 0;
+}
+
+.TituloYSubtitulo{
+    position: absolute;
+    top: -2%;
+    left: 6%;
+}
+
+
+
+@media (min-width: 1920px) {
+    .TituloYSubtitulo{
+        left: calc(50vw - 834px);
+    }
+}
+@media (max-width: 1565px) and (min-width: 1300px) {
+    .imagenLateral{
+        /*bottom: calc(700px - ((100vw - 1700px)/220)*(700 - 612));*/
+        width: calc(704px - ((100vw - 1565px)/265 * (704 - 670)));
+        right: calc(-10px - ((1565px - 100vw) / 265 * 140));
+
+    }
+}
+@media (max-width: 1300px) and (min-width: 1025px) {
+    .imagenLateral{
+        /*bottom: calc(700px - ((100vw - 1700px)/220)*(700 - 612));*/
+
+        /*width: calc(704px - ((100vw - 1300px)/275 * (704 - 670)));*/
+        right: calc(-150px - ((1300px - 100vw) / 275 * 80));
+        width:738px;
+        /*right: -200px;*/
+
+    }
+}
+
+@media (max-width: 1435px) and  (min-width: 1025px){
+    .botonCarrusel{
+        margin-left: calc(
+        ((125px + (((100vw - 1025px)/410)*(180 - 125)))
+        - clamp(100px, 8.9vw, 170px))/2);
+    }
+
+}
+@media (max-width: 1708px) and (min-width: 1368px) {
+    .InfoExtra1,
+    .InfoExtra2{
+        /*width: 270px;*/
+        height: 130px;
+    }
+    .InfoExtraNumero{
+        color: white;
+        font-weight: 620;
+        font-size: 30px;
+    }
+}
+@media (max-width: 1300px){
+    .imagenLateral {
+
+    }
+}
+@media (max-width: 1045px) and (min-width: 1025px){
+    .contenedorIntermedio{
+        height: 83%;
+    }
+    .encabezado{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    /*.encabezado{*/
+    /*    margin-top: -10px;*/
+    /*}*/
+}
+@media (max-width: 1024px){
+    .formularioContainer{
+        height: clamp(800px, 70%, 9000px);
+    }
+    .InfoExtra1,
+    .InfoExtra2{
+        display: none;
+    }
+
+
+    .imagenLateral {
+        display: none; /* Ocultar completamente */
+    }
+
+    .contenidoCentral {
+        width: 95%;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    .contenedorExtraInferior{
+        /*transform: translateY( clamp(-70px, calc( (8px + (((100vw - 1757px)/163)*(70 - 8)))*-1  ), -8px) );*/
+        /*transform: translateY(-8px)*/
+    }
+}
+@media(max-width: 1024px) and (min-width: 769px){
+    .contenedorIntermedio{
+        height: 80%;
+        bottom: 60px;
+
+    }
+    .contenedorPagina{
+        height: 1300px;
+    }
+    .contactoYBoton{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+}
+/* Estilos responsivos */
+@media (max-width: 813px) and  (min-width: 769px){
+    .botonCarrusel{
+        margin-left: calc(
+                ((167px + (((100vw - 769px)/44)*(180 - 167)))
+                - clamp(100px, 8.9vw, 170px))/2
+        );
+    }
+    .contenedorIntermedio{
+        height: 83%;
+    }
+
+}
+
+@media (max-width: 813px) {
+    .TituloYSubtitulo{
+        top: -4%;
+    }
+}
+@media (max-width: 768px) {
+
+    .customPrevArrow {
+        left: -30px;
+    }
+
+    .customNextArrow {
+        right: -30px;
+    }
+
+    .contenedorIntermedio {
+        min-height: 1460px;
+        /*flex-direction: column;*/
+    }
+    .contenedorPagina{
+        height: 1650px;
+    }
+    .imagenLateral {
+        position: relative;
+        max-width: 100%;
+        height: 200px;
+        margin-top: 20px;
+    }
+    .areaMensaje label{
+        margin-top: 0;
+    }
+
+    .formularioContainer {
+        padding: 15px;
+
+        height: clamp(880px, 95%, 9000px);
+        /*height: 2000px!important;*/
+        padding-bottom: 50px;
+    }
+    .contenedorExtraInferior {
+        width: 60%;
+        /*transform: translateY(-30px)*/
+    }
+    .dosColumnas {
+        grid-template-columns: 1fr;
+    }
+
+    /*.campo input,*/
+    /*.areaMensaje textarea {*/
+    /*    font-size: 12px;*/
+    /*}*/
+
+    .botonEnviar {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .contenedorExtraInferior {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .contenedorExtraInferior img {
+        margin: 0 auto;
+    }
+    .barraSuperior {
+        padding: 0 20px;
+    }
+
+    .botonCarrusel {
+        font-size: 11px;
+        padding: 6px 12px;
+        margin-left: calc(
+                ((137px + (((100vw - 481px)/(768 - 481))*(260 - 137)))
+                - clamp(100px, 8.9vw, 170px))/2
+        );
+    }
+}
+
+@media (max-width: 690px){
+    .dosColumnas{
+        margin-top: 20px;
+    }
+    .campo label {
+        margin-top: 0;
+    }
+    .contenedorPagina{
+        height: 1650px;
+    }
+    .encabezado h2 {
+        margin-bottom: 0;
+        padding-bottom: 10px;
+    }
+    .encabezado{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .areaMensaje label {
+        margin-top: 0;
+        margin-bottom: 3px;
+    }
+    .encabezado {
+        flex-direction: column; /* Esto los pone uno debajo del otro */
+        align-items: flex-start;
+    }
+    .checkboxGroup{
+        flex-direction: column; /* Esto los pone uno debajo del otro */
+        align-items: flex-start;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .contactoYBoton{
+        margin-top: 10px;
+        flex-direction: column; /* Esto los pone uno debajo del otro */
+        align-items: flex-start;
+    }
+    /*.formularioContainer {*/
+    /*    width: 110%;*/
+    /*}*/
+
+    .contenedorIntermedio{
+        min-height: 1450px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 30px;
+        align-items: flex-start;
+    }
+    .botonEnviarContainer {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    .formularioContainer{
+        padding-bottom: 30px;
+    }
+
+}
+@media (max-width: 592px) {
+    .contenedorIntermedio{
+        min-height: 1470px;
+    }
+}
+@media (max-width: 565px){
+    .errorMessage{
+        width: 90%;
+
+    }
+    .contenedorIntermedio {
+        height: 80%;
+    }
+}
+/*@media (max-width: 495px) {*/
+/*    !*.contenedorIntermedio{*!*/
+/*    !*    min-height: 1520px;*!*/
+/*    !*}*!*/
+/*}*/
+@media (max-width: 480px) {
+    .contenedorPagina{
+        height: 1700px;
+    }
+    .contenedorIntermedio{
+        height:  1500px;
+    }
+    .barraSuperior {
+        padding: 0 15px;
+    }
+    .customPrevArrow,
+    .customNextArrow {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .customPrevArrow {
+        left: -20px;
+    }
+
+    .customNextArrow {
+        right: -20px;
+    }
+    .botonCarrusel{
+        margin-left: calc(
+                ((147px + (((100vw - 320px)/(480 - 320))*(283 - 147)))
+                - clamp(100px, 8.9vw, 170px))/2
+        );
+    }
+
+    /*.formularioContainer {*/
+    /*    width: 130%;*/
+    /*}*/
+}
+@media (max-width: 464px) {
+
+    .contenedorExtraInferior {
+        width: 90%;
+    }
+}
+
+@media(max-width: 417px){
+    .contenedorPagina{
+        height: 1700px;
+    }
+    .TituloYSubtitulo{
+        top: -4%;
+    }
+    .contenedorIntermedio{
+        height: 1500px;
+
+    }
+    .contenidoCentral{
+        padding: 20px 5px;
+    }
+}
+
+
+@media (max-width: 357px) {
+    .encabezado h2 {
+        /*font-size: 40px;*/
+        font-size: clamp(0px, 11vw, 40px);
+    }
+}

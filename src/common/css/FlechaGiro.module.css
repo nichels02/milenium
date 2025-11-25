@@ -1,0 +1,247 @@
+/* Contenedor principal */
+.contenedorPadre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: clamp(300px, 100vw, 900px); /* Base en 100vh */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Contenedor de la imagen */
+.contenedorImagen {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorImagen img {
+    width: 170%;
+    height: auto;
+
+    transition: transform 0.3s ease;
+}
+
+/* Texto en el centro de la flecha */
+.textoCentro {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-texto-negro-cambio2);
+    z-index: 10;
+}
+
+/* Estilos generales para los contenedores */
+.contenedor {
+    position: absolute;
+    width: 180px;
+    height: 260px;
+    /*background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #000;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor del número */
+.numero {
+    position: absolute;
+    top: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Contenedor activo */
+.activo .numero {
+    background-color: var(--color-rojo-general); /* El color que desees para el fondo activo */
+}
+
+/* Texto debajo del número */
+.texto {
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--color-texto-negro-cambio);
+}
+.contenedor1, .contenedor2, .contenedor3,
+.contenedor4, .contenedor5,.contenedor6 {
+    position: absolute;
+}
+/* Posicionamiento de los contenedores alrededor de la imagen */
+.contenedor1 { top: 15%; right: 18%; }
+.contenedor2 { top: 38%; right: 10%; }
+.contenedor3 { top: 70%; right: 18%; }
+
+
+.contenedor4 { top: 15%; left: 18%; }
+.contenedor5 { top: 38%; left: 10%; }
+.contenedor6 { top: 70%; left: 18%; }
+
+/* ----------- RESPONSIVE ----------- */
+
+/* Para tablets */
+@media (max-width: 1024px) {
+    .contenedorPadre {
+        height: clamp(300px, 100vw, 800px); /* Se reduce un poco en tablets */
+    }
+
+    .contenedorImagen {
+        width: 50%;
+        height: auto;
+    }
+
+    .contenedorImagen img {
+        width: 90%;
+    }
+
+    .textoCentro {
+        font-size: clamp(16px, 2.5vw, 20px);
+    }
+
+    .contenedor {
+        width: 150px;
+        height: 220px;
+    }
+
+    .numero {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+
+    .texto {
+        font-size: 16px;
+    }
+
+    .contenedor1 { top: 16%; right: 16%; }
+    .contenedor2 { top: 40%; right: 8%; }
+    .contenedor3 { top: 65%; right: 16%; }
+
+    .contenedor4 { top: 16%; left: 16%; }
+    .contenedor5 { top: 40%; left: 8%; }
+    .contenedor6 { top: 65%; left: 16%; }
+}
+
+/* Para móviles */
+@media (max-width: 768px) {
+    .contenedorPadre{
+        height: 120vw;
+    }
+    .contenedorImagen {
+        width: 85%;
+        height: auto;
+    }
+
+    .contenedorImagen img {
+        width: 70%;
+    }
+
+    .textoCentro {
+        width: 20%;
+        font-size: clamp(14px, 3vw, 26px);
+    }
+
+    .contenedor {
+        width: 130px;
+        height: 190px;
+    }
+
+    .numero {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .texto {
+        font-size: 18px;
+    }
+    .contenedor1, .contenedor2, .contenedor3,
+    .contenedor4, .contenedor5,.contenedor6 {
+        transform: translate(50%,50%);
+    }
+
+
+    .contenedor1 { top: 7%; right: 87%;}
+    .contenedor2 { top: -5%; right: 50%; bottom:auto; }
+    .contenedor3 { top: 7%; right: 13%; }
+
+
+    .contenedor6 { bottom: 25%; right: 13%; top:auto; left: auto;}
+    .contenedor5 { bottom: 10%; right: 50%; top:auto; left: auto; }
+    .contenedor4 { bottom: 25%; right: 87%; top:auto; left: auto;}
+}
+
+/* Para móviles pequeños */
+@media (max-width: 580px) {
+    .contenedorPadre{
+        height: 155vw;
+    }
+    .texto {
+        width: 80%;
+        font-size: 16px;
+    }
+    .textoCentro {
+        width: 40%;
+        font-size: clamp(14px, 3.5vw, 26px);
+    }
+    .contenedorImagen img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px){
+    .textoCentro {
+        font-size: clamp(14px, 3.9vw, 26px);
+    }
+}
+@media (max-width: 400px) {
+    .contenedorPadre{
+        height: 180vw;
+    }
+    .contenedorImagen img {
+        width: 90%;
+    }
+    .textoCentro{
+        width: 40%;
+        font-size: clamp(14px, 5vw, 26px);
+    }
+
+    .contenedor1 { top: -5%; right: 82%;}
+    .contenedor2 { top: -10%; right: 50%;}
+    .contenedor3 { top: -5%; right: 18%; }
+
+
+    .contenedor6 { bottom: 14%; right: 18%;}
+    .contenedor5 { bottom: 10%; right: 50%;}
+    .contenedor4 { bottom: 14%; right: 82%;}
+
+
+
+}
+@media (max-width: 375px) {
+    .contenedorPadre{
+        height: 200vw;
+    }
+
+}

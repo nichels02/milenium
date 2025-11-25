@@ -1,0 +1,174 @@
+html, body {
+    background-color: var(--color-fondo)!important;
+    overflow-x: hidden;  /*Oculta el desplazamiento horizontal */
+    max-width: 100vw; /* Limita el ancho al 100% del viewport */
+    margin: 0; /* Elimina márgenes predeterminados */
+    padding: 0; /* Elimina rellenos predeterminados */
+}
+
+/** {*/
+/*    border: 1px solid rgba(255, 0, 0, 0); !* Aplica un borde rojo de 1px a todos los elementos *!*/
+/*    box-sizing: border-box; !* Incluye el borde en el cálculo del tamaño del elemento *!*/
+/*}*/
+
+.no-scroll {
+    overflow-y: hidden !important;
+    height: 100%;
+    /* padding-right: 15px;  /* Opcional: para evitar salto de layout al ocultar scrollbar */
+}
+
+:root {
+
+    --colorModalFondo: #f3f3f3;
+    --colorModalFoter: #f3f3f3;
+
+
+    color: #a5a5a5;
+
+    --color-Boton: #7a7a7a;
+
+
+    --color-fondo: #ffffff;
+
+
+
+    --color-blancoATransparente: #c1c2c5;
+    --color-texto-negro: #000000;
+    --color-texto-negro2: #232323;
+    --color-texto-negro-cambio: #393939;
+    --color-texto-negro-cambio2: #232323;
+
+    --color-texto-negro-cambio3: #393939;
+
+    --color-general-gris: #686868;
+    --color-general-gris-cambio: #686868;
+    --color-boton-Hover: rgb(51, 51, 51);
+
+    --colorUI: rgba(241, 241, 241,  0.73);
+
+
+    --color-texto-blanco: #f3f3f3;
+    --color-texto-blanco-cambio: #ececec;
+    --color-texto-blanco-cambio2: #ddd;
+
+    --color-texto-blanco-cambio-rojo: #ddd;
+
+    --color-rojo-general: #ff0000;
+    --color-rojo-generalOscuro: #b80b0b;
+    --color-rojo-general-cambio: #ff0000;
+}
+
+
+
+.dark-mode {
+    --color-Boton: rgb(122, 122, 122);
+    --color-general-gris-cambio: #e4e4e4;
+    --colorUI: rgba(60, 60, 60, 0.73);
+    --color-boton-Hover: rgb(91, 91, 91);
+    --color-fondo: #202020;
+    --color-blancoATransparente: rgba(255, 255, 255, 0);
+    --color-texto-negro-cambio: #ffffff;
+    --color-texto-negro-cambio2: #fafafa;
+    --color-texto-blanco-cambio-rojo: #b80b0b;
+    --color-texto-blanco-cambio: #000000;
+    --color-texto-blanco-cambio2: #272727;
+    --color-rojo-generalOscuro: #9f1313;
+    --color-rojo-general-cambio: #b80b0b;
+
+}
+
+.logoHeader {
+    position: absolute; /* Posiciona el logo de manera absoluta dentro del header */
+    top: 10px; /* Posición relativa desde la parte superior */
+    left: 25px; /* Posición relativa desde la izquierda */
+    width: 135px; /* Tamaño relativo al contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    z-index: 1; /* Asegura que el logo esté por encima de la imagen */
+}
+@media (max-width: 1024px) {
+
+    .logoHeader {
+        width: 12%; /* Aumenta un poco el tamaño del logo para mayor visibilidad */
+    }
+
+}
+@media (max-width: 768px) {
+    .logoHeader {
+        top: 10px; /* Posición relativa desde la parte superior */
+        width: 15%; /* Hace el logo más visible en pantallas pequeñas */
+    }
+}
+@media (max-width: 500px) {
+    .logoHeader {
+        width: 20%; /* Hace el logo más visible en pantallas pequeñas */
+    }
+}
+
+/* Asegúrate de que ningún elemento se desborde */
+* {
+    box-sizing: border-box; /* Incluye padding y border en el ancho */
+    outline: 1px solid rgba(255, 0, 0, 0);
+}
+
+/* Estilos para el contenedor del carrusel */
+.headerCarruselContainer {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.headerFotosCarrusel .slick-slider {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.headerFotosCarrusel .slick-slide img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* {
+
+
+
+
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
+
+  .card {
+    padding: 2em;
+  }
+
+  .read-the-docs {
+    color: #888;
+  }
+}
+*/

@@ -1,0 +1,163 @@
+/* Contenedor principal */
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Cuadrícula 2x2 */
+.grid {
+    width: 85%;
+    max-width: 1632px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Cada cuadro */
+.box {
+    position: relative;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Fondo separado */
+.backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    filter: grayscale(100%) brightness(70%);
+    transition: 0.5s ease;
+    background-position: center;
+    z-index: 0;
+}
+.box:hover .backgroundImage{
+    filter: grayscale(0%) brightness(100%);
+}
+
+.backgroundImage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* capa negra con transparencia */
+    z-index: 1;
+}
+
+/* Contenido sobre el fondo */
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 100%;
+    padding: 20px;
+}
+
+/* Título */
+.title {
+    font-size: clamp(0px, 2vw, 39px);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* Texto */
+.text {
+    width: 85%;
+    font-size: clamp(1.2rem, 1.1vw, 21px);
+    font-weight: normal;
+    text-align: left;
+    flex-grow: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Contenedor inferior */
+.bottomRightContainer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 200px;
+    height: 60px;
+}
+
+/* Botón */
+.button {
+    background-color: var(--color-rojo-general);
+    color: var(--color-texto-blanco);
+    border: none;
+    padding: 6px 12px;
+    width: 30px;
+    height: 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: var(--color-rojo-generalOscuro);
+}
+
+/* Texto pequeño */
+.smallText {
+    font-size: 1rem;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+/* Responsivo */
+
+@media (max-width: 1450px) {
+    .button{
+
+    }
+    .text{
+        font-size: clamp(1rem, 1vw, 2rem);
+    }
+    .title{
+
+    }
+    .smallText{
+
+    }
+}
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .title{
+        font-size:clamp(2rem, 4vw, 2.5rem);
+    }
+}
+
+@media (max-width: 470px){
+    .box{
+        height: 400px;
+    }
+}
+@media (max-width: 350px){
+    .box{
+        height: 450px;
+    }
+}

@@ -1,0 +1,391 @@
+/* Contenedor principal */
+.ContenedorInicial {
+    margin-top: 0;
+    padding-top: 3% ;
+    width: 100vw;
+    background: white;
+}
+
+
+
+/* Contenedor principal */
+.contenedorPadre {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding: 2rem 0;
+}
+
+/* Contenedor hijo */
+.contenedorHijo {
+    width: 87%;
+    max-width: 1800px;
+    min-height: 300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2%;
+    border-radius: 0;
+    overflow: hidden;
+    padding: 1.5%;
+    box-sizing: border-box;
+    align-items: stretch; /* Hace que ambos contenedores tengan la misma altura */
+}
+
+/* Contenedor izquierdo */
+.contenedorIzquierdo {
+    position: relative;
+    height: 25vw; /* Ocupar toda la altura del grid */
+    width: clamp(400px, 45vw, 900px);
+}
+
+.imagen {
+    width: 100%;
+    height: 100%;
+    object-position: top center;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+/* Contenedor derecho */
+.contenedorDerecho {
+    display: grid;
+    grid-template-rows:  auto auto;
+    align-content: center;     /* centra el conjunto de las filas en el eje Y */
+    gap: 0;                    /* elimina espacio entre hijos */
+    /*padding-: 1.5rem;*/
+    box-sizing: border-box;
+    height: 100%; /* Ocupar toda la altura del grid */
+}
+
+/* Contenedor superior */
+.contenedorSuperior {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* opcional: centra horizontalmente */
+    align-items: center;
+    flex-direction: row; /* (esto es el valor por defecto, pero lo dejamos explícito) */
+}
+
+.textoSuperior {
+    font-size: clamp(1rem, 1.8vw, 35px);
+    color: #818181;
+    margin: 0;
+}
+
+.textoInferior {
+    font-size: clamp(22px, 2vw, 45px);
+    color: var(--color-rojo-general);
+    margin: 0;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+/* Contenedor medio */
+.contenedorMedio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding-top: 1.5vw;
+    align-content: start;
+}
+
+.contenedorMedioIzquierdo,
+.contenedorMedioDerecho {
+    width: 100%;
+    padding: 0;
+    border-radius: 12px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/* Alinear imagen arriba y texto debajo, ambos a la izquierda */
+.contenedorLogoTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 0.5rem;
+}
+
+.logo {
+    width: clamp(40px, 4vw, 80px);
+    left: 0;
+    height: auto;
+}
+
+.textoLogo {
+    font-size: clamp(1rem, 1.42vw, 1.7rem);
+    color: var(--color-texto-negro2);
+    margin: 0;
+}
+
+/* Contenedor inferior */
+.contenedorInferior {
+    display: grid;
+    height: 130px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding-top: 0rem; /* Asegura que no haya espacio extra debajo */
+}
+
+/* Estilos generales para los botones */
+.botonContenedorIzquierdo,
+.botonContenedorDerecho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    min-height: 70px;
+    padding: 0.8rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/* Estilos específicos para cada botón */
+.botonContenedorIzquierdo {
+    background: #ccc;
+}
+
+.botonContenedorDerecho {
+    background: var(--color-rojo-general);
+}
+
+/* Ajuste de estructura */
+.textosBoton {
+    flex: 1;
+    margin-left: 0.8rem;
+    min-width: 0;
+    text-align: left;
+}
+
+/* Imagen dentro del botón */
+.imagenBoton {
+    width: 50px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+/* Estilos individuales para los botones */
+.tituloBotonIzquierdo {
+    font-size: clamp(1.1rem, 1.30vw, 1.5rem);
+    font-weight: bold;
+    color: var(--color-rojo-general);
+    margin: 0;
+}
+
+.subtituloBotonIzquierdo {
+    font-size: clamp(1rem, 1.20vw, 1.4rem);
+    color: #555;
+    margin: 0;
+    font-weight: normal;
+}
+
+.tituloBotonDerecho {
+    font-size: clamp(1.1rem, 1.30vw, 1.5rem);
+    font-weight: bold;
+    color: var(--color-texto-blanco);
+    margin: 0;
+}
+
+.subtituloBotonDerecho {
+    font-size: clamp(1rem, 1.20vw, 1.4rem);
+    color: var(--color-texto-blanco);
+    margin: 0;
+    font-weight: normal;
+}
+
+.iconoContenedorIzquierdo,
+.iconoContenedorDerecho{
+    height: 40px;
+    min-width: 40px;
+    width: auto;
+    border-radius: 10px;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+.iconoContenedorIzquierdo{
+    background: var(--color-texto-blanco);
+}
+.iconoContenedorDerecho:hover,
+.iconoContenedorIzquierdo:hover{
+    transform: translateY(-10%) scale(110%);
+}
+.iconoContenedorDerecho{
+    background: var(--color-rojo-general);
+}
+
+.TextoContenedorBotonD,
+.TextoContenedorBotonI{
+    position: absolute;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    top:50%;
+    line-height:50%;
+    height: auto;
+    font-size: 20px;
+}
+.TextoContenedorBotonD{
+    color: white !important;
+}
+.TextoContenedorBotonI{
+    color: var(--color-rojo-general) !important;
+}
+
+@media (min-width: 1196px) and (max-width: 1400px){
+
+}
+/* Responsive Design */
+@media (min-width: 993px) and (max-width: 1400px) {
+    /*.contenedorDerecho{*/
+    /*    width: 50vw;*/
+    /*}*/
+    .contenedorHijo{
+        width: 95%;
+        margin-right: 1.7vw;
+    }
+}
+@media (max-width: 1200px) {
+    .contenedorHijo {
+        gap: 1.5rem;
+        padding: 1.2rem;
+    }
+
+    .contenedorMedio,
+    .contenedorInferior {
+        gap: 1rem;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .contenedorHijo {
+        grid-template-columns: 1fr;
+        height: auto;
+
+    }
+
+    .contenedorIzquierdo {
+        min-height: 300px;
+        width: auto;
+    }
+
+    .contenedorDerecho {
+        grid-template-rows: auto auto auto;
+        gap: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedorMedio,
+    .contenedorInferior {
+        grid-template-columns: 1fr;
+    }
+
+    .botonContenedorIzquierdo,
+    .botonContenedorDerecho {
+        padding: 0.6rem;
+    }
+
+    .textosBoton {
+        margin-left: 0.5rem;
+    }
+
+    .tituloBotonIzquierdo,
+    .subtituloBotonIzquierdo,
+    .tituloBotonDerecho,
+    .subtituloBotonDerecho {
+        white-space: normal;
+    }
+    .contenedorPadre{
+        height: 770px;
+    }
+    .contenedorDerecho{
+        gap: 0;
+    }
+    .contenedorHijo{
+        grid-template-rows: min-content min-content;
+        gap: 0.8rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 527px) and (min-width: 481px) {
+    .contenedorPadre{
+        height: 800px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contenedorHijo {
+        width: 95%;
+        border-radius: 15px;
+    }
+
+    .contenedorIzquierdo {
+        min-height: 200px;
+    }
+
+    .textoSuperior {
+        font-size: 1.2rem;
+    }
+
+    .textoInferior {
+        font-size: 1.5rem;
+
+    }
+
+    .contenedorLogoTexto {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .logo {
+        width: 40px;
+    }
+
+    .imagenBoton {
+        order: -1;
+        margin: 0 0.3rem;
+    }
+
+    .textosBoton {
+        flex-basis: 100%;
+        margin: 0.5rem 0;
+    }
+    .iconoContenedorIzquierdo,
+    .iconoContenedorDerecho{
+        height: 40px;
+        min-width: 40px;
+        width: auto;
+
+        aspect-ratio: auto;
+
+    }
+}
+@media (max-width: 400px) {
+    .contenedorIzquierdo{
+        min-height: 250px;
+        /*height: auto;*/
+    }
+}
+@media (max-width: 381px) and (min-width: 320px) {
+    .contenedorPadre{
+        height: 850px;
+    }
+}
+@media (max-width: 365px){
+    .botonContenedorIzquierdo,
+    .botonContenedorDerecho{
+        height: 100px;
+    }
+}

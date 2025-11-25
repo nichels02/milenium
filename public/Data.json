@@ -1,0 +1,2315 @@
+{
+  "home": {
+    "Titulos": {
+      "es": {
+        "Titulo1": {
+          "Titulo": "Soluciones",
+          "Subtitulo": "para tu tranquilidad"
+        },
+        "Titulo2": {
+          "Titulo": "Certificaciones",
+          "Subtitulo": "obtenidas"
+        },
+        "Titulo3": {
+          "Titulo": "Presencia",
+          "Subtitulo": "en todos los sectores"
+        },
+        "Titulo4": {
+          "Titulo": "Lidermanía",
+          "Subtitulo": "que nos mueve"
+        }
+      },
+      "en": {
+        "Titulo1": {
+          "Titulo": "Solutions",
+          "Subtitulo": "for your peace of mind"
+        },
+        "Titulo2": {
+          "Titulo": "Certifications",
+          "Subtitulo": "achieved"
+        },
+        "Titulo3": {
+          "Titulo": "Presence",
+          "Subtitulo": "across all sectors"
+        },
+        "Titulo4": {
+          "Titulo": "Lidermania",
+          "Subtitulo": "what drives us"
+        }
+      }
+    },
+    "Header": {
+      "en": {
+        "titulo": "We are as valuable",
+        "subtitulo": "as what we care for.",
+        "descripcion1": "Discover our expertise in people management, to make your life safer and more reliable.",
+        "botonPrimario": "Solutions➔",
+        "botonSecundario": "Join",
+        "trabajadores": "Workers globally",
+        "years": "Years of market leadership",
+        "clientes": "Satisfied customers",
+        "Numero_trabajadores": "+25,000",
+        "Numero_years": "35",
+        "Numero_clientes": "2,100"
+      },
+      "es": {
+        "titulo": "Valemos tanto",
+        "subtitulo": "como lo que cuidamos",
+        "descripcion1": "Descubre nuestra expertise en la gestión de las personas, para hacer tu vida más segura y confiable.",
+        "botonPrimario": "Soluciones ➔",
+        "botonSecundario": "Únete",
+        "trabajadores": "Trabajadores a nivel global",
+        "years": "Años de liderazgo en el mercado",
+        "clientes": "Clientes satisfechos",
+        "Numero_trabajadores": "+25,000",
+        "Numero_years": "35",
+        "Numero_clientes": "2,100"
+      },
+      "contenido": {
+        "logo": "/assets/ImagenesGenerales/Logo-Liderman2.svg",
+        "imagen_De_Fondo": "/assets/Inicio/PORTADA.jpg"
+      }
+    },
+    "BarraDeOpciones": {
+      "es": {
+        "inicio": "Inicio",
+        "conocenos": "Conócenos",
+        "soluciones": "Soluciones",
+        "seguridad": "Seguridad",
+        "servicio": "Servicios",
+        "tecnologia": "Tecnología",
+        "lidermania": "Lidermania",
+        "unete": "Únete",
+        "Legal": "Cumplimiento"
+      },
+      "en": {
+        "inicio": "Home",
+        "conocenos": "About Us",
+        "soluciones": "Solutions",
+        "seguridad": "Security",
+        "servicio": "Services",
+        "tecnologia": "Technology",
+        "lidermania": "Lidermania",
+        "unete": "Join",
+        "Legal": "Compliance "
+      }
+    },
+    "BarraDeOpciones2": {
+      "es": {
+        "contactanos": "Contáctanos",
+        "espanol": "Español",
+        "ingles": "Ingles"
+      },
+      "en": {
+        "contactanos": "Contact Us",
+        "espanol": "Spanish",
+        "ingles": "English"
+      }
+    },
+    "BarraDeRedes": {
+      "Item1": {
+        "Link": "https://www.facebook.com/LidermanOficial",
+        "imagen": "/assets/ImagenesGenerales/LogoFacebook.svg"
+      },
+      "Item2": {
+        "Link": "https://www.tiktok.com/@lidermanplay",
+        "imagen": "/assets/ImagenesGenerales/LogoTiktok.svg"
+      },
+      "Item3": {
+        "Link": "https://www.linkedin.com/company/liderman/?originalSubdomain=pe",
+        "imagen": "/assets/ImagenesGenerales/LogoLinkedin.svg"
+      },
+      "Item4": {
+        "Link": "https://www.youtube.com/LidermanOficial",
+        "imagen": "/assets/ImagenesGenerales/LogoYoutube.svg"
+      }
+    },
+    "CardWithExpand": {
+      "Seguridad": {
+        "es": {
+          "title": "Seguridad",
+          "subtitle": "Gestión de riesgos",
+          "items": [
+            "Seguridad física",
+            "Resguardo de personal",
+            "Supervisión de sala de control",
+            "Guardianía",
+            "Patrullas móviles",
+            "Estudios de seguridad",
+            "Acompañamiento de mercadería en tránsito",
+            "Protección perimetral",
+            "Gestión de seguridad de eventos"
+          ],
+          "buttonText": "Explorar ➔"
+        },
+        "en": {
+          "title": "Security",
+          "subtitle": "Risk Management",
+          "items": [
+            "Physical security",
+            "Personnel protection",
+            "Control room supervision",
+            "Guarding",
+            "Mobile patrols",
+            "Security studies",
+            "Merchandise escort",
+            "Perimeter protection",
+            "Event security management"
+          ],
+          "buttonText": "Explore ➔"
+        },
+        "imageUrl": "/assets/Inicio/SEGURIDAD.jpg",
+        "link": "/Seguridad"
+      },
+      "Servicios": {
+        "es": {
+          "title": "Servicios",
+          "subtitle": "Servicios de Parking",
+          "items": [
+            "Administración de estacionamientos",
+            "Valet parking",
+            "Gestión de eventos"
+          ],
+          "secondSubtitle": "Facilities",
+          "secondItems": [
+            "Courier",
+            "Mantenimiento general",
+            "Limpieza",
+            "Jardinería",
+            "Transporte"
+          ],
+          "buttonText": "Explorar ➔"
+        },
+        "en": {
+          "title": "Services",
+          "subtitle": "Parking Services",
+          "items": [
+            "Parking lot management",
+            "Valet parking",
+            "Event management"
+          ],
+          "secondSubtitle": "Facilities",
+          "secondItems": [
+            "Courier",
+            "General maintenance",
+            "Cleaning",
+            "Gardening",
+            "Transport"
+          ],
+          "buttonText": "Explore ➔"
+        },
+        "imageUrl": "/assets/Inicio/SERVICIOS.jpg",
+        "link": "/Servicios"
+      },
+      "Tecnologia": {
+        "es": {
+          "title": "Tecnología",
+          "subtitle": "Tecnología",
+          "items": [
+            "Sistemas de seguridad electrónica",
+            "Seguridad con drones",
+            "Biometría",
+            "Protección contra incendios",
+            "Control de acceso y CCTV-IA",
+            "BMS"
+          ],
+          "secondSubtitle": "Ciberseguridad",
+          "thirdSubtitle": "Alarmas",
+          "fourthSubtitle": "GPS",
+          "buttonText": "Explorar ➔"
+        },
+        "en": {
+          "title": "Technology",
+          "subtitle": "Technology",
+          "items": [
+            "Electronic security systems",
+            "Drone security",
+            "Biometrics",
+            "Fire protection",
+            "Access control & CCTV-AI",
+            "BMS"
+          ],
+          "secondSubtitle": "Cybersecurity",
+          "thirdSubtitle": "Alarms",
+          "fourthSubtitle": "GPS",
+          "buttonText": "Explore ➔"
+        },
+        "imageUrl": "/assets/Inicio/TECNOLOGIA.jpg",
+        "link": "/Tecnologia"
+      }
+    },
+    "Marquee": {
+      "common": {
+        "items": [
+          {
+            "src": "/assets/Inicio/imagen-AUTORIDAD-PORTUARIA-NACIONAL.jpg",
+            "alt": "1"
+          },
+          {
+            "src": "/assets/Inicio/iso9001_.jpg",
+            "alt": "2"
+          },
+          {
+            "src": "/assets/Inicio/iso14001.jpg",
+            "alt": "3"
+          },
+          {
+            "src": "/assets/Inicio/ISO-18788.jpg",
+            "alt": "4"
+          },
+          {
+            "src": "/assets/Inicio/ISO-37001.jpg",
+            "alt": "5"
+          },
+          {
+            "src": "/assets/Inicio/logo-basc-peru.jpg",
+            "alt": "6"
+          },
+          {
+            "src": "/assets/Inicio/logo_DGAC.jpg",
+            "alt": "7"
+          },
+          {
+            "src": "/assets/Inicio/SGS-ISO-45001.jpg",
+            "alt": "8"
+          }
+        ]
+      }
+    },
+    "porcentajeNegocio": {
+      "common": {
+        "images": [
+          "/assets/Inicio/MINERIA.jpg",
+          "/assets/Inicio/INDUSTRIA.jpg",
+          "/assets/Inicio/RETAIL.jpg",
+          "/assets/Inicio/OTROS.jpg"
+        ]
+      },
+      "es": {
+        "items": [
+          {
+            "label": "Minería 17%",
+            "percentage": "16%"
+          },
+          {
+            "label": "Industria 16%",
+            "percentage": "13%"
+          },
+          {
+            "label": "Retail 13%",
+            "percentage": "11%"
+          },
+          {
+            "label": "Otros 54%",
+            "percentage": "20%"
+          }
+        ],
+        "fixedTexts": [
+          "· Líder en seguridad: el mercado nos reconoce como la mejor empresa de seguridad en el Perú.",
+          "· Innovación constante: siempre a la vanguardia en tecnología y soluciones de seguridad.",
+          "· Compromiso con el cliente: garantizamos la máxima satisfacción y confianza."
+        ],
+        "otrosCategories": [
+          "· Inmobiliaria",
+          "· Salud",
+          "· Transporte",
+          "· Educación",
+          "· Servicios",
+          "· Agroindustria",
+          "· Construcción",
+          "· Financiero",
+          "· Fabricación",
+          "· Logística",
+          "· Metalurgia",
+          "· Seguros"
+        ]
+      },
+      "en": {
+        "items": [
+          {
+            "label": "Mining 17%",
+            "percentage": "16%"
+          },
+          {
+            "label": "Industry 16%",
+            "percentage": "13%"
+          },
+          {
+            "label": "Retail 13%",
+            "percentage": "11%"
+          },
+          {
+            "label": "Others 54%",
+            "percentage": "20%"
+          }
+        ],
+        "fixedTexts": [
+          "○ Security Leader: The market recognizes us as the largest and best security company in Peru.",
+          "○ Constant Innovation: Always at the forefront of security technology and solutions.",
+          "○ Commitment to Customers: We guarantee maximum satisfaction and trust."
+        ],
+        "otrosCategories": [
+          "Real Estate",
+          "Health",
+          "Transport",
+          "Education",
+          "Services",
+          "Agribusiness",
+          "Construction",
+          "Finance",
+          "Manufacturing",
+          "Logistics",
+          "Metallurgy",
+          "Insurance"
+        ]
+      }
+    }, "_comment": "Tengo que modificarlo para quitar el que sea una lista",
+    "ImagenYGrid2": {
+      "es": {
+        "tituloSuperior": "Conoce la",
+        "tituloInferior": "Lidermanía",
+        "reconocimiento1": "Mejor Reputación \"Empresas Líderes\" MERCO.",
+        "reconocimiento2": "Contamos con una central de agentes para brindar soporte.",
+        "boton1": {
+          "titulo": "Descubre",
+          "subtitulo": "Nuestra cultura"
+        },
+        "boton2": {
+          "titulo": "Bolsa de trabajo",
+          "subtitulo": "¡Únete a la familia!"
+        }
+      },
+      "en": {
+        "tituloSuperior": "Get to know",
+        "tituloInferior": "Lidermanía",
+        "reconocimiento1": "Best Reputation 'Leading Companies' MERCO.",
+        "reconocimiento2": "We have a central agent system to provide support.",
+        "boton1": {
+          "titulo": "Discover",
+          "subtitulo": "More about our culture"
+        },
+        "boton2": {
+          "titulo": "Job Offers",
+          "subtitulo": "Join the family!"
+        }
+      },
+      "contenido": {
+        "imagenPrincipal": "/assets/Inicio/2022-11-10-foto-web-Lidermania.jpg",
+        "logo1": "/assets/Inicio/Recurso 20_nuevo.svg",
+        "logo2": "/assets/Inicio/Recurso 21_nuevo.svg",
+        "boton1ImagenIzquierda": "/assets/Inicio/Recurso 23_nuevo.svg",
+        "boton2ImagenIzquierda": "/assets/Inicio/Recurso 22_nuevo.svg"
+      }
+    },
+    "Formulario": {
+      "es": {
+        "BotonesYDesplegable": {
+          "Peru": "Perú",
+          "Usa": "Estados Unidos",
+          "Chile": "Chile",
+          "Ecuador": "Ecuador"
+        },
+        "TituloPrincipal": "Líderes",
+        "SubtituloPrincipal": "a nivel regional",
+
+        "Titulo": "Contáctanos",
+        "Nombre": "Nombre*",
+        "Apellido": "Apellido*",
+        "Correo": "Correo electrónico*",
+        "Telefono": "Teléfono*",
+        "TextoCheckBox": "Elige las soluciones de tu interés*",
+        "Seguridad": "Seguridad",
+        "Servicios": "Servicios",
+        "Tecnologia": "Tecnología",
+        "Mensaje": "Mensaje*",
+        "TextoGuiaMensaje": "Escríbenos aquí...",
+        "OtroMetodoDeContacto": "También nos puedes contactar por:",
+        "ElContactoExtra": "contacto@empresa.com",
+        "BotonEnviar": "Enviar mensaje",
+        "BotonEnviando": "Enviando...",
+        "MensajeAprobatorio": "¡Formulario enviado con éxito!",
+        "MensajeDesaprobatorio": "Ocurrió un error al procesar el formulario. Por favor intente nuevamente.",
+
+        "ContenedorInferior":{
+          "Peru": {
+            "OficinaCentral": "Oficina central",
+            "NumeroOC": "(01) 204 Perú",
+            "Anexo": "Anexos 5259-5258-52254",
+
+            "LidermanAlarmas": "Liderman Alarmas",
+            "NumeroLA": "(511) 204 5200",
+            "AtencionAlCliente": "Atención al cliente: (511) 611-2300"
+          },
+          "Usa": {
+            "OficinaCentral": "Oficina central",
+            "NumeroOC": "(01) 204 USA",
+            "Anexo": "Anexos 5259-5258-52254",
+
+            "LidermanAlarmas": "Liderman Alarmas",
+            "NumeroLA": "(511) 204 5200",
+            "AtencionAlCliente": "Atención al cliente: (511) 611-2300"
+          },
+          "Chile": {
+            "OficinaCentral": "Oficina central",
+            "NumeroOC": "(01) 204 Chile",
+            "Anexo": "Anexos 5259-5258-52254",
+
+            "LidermanAlarmas": "Liderman Alarmas",
+            "NumeroLA": "(511) 204 5200",
+            "AtencionAlCliente": "Atención al cliente: (511) 611-2300"
+          },
+          "Ecuador": {
+            "OficinaCentral": "Oficina central",
+            "NumeroOC": "(01) 204 Ecuador",
+            "Anexo": "Anexos 5259-5258-52254",
+
+            "LidermanAlarmas": "Liderman Alarmas",
+            "NumeroLA": "(511) 204 5200",
+            "AtencionAlCliente": "Atención al cliente: (511) 611-2300"
+          }
+        },
+
+        "Colaboradores": {
+          "Titulo": "Colaboradores",
+          "Numero": "+25,000"
+        },
+        "CoberturaDeRiesgo":{
+          "Titulo": "Cobertura de riesgo",
+          "Numero": "$2,000,000"
+        }
+      },
+      "en": {
+        "BotonesYDesplegable": {
+          "Peru": "Peru",
+          "Usa": "United States",
+          "Chile": "Chile",
+          "Ecuador": "Ecuador"
+        },
+        "TituloPrincipal": "",
+        "SubtituloPrincipal": "",
+
+        "Titulo": "Contact Us",
+        "Nombre": "First Name*",
+        "Apellido": "Last Name*",
+        "Correo": "Email*",
+        "Telefono": "Phone*",
+        "TextoCheckBox": "Select the solutions you are interested in*",
+        "Seguridad": "Security",
+        "Servicios": "Services",
+        "Tecnologia": "Technology",
+        "Mensaje": "Message*",
+        "TextoGuiaMensaje": "Write to us here...",
+        "OtroMetodoDeContacto": "You can also contact us at:",
+        "ElContactoExtra": "contact@empresa.com",
+        "BotonEnviar": "Send Message",
+        "BotonEnviando": "Sending...",
+        "MensajeAprobatorio": "Form successfully submitted!",
+        "MensajeDesaprobatorio": "An error occurred while processing the form. Please try again.",
+
+
+
+        "ContenedorInferior": {
+          "Peru": {
+            "OficinaCentral": "Head Office",
+            "NumeroOC": "(01) 204 5200",
+            "Anexo": "Extensions 5259-5258-52254",
+
+            "LidermanAlarmas": "Liderman Alarms",
+            "NumeroLA": "(511) 204 5200",
+            "AtencionAlCliente": "Customer Service: (511) 611-2300"
+          },
+          "Usa": {
+            "OficinaCentral": "Head Office",
+            "NumeroOC": "(01) 204 5200",
+            "Anexo": "Extensions 5259-5258-52254",
+
+            "LidermanAlarmas": "Liderman Alarms",
+            "NumeroLA": "(511) 204 5200",
+            "AtencionAlCliente": "Customer Service: (511) 611-2300"
+          },
+          "Chile": {
+            "OficinaCentral": "Head Office",
+            "NumeroOC": "(01) 204 5200",
+            "Anexo": "Extensions 5259-5258-52254",
+
+            "LidermanAlarmas": "Liderman Alarms",
+            "NumeroLA": "(511) 204 5200",
+            "AtencionAlCliente": "Customer Service: (511) 611-2300"
+          },
+          "Ecuador": {
+            "OficinaCentral": "Head Office",
+            "NumeroOC": "(01) 204 5200",
+            "Anexo": "Extensions 5259-5258-52254",
+
+            "LidermanAlarmas": "Liderman Alarms",
+            "NumeroLA": "(511) 204 5200",
+            "AtencionAlCliente": "Customer Service: (511) 611-2300"
+          }
+        },
+
+
+        "Colaboradores": {
+          "Titulo": "Team Members",
+          "Numero": "+25,000"
+        },
+        "CoberturaDeRiesgo": {
+          "Titulo": "Risk Coverage",
+          "Numero": "$2,000,000"
+        }
+
+      },
+      "common": {
+        "imagenDeFondo": "/assets/Inicio/foto-footer.png",
+        "ImagenDeLaDerecha":{
+          "Peru": "/assets/Inicio/Peru.svg",
+          "Usa": "/assets/Inicio/USa.svg",
+          "Ecuador": "/assets/Inicio/eucador.svg",
+          "Chile": "/assets/Inicio/chile.svg"
+        },
+        "Colaboradores": "/assets/Inicio/Icono 1 _LIDERMAN.svg",
+        "CoberturaDeRiesgo": "/assets/Inicio/Icono 2 _LIDERMAN.svg",
+        "ImagenContenedorInferior": "/assets/Inicio/Recurso 24_nuevo.svg"
+      }
+    },
+    "ValidadorFormulario": {
+      "es": {
+        "NombreVacio": "El nombre no puede estar vacío",
+        "ApellidoVacio": "El apellido no puede estar vacío",
+        "CorreoVacio": "El correo no puede estar vacío",
+        "FormatoDeCorreo": "El formato del correo no es válido",
+        "TelefonoVacio": "El teléfono no puede estar vacío",
+        "TelefonoSoloNumeros": "El teléfono solo debe contener dígitos numéricos",
+        "TelefonoCantidadDeDigitos": "El teléfono debe tener entre 7 y 15 dígitos",
+        "MensajeVacio": "El mensaje no puede estar vacío",
+        "PaisVacio": "El país no puede estar vacío",
+        "InteresVacio": "Debe seleccionar al menos un interés",
+        "ErrorGuardando": "Error al guardar los datos",
+        "ErrorDeConexion": "Error de conexión con el servidor"
+
+      },
+      "en": {
+        "NombreVacio": "Name cannot be empty",
+        "ApellidoVacio": "Last name cannot be empty",
+        "CorreoVacio": "Email cannot be empty",
+        "FormatoDeCorreo": "Email format is not valid",
+        "TelefonoVacio": "Phone number cannot be empty",
+        "TelefonoSoloNumeros": "Phone number must contain only numeric digits",
+        "TelefonoCantidadDeDigitos": "Phone number must be between 7 and 15 digits long",
+        "MensajeVacio": "Message cannot be empty",
+        "PaisVacio": "Country cannot be empty",
+        "InteresVacio": "At least one interest must be selected",
+        "ErrorGuardando": "Error saving data",
+        "ErrorDeConexion": "Connection error with the server"
+      }
+
+    },
+    "Footer": {
+      "Common": {
+        "LidermanLogoDark": "/assets/ImagenesGenerales/Logo-Liderman.svg",
+        "LidermanLogoLight": "/assets/ImagenesGenerales/Logo-Liderman3.svg",
+        "facebookLight": "/assets/ImagenesGenerales/LogoFacebook2.svg",
+        "facebookDark": "/assets/ImagenesGenerales/LogoFacebook.svg",
+        "tiktokLight": "/assets/ImagenesGenerales/LogoTiktok2.svg",
+        "tiktokDark": "/assets/ImagenesGenerales/LogoTiktok.svg",
+        "linkedinLight": "/assets/ImagenesGenerales/LogoLinkedin2.svg",
+        "linkedinDark": "/assets/ImagenesGenerales/LogoLinkedin.svg",
+        "youtubeLight": "/assets/ImagenesGenerales/LogoYoutube2.svg",
+        "youtubeDark": "/assets/ImagenesGenerales/LogoYoutube.svg",
+        "Links": {
+          "youtube": "https://www.youtube.com/LidermanOficial",
+          "tiktok": "https://www.tiktok.com/@lidermanplay",
+          "linkedin": "https://www.linkedin.com/company/liderman/?originalSubdomain=pe",
+          "facebook": "https://www.facebook.com/LidermanOficial",
+
+          "LinkTerminosYCondiciones":"/assets/PDF/Liderman-Terminos-y-Condiciones.pdf",
+          "LinkPoliticaYPrivacidad": "/assets/PDF/Liderman-Poliìtica-de-Privacidad.pdf"
+        }
+      },
+      "es": {
+        "Eslogan": "Valemos tanto como lo que cuidamos",
+        "Inicio": {
+          "Titulo": "Inicio",
+          "Soluciones":"Soluciones",
+          "Certificaciones": "Certificaciones",
+          "Presencia": "Presencia",
+          "Cultura": "Cultura"
+        },
+        "Conocenos": {
+          "Titulo": "Conócenos",
+          "QuienesSomos": "¿Quiénes somos?",
+          "Historia": "Historia"
+        },
+        "Soluciones": {
+          "Titulo": "Soluciones",
+          "Seguridad": "Seguridad",
+          "Tecnologia": "Tecnología",
+          "Servicio": "Servicios"
+        },
+        "lidermania": {
+          "Titulo": "Lidermanía",
+          "MejoresPersonas": "Mejores personas",
+          "CuatroAmas": "4 AMAS",
+          "Unete": "Únete al equipo"
+        },
+        "Boton1": {
+          "Titulo": "¿Necesitas asesoría?",
+          "Subtitulo": "Nuestros especialistas están listos para ayudarte"
+        },
+        "Boton2": {
+          "Titulo": "Trabaja con nosotros",
+          "Subtitulo": "Sé parte de nuestro equipo de expertos"
+        },
+        "TextosFinales": {
+          "DerechosReservados": "Copyright© 2025 Liderman Todos los derechos reservados",
+          "TerminosYCondiciones": "Términos y Condiciones",
+          "PoliticaDePrivacidad": "Política de Privacidad"
+        }
+      },
+      "en": {
+        "Eslogan": "We are worth as much as what we care for",
+        "Inicio": {
+          "Titulo": "Home",
+          "Soluciones": "Solutions",
+          "Certificaciones": "Certifications",
+          "Presencia": "Presence",
+          "Cultura": "Culture"
+        },
+        "Conocenos": {
+          "Titulo": "About Us",
+          "QuienesSomos": "Who we are?",
+          "Historia": "History"
+        },
+        "Soluciones": {
+          "Titulo": "Solutions",
+          "Seguridad": "Security",
+          "Tecnologia": "Technology",
+          "Servicio": "Services"
+        },
+        "lidermania": {
+          "Titulo": "Lidermanía",
+          "MejoresPersonas": "Best people",
+          "CuatroAmas": "4 AMAS",
+          "Unete": "Join the team"
+        },
+        "Boton1": {
+          "Titulo": "Need advice?",
+          "Subtitulo": "Our specialists are ready to help you"
+        },
+        "Boton2": {
+          "Titulo": "Work with us",
+          "Subtitulo": "Be part of our team of experts"
+        },
+        "TextosFinales": {
+          "DerechosReservados": "© 2025 Liderman. All rights reserved.",
+          "TerminosYCondiciones": "Terms and Conditions",
+          "PoliticaDePrivacidad": "Privacy Policy"
+        }
+      }
+
+
+
+
+    }
+  },
+
+  "Conocenos": {
+    "Titulos": {
+      "es": {
+        "Titulo1": {
+          "Titulo": "Nuestra ",
+          "Subtitulo": "trayectoria"
+        }
+      },
+      "en": {
+        "Titulo1": {
+          "Titulo": "Our",
+          "Subtitulo": "journey"
+        }
+      }
+    },
+    "HeaderGenerico": {
+        "Common": {
+          "Fondo": "/assets/Conocenos/fondo--conocenos.png",
+          "logo": "/assets/ImagenesGenerales/Logo-Liderman2.svg",
+          "ImagenDelCostado": "/assets/Conocenos/chica-para-conocenos.png"
+        },
+        "es": {
+          "Titulo": "Conócenos",
+          "Texto": "El valor que aportamos como organización a la sociedad nos permite construir un mundo mejor, más seguro e interconectado.",
+          "Boton1": "NUESTRA HISTORIA➔",
+          "Boton2": "Contáctanos"
+        },
+        "en": {
+          "Titulo": "About Us",
+          "Texto": "The value we bring as an organization...",
+          "Boton1": "OUR HISTORY➔",
+          "Boton2": "Contact us"
+        }
+      },
+    "contenedorScroll": {
+      "common": {
+        "items": {
+          "Contenedor1": {
+            "src": "/assets/Conocenos/nuestro-nacimiento-1.png",
+            "alt": "company-foundation"
+          },
+          "Contenedor2": {
+            "src": "/assets/Conocenos/27-anos-cultura.png",
+            "alt": "corporate-culture"
+          },
+          "Contenedor3": {
+            "src": "/assets/Conocenos/Dateando-Ecuador-anuncia-salida-de-la-organización-ALBA-FOTO.jpg",
+            "alt": "ecuador-operations"
+          },
+          "Contenedor4": {
+            "src": "/assets/Conocenos/Imagen2_up.jpg",
+            "alt": "new-initiatives"
+          },
+          "Contenedor5": {
+            "src": "/assets/Conocenos/fb9c2de7170051c1a0ebd426ebb0a7e1.jpg",
+            "alt": "chile-expansion"
+          },
+          "Contenedor6": {
+            "src": "/assets/Conocenos/ACADEMIA_FOTO_NEW-uai-720x517.jpg",
+            "alt": "usa-expansion"
+          }
+        },
+        "FlechaDe": "public/assets/ImagenesPrueba/images.jpeg",
+        "FlechaIz": "public/assets/ImagenesPrueba/images.jpeg",
+        "imagenDePunto": "/assets/Conocenos/Icono ubicación.svg",
+        "LineaDeTiempo": "/assets/Conocenos/Linea distribucion 2.svg"
+      },
+      "es": {
+        "Puntos": {
+          "Contenedor1": { "fecha": "1989" },
+          "Contenedor2": { "fecha": "1996" },
+          "Contenedor3": { "fecha": "1998" },
+          "Contenedor4": { "fecha": "1999" },
+          "Contenedor5": { "fecha": "2002" },
+          "Contenedor6": { "fecha": "2008" },
+          "Contenedor7": { "fecha": "2010" },
+          "Contenedor8": { "fecha": "2011" },
+          "Contenedor9": { "fecha": "2016" },
+          "Contenedor10": { "fecha": "2017" },
+          "Contenedor11": { "fecha": "2024" }
+        },
+        "ContenedorSimple": {
+          "Contenedor1": { "Texto": "Registro de nuestra empresa de seguridad bajo el nombre de \"J&V Resguardo\"."   },
+          "Contenedor2": { "Texto": "Clave 3 inicia sus operaciones en el sector de alarmas." },
+          "Contenedor3": { "Texto": "Se emite comercial \"yungay\" que ironizó al sector de vigilancia." },
+          "Contenedor4": { "Texto": "Recibimos el galardón de mejor lugar para trabajar en Perú." },
+          "Contenedor5": { "Texto": "Lanzamiento del programa \"La hora de Liderman\" para el mundo en radio Insomnio." },
+          "Contenedor6": { "Texto": "Lanzamiento de \"La hora del Vigilante\" por Radio San Borja y el Facebook Liderman Oficial." },
+          "Contenedor7": { "Texto": "Lanzamiento de la marca Alarmas y consolidación como grupo." }
+        },
+        "ContenedorComplejo": {
+          "Contenedor1": { "Titulo": "Nuestro nacimiento", "Texto": "Desde el inicio, hemos liderado con pasión y propósito, marcando la diferencia en el sector y en nuestras vidas." },
+          "Contenedor2": { "Titulo": "Nace la marca Liderman", "Texto": "Nuestro enfoque está en el corazón de nuestro equipo. Nos comprometemos con su crecimiento profesional, su bienestar y la calidad de vida de sus familias." },
+          "Contenedor3": { "Titulo": "Internacionalización", "Texto": "Inicio de operaciones de Liderman en Ecuador." },
+          "Contenedor4": { "Titulo": "Nuevas iniciativas", "Texto": "Creemos que la comunicación es clave para mantener una organización alineada. fomentando la empatía y participación para el crecimiento de la empresa y de quienes la integran." },
+          "Contenedor5": { "Titulo": "Liderman Chile", "Texto": "Inicio de operaciones en Chile, contratando a más de 2000 personas." },
+          "Contenedor6": { "Titulo": "Liderman Estados Unidos", "Texto": "Inicio de operaciones en el estado de Florida." }
+        }
+      },
+      "en": {
+        "Puntos": {
+          "Contenedor1": { "fecha": "1989" },
+          "Contenedor2": { "fecha": "1996" },
+          "Contenedor3": { "fecha": "1998" },
+          "Contenedor4": { "fecha": "1999" },
+          "Contenedor5": { "fecha": "2002" },
+          "Contenedor6": { "fecha": "2008" },
+          "Contenedor7": { "fecha": "2010" },
+          "Contenedor8": { "fecha": "2011" },
+          "Contenedor9": { "fecha": "2016" },
+          "Contenedor10": { "fecha": "2017" },
+          "Contenedor11": { "fecha": "2024" }
+        },
+        "ContenedorSimple": {
+          "Contenedor1": { "Texto": "Registration of our security company under the name \"J&V Resguardo\"." },
+          "Contenedor2": { "Texto": "Clave 3 begins operations in the alarm systems sector." },
+          "Contenedor3": { "Texto": "Release of the \"Yungay\" commercial satirizing the security sector." },
+          "Contenedor4": { "Texto": "We received the Best Workplace in Peru award." },
+          "Contenedor5": { "Texto": "Launch of \"Liderman's Hour\" program worldwide on Insomnio Radio." },
+          "Contenedor6": { "Texto": "Launch of \"The Security Guard's Hour\" on Radio San Borja and Liderman's Official Facebook." },
+          "Contenedor7": { "Texto": "Launch of Alarmas brand and group consolidation." }
+        },
+        "ContenedorComplejo": {
+          "Contenedor1": { "Titulo": "Our Foundation", "Texto": "From the beginning, we've led with passion and purpose, making a difference in the industry and in our lives." },
+          "Contenedor2": { "Titulo": "Birth of Liderman", "Texto": "Our focus is on our team's core. We commit to their professional growth, well-being, and their families' quality of life." },
+          "Contenedor3": { "Titulo": "Global Expansion", "Texto": "Start of Liderman operations in Ecuador." },
+          "Contenedor4": { "Titulo": "New Initiatives", "Texto": "We believe communication is key to maintaining an aligned organization, fostering empathy and participation for the company's growth and its members." },
+          "Contenedor5": { "Titulo": "Liderman Chile", "Texto": "Start of operations in Chile, hiring over 2,000 people." },
+          "Contenedor6": { "Titulo": "Liderman USA", "Texto": "Start of operations in Florida state." }
+        }
+      }
+    }
+  },
+
+  "Seguridad": {
+    "Titulos": {
+      "es": {
+        "Titulo1": {
+          "Titulo": "Cómo",
+          "Subtitulo": "operamos"
+        },
+        "Titulo2": {
+          "Titulo": "Supervisión",
+          "Subtitulo": "y control"
+        }
+      },
+      "en": {
+        "Titulo1": {
+          "Titulo": "How",
+          "Subtitulo": "we operate"
+        },
+        "Titulo2": {
+          "Titulo": "Monitoring",
+          "Subtitulo": "and control"
+        }
+      }
+    },
+    "HeaderCarruselDeImagenes": {
+      "Common": {
+        "ImagenDerecha":[
+          {
+            "imagen": "/assets/Seguridad/SEGURIDAD.png",
+            "alt": "physical-security"
+          },
+          {
+            "imagen": "/assets/Seguridad/SEGURIDAD-FÍSICA.png",
+            "alt": "physical-security"
+          },
+          {
+            "imagen": "/assets/Seguridad/Seguridad (1).png",
+            "alt": "physical-security"
+          },
+          {
+            "imagen": "/assets/Seguridad/SUPERVISIÓN-DE-SALA-DE-CONTROL_header.png",
+            "alt": "physical-security"
+          },
+          {
+            "imagen": "/assets/Seguridad/seguridad-fisica.png",
+            "alt": "physical-security"
+          }
+        ],
+
+        "imagenDeFondo": "/assets/Seguridad/1.png",
+        "logo": "/assets/ImagenesGenerales/Logo-Liderman2.svg"
+      },
+      "es": {
+        "Titulo": "Seguridad",
+        "Texto": "Somos la empresa de seguridad más grande del país, con cobertura a nivel nacional, autorizaciones y con la capacidad de responder rápidamente a tus necesidades.",
+        "TextosBotones": [
+          {
+            "Texto": "SEGURIDAD ",
+            "TextoDescripcion": "En Liderman protegemos lo que más valoras. Combinamos tecnología, personal altamente capacitado y un enfoque humano para ofrecer soluciones de seguridad integrales, confiables y adaptadas a cada necesidad. Estamos donde más nos necesitas, con compromiso y excelencia. "
+          },
+          {
+            "Texto": "SEGURIDAD FÍSICA",
+            "TextoDescripcion": "Ofrecemos protección presencial con personal capacitado, cercano y siempre alerta. Cuidamos personas, bienes e instalaciones con una actitud proactiva y con soluciones a la medida de cada cliente."
+          },
+          {
+            "Texto": "RESGUARDO PERSONAL",
+            "TextoDescripcion": "Protegemos tu integridad con profesionalismo, cercanía y absoluta confidencialidad. Nuestro personal está preparado para anticiparse a los riesgos y brindarte protección en todo momento."
+          },
+          {
+            "Texto": "SUPERVISIÓN DE SALA DE CONTROL",
+            "TextoDescripcion": "Monitoreamos en tiempo real lo que sucede en tus instalaciones, con operadores altamente capacitados y tecnología de punta. Detectamos incidentes, coordinamos respuestas inmediatas y garantizamos una supervisión constante para tu total tranquilidad."
+          },
+          {
+            "Texto": "GUARDIANÍA",
+            "TextoDescripcion": "Brindamos guardianía confiable y cercana, con personal capacitado que combina vigilancia, control de accesos y atención al cliente. Estamos presentes con actitud proactiva, cuidando cada espacio como si fuera nuestro."
+          }
+        ]
+      },
+      "en": {
+        "Titulo": "Security Solutions",
+        "Texto": "We are the largest security company in the country, with nationwide coverage, full authorizations, and the ability to respond quickly to your needs.",
+        "TextosBotones": [
+          {
+            "Texto": "SECURITY",
+            "TextoDescripcion": "At Liderman, we protect what you value most. We combine technology, highly trained personnel, and a human-centered approach to offer comprehensive, reliable, and tailored security solutions. We are where you need us most, with commitment and excellence."
+          },
+          {
+            "Texto": "PHYSICAL SECURITY",
+            "TextoDescripcion": "We provide on-site protection with trained, attentive, and always-alert personnel. We safeguard people, property, and facilities with a proactive attitude and customized solutions for each client."
+          },
+          {
+            "Texto": "PERSONAL PROTECTION",
+            "TextoDescripcion": "We protect your personal safety with professionalism, closeness, and complete confidentiality. Our staff is prepared to anticipate risks and provide protection at all times."
+          },
+          {
+            "Texto": "CONTROL ROOM SUPERVISION",
+            "TextoDescripcion": "We monitor your facilities in real time, with highly trained operators and cutting-edge technology. We detect incidents, coordinate immediate responses, and ensure constant supervision for your complete peace of mind."
+          },
+          {
+            "Texto": "GUARDING",
+            "TextoDescripcion": "We provide trustworthy and approachable guarding, with trained personnel who combine surveillance, access control, and customer service. We are present with a proactive attitude, taking care of every space as if it were our own."
+          }
+        ]
+      }
+    },
+    "GridGenerico": {
+      "en": {
+        "Sector1": {
+          "Titulo": "People",
+          "Texto": "Our human team, both on-site and off-site, is committed to reducing risks and fostering a strong safety culture."
+        },
+        "Sector2": {
+          "Titulo": "Sites",
+          "Texto": "We identify vulnerabilities, optimize security, and efficiently manage access control in all the spaces under our protection."
+        },
+        "Sector3": {
+          "Titulo": "Technology at the Core",
+          "Texto": "We incorporate technology at the heart of our services, integrating it at every stage to deliver more agile, secure, and efficient solutions."
+        },
+        "Sector4": {
+          "Titulo": "Processes",
+          "Texto": "We strengthen the security of our clients' operational processes by eliminating risky practices and ensuring business continuity and protection."
+        }
+      },
+      "es": {
+        "Sector1": {
+          "Titulo": "Personas",
+          "Texto": "Nuestro equipo humano, tanto dentro como fuera de tus instalaciones, está comprometido con reducir riesgos y fomentar una cultura sólida de seguridad."
+        },
+        "Sector2": {
+          "Titulo": "Sites",
+          "Texto": "Identificamos vulnerabilidades, optimizamos la seguridad y gestionamos de manera eficiente el control de accesos en todos los espacios bajo nuestra protección."
+        },
+        "Sector3": {
+          "Titulo": "Tecnología en el core",
+          "Texto": "Incorporamos la tecnología en el corazón de nuestros servicios, integrándola en cada etapa para ofrecer soluciones más ágiles, seguras y eficientes."
+        },
+        "Sector4": {
+          "Titulo": "Procesos",
+          "Texto": "Fortalecemos la seguridad de los procesos operativos de nuestros clientes, eliminando prácticas riesgosas y asegurando la continuidad y protección del negocio."
+        }
+      },
+      "Contenido": {
+        "ImagenGrande": "/assets/Seguridad/seguridad-operamos.png",
+        "imagenSector1": "/assets/ImagenesGenerales/Recurso 9.svg",
+        "imagenSector2": "/assets/ImagenesGenerales/Recurso 10.svg",
+        "imagenSector3": "/assets/ImagenesGenerales/Recurso 11.svg",
+        "imagenSector4": "/assets/ImagenesGenerales/Recurso 8.svg"
+      }
+    },
+    "FlechaGiro": {
+      "en": {
+        "TituloCentral": "Business Security Approach",
+        "Contenedor1": {
+          "Titulo": "1",
+          "Texto": "Knowledge and business needs understanding."
+        },
+        "Contenedor2": {
+          "Titulo": "2",
+          "Texto": "Comprehensive security vision."
+        },
+        "Contenedor3": {
+          "Titulo": "3",
+          "Texto": "Agent-position induction."
+        },
+        "Contenedor4": {
+          "Titulo": "4",
+          "Texto": "Integration of technology."
+        },
+        "Contenedor5": {
+          "Titulo": "5",
+          "Texto": "Constant communication with the client."
+        },
+        "Contenedor6": {
+          "Titulo": "6",
+          "Texto": "Presentation of KPIs."
+        }
+      },
+      "es": {
+        "TituloCentral": "Enfoque de Seguridad Empresarial",
+        "Contenedor1": {
+          "Titulo": "1",
+          "Texto": "Conocimiento y necesidades del giro de negocio."
+        },
+        "Contenedor2": {
+          "Titulo": "2",
+          "Texto": "Visión integral de la seguridad."
+        },
+        "Contenedor3": {
+          "Titulo": "3",
+          "Texto": "Inducción agente-puesto."
+        },
+        "Contenedor4": {
+          "Titulo": "6",
+          "Texto": "Presentación de KPIs."
+        },
+        "Contenedor5": {
+          "Titulo": "5",
+          "Texto": "Comunicación constante con el cliente."
+        },
+        "Contenedor6": {
+          "Titulo": "4",
+          "Texto": "Integración de la tecnología."
+        }
+      },
+      "Contenido": {
+        "ImagenFlecha": "/assets/Seguridad/Recurso 12.svg"
+      }
+    },
+    "GridBarajeable": {
+      "en": {
+        "carta1": {
+          "text": "Data Loading and Management",
+          "description": [
+            "· Updates data (tabular or graphical) during processes.",
+            "· User and system permissions management."
+          ],
+          "showTitle": true
+        },
+        "carta2": {
+          "text": "Live Patrol Monitoring",
+          "description": [
+            "We have a round management system with real-time monitoring for security personnel."
+          ],
+          "showTitle": false
+        },
+        "carta3": {
+          "text": "Territory Planning",
+          "description": [
+            "· Optimizes the route and sequence of each agent's visits.",
+            "· Follows business rules and compares them with geographic variables."
+          ],
+          "showTitle": true
+        },
+        "carta4": {
+          "text": "Field Operations",
+          "description": [
+            "· Optimized visit sequencing.",
+            "· GPS-based supervision.",
+            "· Task start and end logging."
+          ],
+          "showTitle": true
+        },
+        "carta5": {
+          "text": "Proactivity Analysis",
+          "description": [
+            "· Analysis of custom management indicators.",
+            "· Recognition and incentive system."
+          ],
+          "showTitle": true
+        }
+      },
+      "es": {
+        "carta1": {
+
+          "text": "Carga de datos y administración",
+          "description": [
+            "· Actualización de datos (tabulares o gráficos) durante los procesos.",
+            "· Administración de usuarios y permisos del sistema."
+          ],
+          "showTitle": true
+        },
+        "carta2": {
+          "text": "Vigilancia en tiempo real",
+          "description": [
+            "Contamos con un sistema de gestión de rondas con monitoreo en línea para personal de vigilancia."
+          ],
+          "showTitle": true
+        },
+        "carta3": {
+          "text": "Planificación de territorios ",
+          "description": [
+            "· Optimiza la ruta y secuencia de las visitas de cada gestor.",
+            "· Sigue reglas de negocio y las compara con la variable geográfica."
+          ],
+          "showTitle": true
+        },
+        "carta4": {
+          "text": "Operación de campo",
+          "description": [
+            "· Secuencia de visita optimizada.",
+            "· Supervisión por GPS.",
+            "· Registro de inicio y fin de tareas."
+          ],
+          "showTitle": true
+        },
+        "carta5": {
+          "text": "Análisis de proactividad",
+          "description": [
+            "· Análisis de indicadores propios de gestión.",
+            "· Sistema de reconocimientos e incentivos."
+          ],
+          "showTitle": true
+        }
+      },
+      "contenido": {
+        "carta1": "/assets/Seguridad/Laptop.png",
+        "carta2": "/assets/Seguridad/3.png",
+        "carta3": "/assets/Seguridad/HombreConMuchasPantallas.png",
+        "carta4": "/assets/Seguridad/d2fe2e83d3db73a8f54eecb5ed2b2b11.jpg",
+        "carta5": "/assets/Seguridad/3004083193b0d0c1c373ce63f7962872.jpg"
+      }
+    }
+  },
+
+  "Servicio": {
+    "Titulos": {
+      "es": {
+        "Titulo1": {
+          "Titulo": "Cómo",
+          "Subtitulo": "operamos"
+        },
+        "Titulo2": {
+          "Titulo": "Supervisión",
+          "Subtitulo": "y control"
+        }
+      },
+      "en": {
+        "Titulo1": {
+          "Titulo": "How",
+          "Subtitulo": "we operate"
+        },
+        "Titulo2": {
+          "Titulo": "Monitoring",
+          "Subtitulo": "and control"
+        }
+      }
+    },
+    "header": {
+      "Contenido": {
+        "logo": "/assets/ImagenesGenerales/Logo-Liderman2.svg",
+        "Fondo": "/assets/Servicio/fondo-servicios.png",
+        "ImagenDelCostado": "/assets/Servicio/Imagen-facilities.png"
+      },
+      "es": {
+        "Titulo": "Servicios",
+        "Texto": "Expandimos nuestros servicios para brindar asistencia integral en el mantenimiento y gestión de las soluciones que más necesita tu empresa."
+      },
+      "en": {
+        "Titulo": "Service",
+        "Texto": "We have expanded our services to provide comprehensive support in the maintenance and management of the solutions your company needs most."
+      }
+    },
+    "TextoTituloEImagen": {
+      "Contenido": {
+        "Imagen1": "/assets/Servicio/Foto-playa-de-estacionamiento_LIDERMAN.png",
+        "Imagen2": "/assets/Servicio/554e92e6ec866bbf03de6d44038fff9b.png"
+      },
+      "es": {
+        "botones": {
+          "Texto1": "Valet parking",
+          "Texto2": "Administración de estacionamientos"
+        },
+        "Titulo": "Parking",
+        "Texto1": "Rapidez y seguridad en el manejo de vehículos, brindando una experiencia premium a los usuarios y facilitando la logística de estacionamiento en eventos y establecimientos.",
+        "Texto2": "Rapidez y seguridad en el manejo de vehículos, brindando una experiencia premium a los usuarios y facilitando la logística de estacionamiento en eventos y establecimientos."
+      },
+      "en": {
+        "botones": {
+          "Texto1": "Valet parking",
+          "Texto2": "Parking management"
+        },
+        "Titulo": "Parking",
+        "Texto1": "Speed and safety in vehicle handling, delivering a premium experience for users and streamlining parking logistics at events and venues.",
+        "Texto2": "Speed and safety in vehicle handling, delivering a premium experience for users and streamlining parking logistics at events and venues."
+      }
+    },
+    "TextoTituloEImagen2": {
+      "Contenido": {
+        "Imagen1": "/assets/Servicio/Foto_web_liderman_2.png",
+        "Imagen2": "/assets/Servicio/facilities.png",
+        "Imagen3": "/assets/Servicio/jardineria.png",
+        "Imagen4": "/assets/Servicio/Foto_web_liderman_1.png"
+      },
+      "es": {
+        "botones": {
+          "Texto1": "Courier",
+          "Texto2": "Limpieza",
+          "Texto3": "Jardinería",
+          "Texto4": "Transporte"
+        },
+        "Titulo": "Facilities",
+        "Texto1": "Nuestro equipo garantiza un mantenimiento impecable, enfocado en la higiene, la organización y el bienestar del espacio.",
+        "Texto2": "Nuestro equipo garantiza un mantenimiento impecable, enfocado en la higiene, la organización y el bienestar del espacio.",
+        "Texto3": "Nuestro equipo garantiza un mantenimiento impecable, enfocado en la higiene, la organización y el bienestar del espacio.",
+        "Texto4": "Nuestro equipo garantiza un mantenimiento impecable, enfocado en la higiene, la organización y el bienestar del espacio."
+      },
+      "en": {
+        "botones": {
+          "Texto1": "Courier",
+          "Texto2": "Cleaning",
+          "Texto3": "Gardening",
+          "Texto4": "Transport"
+        },
+        "Titulo": "Facilities",
+        "Texto1": "Our team ensures impeccable maintenance, focused on hygiene, organization, and space wellbeing.",
+        "Texto2": "Our team ensures impeccable maintenance, focused on hygiene, organization, and space wellbeing.",
+        "Texto3": "Our team ensures impeccable maintenance, focused on hygiene, organization, and space wellbeing.",
+        "Texto4": "Our team ensures impeccable maintenance, focused on hygiene, organization, and space wellbeing."
+      }
+    }, "_comment": "Tengo que modificarlo para que haya textos en la imagen",
+    "GridGenerico": {
+      "en": {
+        "Sector1": {
+          "Titulo": "People",
+          "Texto": "Our human team, both within and outside your facilities, is committed to reducing risks and fostering a strong culture of safety."
+        },
+        "Sector2": {
+          "Titulo": "Sites",
+          "Texto": "We identify vulnerabilities, optimize security, and efficiently manage access control in all the spaces under our protection."
+        },
+        "Sector3": {
+          "Titulo": "Technology at the Core",
+          "Texto": "We incorporate technology at the heart of our services, integrating it at every stage to deliver more agile, secure, and efficient solutions."
+        },
+        "Sector4": {
+          "Titulo": "Processes",
+          "Texto": "We strengthen the security of our clients' operational processes by eliminating risky practices and ensuring business continuity and protection."
+        }
+      },
+      "es": {
+        "Sector1": {
+          "Titulo": "Personas",
+          "Texto": "Nuestro equipo humano, tanto dentro como fuera de tus instalaciones, está comprometido con reducir riesgos y fomentar una cultura sólida de seguridad."
+        },
+        "Sector2": {
+          "Titulo": "Sites",
+          "Texto": "Identificamos vulnerabilidades, optimizamos la seguridad y gestionamos de manera eficiente el control de accesos en todos los espacios bajo nuestra protección."
+        },
+        "Sector3": {
+          "Titulo": "Tecnología en el core",
+          "Texto": "Incorporamos la tecnología en el corazón de nuestros servicios, integrándola en cada etapa para ofrecer soluciones más ágiles, seguras y eficientes."
+        },
+        "Sector4": {
+          "Titulo": "Procesos",
+          "Texto": "Fortalecemos la seguridad de los procesos operativos de nuestros clientes, eliminando prácticas riesgosas y asegurando la continuidad y protección del negocio."
+        }
+      },
+      "Contenido": {
+        "ImagenGrande": "/assets/Servicio/como-operamos-facilities.png",
+        "imagenSector1": "/assets/ImagenesGenerales/Recurso 9.svg",
+        "imagenSector2": "/assets/ImagenesGenerales/Recurso 10.svg",
+        "imagenSector3": "/assets/ImagenesGenerales/Recurso 11.svg",
+        "imagenSector4": "/assets/ImagenesGenerales/Recurso 8.svg"
+      }
+    },
+    "GridBarajeable": {
+      "en": {
+        "carta1": {
+          "text": "Data Loading and Management",
+          "description": [
+            "· We have digital tools that allow for the loading, management, and analysis of information generated during the security service."
+          ],
+          "showTitle": true
+        },
+        "carta2": {
+          "text": "Live Patrol Monitoring",
+          "description": [
+            "We have a round management system with online monitoring that allows us to supervise in real time the fulfillment of routes and tasks assigned to our security personnel."
+          ],
+          "showTitle": true
+        },
+        "carta3": {
+          "text": "Territory Planning",
+          "description": [
+            "· We optimize the route and sequence of visits of each agent, following business rules and considering geographic variables for more efficient management."
+          ],
+          "showTitle": true
+        },
+        "carta4": {
+          "text": "Field Operations",
+          "description": [
+            "· We have an optimized field operation that includes efficient visit sequences, GPS-based supervision, and logging of task start and end times."
+          ],
+          "showTitle": true
+        },
+        "carta5": {
+          "text": "Proactivity Analysis",
+          "description": [
+            "· We evaluate management indicators and have a recognition and incentive system to promote the proactive performance of the team."
+          ],
+          "showTitle": true
+        }
+      },
+      "es": {
+        "carta1": {
+
+          "text": "Carga de datos y administración:",
+          "description": [
+            "· Disponemos de herramientas digitales que permiten la carga, administración y análisis de la información generada durante el servicio de vigilancia."
+          ],
+          "showTitle": true
+        },
+        "carta2": {
+          "text": "Vigilancia en tiempo real",
+          "description": [
+            "Contamos con un sistema de gestión de rondas con monitoreo en línea que nos permite supervisar en tiempo real el cumplimiento de las rutas y tareas asignadas a nuestro personal de vigilancia."
+          ],
+          "showTitle": true
+        },
+        "carta3": {
+          "text": "Planificación de Territorios ",
+          "description": [
+            "· Optimizamos la ruta y secuencia de visitas de cada gestor, siguiendo reglas de negocio y considerando variables geográficas para una gestión más eficiente."
+          ],
+          "showTitle": true
+        },
+        "carta4": {
+          "text": "Operación de campo",
+          "description": [
+            "· Contamos con una operación de campo optimizada que incluye secuencias de visita eficientes, supervisión vía GPS y registro de inicio y fin de cada tarea."
+          ],
+          "showTitle": true
+        },
+        "carta5": {
+          "text": "Analisis de proactividad",
+          "description": [
+            "· Evaluamos indicadores de gestión y contamos con un sistema de reconocimientos e incentivos para promover el desempeño proactivo del equipo."
+          ],
+          "showTitle": true
+        }
+      },
+      "contenido": {
+        "carta1": "/assets/Seguridad/Laptop.png",
+        "carta2": "/assets/Seguridad/3.png",
+        "carta3": "/assets/Seguridad/HombreConMuchasPantallas.png",
+        "carta4": "/assets/Seguridad/d2fe2e83d3db73a8f54eecb5ed2b2b11.jpg",
+        "carta5": "/assets/Seguridad/3004083193b0d0c1c373ce63f7962872.jpg"
+      }
+    }
+  },
+
+  "Tecnologia": {
+    "Titulos": {
+      "es": {
+        "Titulo1": {
+          "Titulo": "Soluciones",
+          "Subtitulo": "tecnológicas"
+        },
+        "Titulo2": {
+          "Titulo": "Sistemas de alarmas",
+          "Subtitulo": "para seguridad y atención emergencias"
+        },
+        "Titulo3": {
+          "Titulo": "Ciberseguridad",
+          "Subtitulo": "características de nuestra solución"
+        }
+      },
+      "en": {
+        "Titulo1": {
+          "Titulo": "Solutions",
+          "Subtitulo": "technological"
+        },
+        "Titulo2": {
+          "Titulo": "Alarm systems",
+          "Subtitulo": "for security and emergency response"
+        },
+        "Titulo3": {
+          "Titulo": "Cybersecurity",
+          "Subtitulo": "features of our solution"
+        }
+      }
+    },
+    "HeaderCambioDeImagen": {
+      "Common": {
+        "logo": "/assets/ImagenesGenerales/Logo-Liderman2.svg",
+        "Fondo": "/assets/Tecnologia/tecnologia-portada.png",
+        "ImagenDerecha": {
+          "boton1": "/assets/Tecnologia/TECNOLOGIA.png",
+          "boton2": "/assets/Tecnologia/CIBERSEGURIIDAD.png",
+          "boton3": "/assets/Tecnologia/alarma.png",
+          "boton4": "/assets/Tecnologia/GPS.png"
+        },
+
+        "imagenDerecha1": "/assets/Tecnologia/tecnologia-chica.png"
+      },
+      "es": {
+        "Titulo": "Tecnología",
+        "Texto": "Ofrecemos soluciones tecnológicas avanzadas en seguridad que se adaptan a las exigencias del mundo moderno",
+        "boton1": {
+          "Nombre": "TECNOLOGÍA",
+          "Texto": "Integramos soluciones tecnológicas de última generación para anticiparnos a los riesgos y actuar con rapidez. Cámaras inteligentes, analítica de video, control de accesos y monitoreo remoto, todo conectado para brindarte una seguridad más eficiente, precisa y proactiva."
+        },
+        "boton2":{
+          "Nombre": "CIBERSEGURIDAD",
+          "Texto": "Integramos soluciones de ciberseguridad avanzada y tecnología inteligente para proteger tu información. Nuestro portafolio incluye servicios de monitoreo y análisis de riesgos cibernéticos, gestión de accesos, videovigilancia inteligente, control perimetral y sistemas integrados de seguridad electrónica. Combinamos innovación, experiencia y tecnología de punta para brindarte protección 24/7 en el mundo digital y físico."
+        },
+        "boton3": {
+          "Nombre": "ALARMAS",
+          "Texto": "Brindamos soluciones de alarmas inteligentes diseñadas para proteger tus instalaciones con tecnología de última generación. Nuestros sistemas integran sensores de movimiento, detección perimetral, monitoreo en tiempo real y conexión directa a nuestras centrales de vigilancia. Garantizamos una respuesta rápida y efectiva ante cualquier incidencia, fortaleciendo la seguridad de tu entorno a través de herramientas digitales confiables e innovadoras."
+        },
+        "boton4": {
+          "Nombre": "GPS",
+          "Texto": "Combinamos tecnología avanzada con experiencia en seguridad para ofrecer soluciones GPS de alta precisión. Nuestros servicios incluyen detección de intrusos, monitoreo en tiempo real, alertas automáticas y rastreo satelital de vehículos, activos o personal. Todo esto conectado a nuestra central de vigilancia 24/7, garantizando una respuesta inmediata y un control total desde cualquier lugar mediante plataformas digitales y apps móviles."
+        }
+      },
+      "en": {
+        "Titulo": "Technology",
+        "Texto": "We offer advanced technological security solutions that meet the demands of the modern world",
+        "boton1": {
+          "Nombre": "TECHNOLOGY",
+          "Texto": "We integrate state-of-the-art technological solutions to anticipate risks and respond swiftly. Smart cameras, video analytics, access control, and remote monitoring—everything connected to provide you with more efficient, precise, and proactive security."
+        },
+        "boton2": {
+          "Nombre": "CYBERSECURITY",
+          "Texto": "We integrate advanced cybersecurity solutions and smart technology to protect your information. Our portfolio includes cyber risk monitoring and analysis services, access management, smart video surveillance, perimeter control, and integrated electronic security systems. We combine innovation, experience, and cutting-edge technology to provide you with 24/7 protection in both the digital and physical world."
+        },
+        "boton3": {
+          "Nombre": "ALARMS",
+          "Texto": "We provide smart alarm solutions designed to protect your facilities with state-of-the-art technology. Our systems integrate motion sensors, perimeter detection, real-time monitoring, and direct connection to our surveillance centers. We guarantee a fast and effective response to any incident, strengthening your environment’s security through reliable and innovative digital tools."
+        },
+        "boton4": {
+          "Nombre": "GPS",
+          "Texto": "We combine advanced technology with security expertise to offer high-precision GPS solutions. Our services include intruder detection, real-time monitoring, automatic alerts, and satellite tracking of vehicles, assets, or personnel. All connected to our 24/7 monitoring center, ensuring immediate response and total control from anywhere via digital platforms and mobile apps."
+        }
+      }
+    },
+    "TextImageSelector": {
+      "Common": {
+        "ImagenBoton1": "/assets/Tecnologia/559522c18c93fdd3099f4f38b868cb9a3a320960.png",
+        "ImagenBoton2": "/assets/Tecnologia/63ab4d9c0fc4d068daa25ae5b67765a4aa6f87d6.png",
+        "ImagenBoton3": "/assets/Tecnologia/CCTV.png",
+        "ImagenBoton4": "/assets/Tecnologia/foto-3.png",
+        "ImagenBoton5": "/assets/Tecnologia/foto-6.png",
+        "imagenALaIzquierda": true
+      },
+      "es": {
+        "boton1": {
+          "Titulo": "Alarmas",
+          "Texto": "Nuestros sistemas de alarmas están respaldados por un monitoreo constante para garantizar un funcionamiento preciso y seguro, asegurando que cada activación sea gestionada de manera eficiente y rápida."
+        },
+        "boton2": {
+          "Titulo": "Monitoreo por GPS",
+          "Texto": "Implementamos un monitoreo continuo del sistema GPS para asegurar un rendimiento óptimo, garantizando la protección y localización exacta en todo momento."
+        },
+        "boton3": {
+          "Titulo": "Soluciones CCTV-IA",
+          "Texto": "Instalación, mantenimiento preventivo y correctivo, monitoreo de cámaras en nuestro moderno Centro de Control y mediante plataformas y aplicativos para celulares y tablets. Trabajamos en conjunto con agentes de seguridad y entidades del estado. Además de aplicar la inteligencia artificial que utiliza el comportamiento humano."
+        },
+        "boton4": {
+          "Titulo": "Detección y extinción de incendios",
+          "Texto": "Proveemos instalación, mantenimiento preventivo y correctivo de sistemas de detección y extinción de incendios mediante agua o agentes limpios, garantizando la seguridad y el cumplimiento de las normativas vigentes."
+        },
+        "boton5": {
+          "Titulo": "Mantenimiento preventivo y correctivo",
+          "Texto": "Aplicamos mantenimiento integral a todos nuestros proyectos tecnológicos, garantizando su correcto funcionamiento desde la instalación y a lo largo del tiempo."
+        }
+      },
+      "en": {
+        "boton1": {
+          "Titulo": "Alarms",
+          "Texto": "Our alarm systems are backed by constant monitoring to ensure precise and secure operation, ensuring that each activation is managed efficiently and quickly."
+        },
+        "boton2": {
+          "Titulo": "GPS Monitoring",
+          "Texto": "We implement continuous monitoring of the GPS system to ensure optimal performance, guaranteeing protection and precise location at all times."
+        },
+        "boton3": {
+          "Titulo": "CCTV-AI Solutions",
+          "Texto": "Installation, preventive and corrective maintenance, camera monitoring at our modern Control Center, and through mobile and tablet platforms and applications. We work in collaboration with security agents and state entities. Additionally, we apply artificial intelligence that uses human behavior."
+        },
+        "boton4": {
+          "Titulo": "Fire Detection and Extinguishing",
+          "Texto": "We provide installation, preventive and corrective maintenance of fire detection and extinguishing systems using water or clean agents, ensuring safety and compliance with current regulations."
+        },
+        "boton5": {
+          "Titulo": "Preventive and Corrective Maintenance",
+          "Texto": "We provide comprehensive maintenance for all our technological projects, ensuring their proper operation from installation and throughout their lifespan."
+        }
+      }
+    },
+    "TextImageSelector2": {
+      "Common": {
+        "ImagenBoton1": "/assets/Tecnologia/foto-7.png",
+        "ImagenBoton2": "/assets/Tecnologia/foto-1.png",
+        "ImagenBoton3": "/assets/Tecnologia/foto-8.png",
+        "ImagenBoton4": "/assets/Tecnologia/foto-9.png",
+        "ImagenBoton5": "/assets/Tecnologia/foto-10.png",
+        "imagenALaIzquierda": false
+      },
+      "es": {
+        "boton1": {
+          "Titulo": "Control de acceso e intrusión",
+          "Texto": "Controla y monitorea el acceso a tus instalaciones de forma segura, con alertas en tiempo real ante cualquier intento de intrusión. Nuestras soluciones incluyen reconocimiento facial, huella dactilar, voz y proximidad, asegurando un control eficiente y seguro."
+        },
+        "boton2": {
+          "Titulo": "Drones",
+          "Texto": "Utilizamos drones equipados con inteligencia artificial para patrullaje y vigilancia. Nuestro sistema analiza el comportamiento humano, incluyendo reconocimiento facial y conteo de personas, para una seguridad avanzada y eficaz."
+        },
+        "boton3": {
+          "Titulo": "Cableado estructurado",
+          "Texto": "Implementamos redes de área local (LAN) utilizando tecnología avanzada como UTP, FTP y STP, garantizando una infraestructura sólida y eficiente para tus comunicaciones."
+        },
+        "boton4": {
+          "Titulo": "Automatización BMS",
+          "Texto": "Ofrecemos soluciones integrales para el control y automatización de edificios, creando entornos inteligentes y seguros que se integran con nuestro portafolio de tecnologías avanzadas."
+        },
+        "boton5": {
+          "Titulo": "IP adecuación de salas",
+          "Texto": "Adaptamos salas de reuniones empresariales con tecnología de vanguardia, proporcionando soluciones óptimas para mejorar la conectividad y productividad en entornos corporativos."
+        }
+      },
+      "en": {
+        "boton1": {
+          "Titulo": "Access and Intrusion Control",
+          "Texto": "Control and monitor access to your facilities securely, with real-time alerts for any attempted intrusion. Our solutions include facial recognition, fingerprint, voice, and proximity, ensuring efficient and secure control."
+        },
+        "boton2": {
+          "Titulo": "Drones",
+          "Texto": "We use drones equipped with artificial intelligence for patrolling and surveillance. Our system analyzes human behavior, including facial recognition and people counting, for advanced and effective security."
+        },
+        "boton3": {
+          "Titulo": "Structured Cabling",
+          "Texto": "We implement local area networks (LAN) using advanced technologies such as UTP, FTP, and STP, ensuring a solid and efficient infrastructure for your communications."
+        },
+        "boton4": {
+          "Titulo": "BMS Automation",
+          "Texto": "We offer comprehensive solutions for building control and automation, creating intelligent and secure environments that integrate with our portfolio of advanced technologies."
+        },
+        "boton5": {
+          "Titulo": "IP Room Adaptation",
+          "Texto": "We adapt corporate meeting rooms with cutting-edge technology, providing optimal solutions to improve connectivity and productivity in corporate environments."
+        }
+      }
+    },
+    "CuadriculaDeModals": {
+      "Common": {
+        "Fondo1": "/assets/Tecnologia/66f988b7eb7722b62baae81a4c1a1463.png",
+        "Fondo2": "/assets/Tecnologia/SeñorConTelefono.png",
+        "Fondo3": "/assets/Tecnologia/SeñorConTelefono2.png",
+        "Fondo4": "/assets/Tecnologia/3924529e66a322eb4af6bcf534059f17.jpg"
+      },
+      "es": {
+        "Sector1": {
+          "Titulo": "Video verificación",
+          "Texto": "Integración de video y sistema de CCTV P2P conectado a internet que permiten tener una respuesta más eficiente y precisa ante incidentes que no representan una amenaza real.",
+          "MasInformacion": "Más información",
+          "TextoOSimboloDeBoton": "+"
+        },
+        "Sector2": {
+          "Titulo": "Espejo remoto",
+          "Texto": "Módulo diseñado para brindar a nuestros clientes el control de sus cuentas conectadas al servicio de monitoreo de alarmas: visualizar estados, escuchar alertas auditivas, enviar correos y generar reportes de las mismas.",
+          "MasInformacion": "Más información",
+          "TextoOSimboloDeBoton": "+"
+        },
+        "Sector3": {
+          "Titulo": "Reportes y notificaciones",
+          "Texto": "Para facilitar la gestión de nuestro sistema de alarmas, consideramos importante que nuestros clientes tengan medios de reportes automáticos y personalizados.",
+          "MasInformacion": "Más información",
+          "TextoOSimboloDeBoton": "+"
+        },
+        "Sector4": {
+          "Titulo": "Botón de pánico",
+          "Texto": "Virtual SmartPanics es un botón que posibilita la emisión de señales de emergencia mediante dispositivos móviles, además de facilitar la transmisión de la ubicación geográfica precisa de quien activa el evento.",
+          "MasInformacion": "Más información",
+          "TextoOSimboloDeBoton": "+"
+        }
+      },
+      "en": {
+        "Sector1": {
+          "Titulo": "Video Verification",
+          "Texto": "Integration of video and CCTV P2P system connected to the internet that allows for a more efficient and accurate response to incidents that do not pose a real threat.",
+          "MasInformacion": "More information",
+          "TextoOSimboloDeBoton": "+"
+        },
+        "Sector2": {
+          "Titulo": "Remote Mirror",
+          "Texto": "Module designed to give our clients control over their accounts connected to the alarm monitoring service: view statuses, listen to audible alerts, send emails, and generate reports.",
+          "MasInformacion": "More information",
+          "TextoOSimboloDeBoton": "+"
+        },
+        "Sector3": {
+          "Titulo": "Reports and Notifications",
+          "Texto": "To facilitate the management of our alarm system, we consider it important that our clients have means for automatic and personalized reports.",
+          "MasInformacion": "More information",
+          "TextoOSimboloDeBoton": "+"
+        },
+        "Sector4": {
+          "Titulo": "Panic Button",
+          "Texto": "Virtual SmartPanics is a button that allows the transmission of emergency signals via mobile devices, in addition to providing the precise geographical location of the person activating the event.",
+          "MasInformacion": "More information",
+          "TextoOSimboloDeBoton": "+"
+        }
+      }
+    },
+    "Modal1": {
+      "Common": {
+        "Imagen": "/assets/Tecnologia/6da6d8f4440045b3fa6f9f18fa19092326cd0794.png"
+      },
+      "es": {
+        "Titulo": "Video verificación",
+        "Texto": "Monitorea en tiempo real con nuestro sistema de CCTV P2P, conectado a internet. Obtén respuestas rápidas y precisas para incidentes sin riesgo, garantizando una gestión más eficiente. Utilizamos una licencia especial de protocolo P2P, que simplifica la instalación al evitar abrir puertos en tu router, brindándote mayor seguridad y facilidad.",
+        "BotonCerrar": "Cerrar"
+      },
+      "en": {
+        "Titulo": "Video Verification",
+        "Texto": "Monitor in real-time with our P2P CCTV system, connected to the internet. Get quick and accurate responses to incidents without risk, ensuring more efficient management. We use a special P2P protocol license, which simplifies installation by avoiding the need to open ports on your router, providing you with greater security and ease.",
+        "BotonCerrar": "Close"
+      }
+    },
+    "Modal2": {
+      "Common": {
+        "ImagenIzq": "/assets/Tecnologia/9.svg",
+        "ImagenDer": "/assets/Tecnologia/10.svg"
+      },
+      "es": {
+        "Titulo": "Espejo remoto",
+        "Texto": "Nuestra plataforma permite a los clientes corporativos gestionar sus cuentas conectadas al servicio de monitoreo de alarmas de Liderman. Accede desde cualquier navegador para revisar el estado de tus cuentas en tiempo real, recibir alertas auditivas, contactar con Liderman y generar reportes personalizados.",
+        "TituloDer": "Reporte historico",
+        "TituloIzq": "Recepción de evento",
+        "TextoDer": "Permite obtener un informe de todos los eventos recibidos.",
+        "TextoIzq": "Permite recibir todos los eventos del cliente en forma automática. incluyendo las alarmas de forma sonora.",
+        "BotonCerrar": "Cerrar"
+      },
+      "en": {
+        "Titulo": "Remote mirror",
+        "Texto": "Our platform allows corporate clients to manage their accounts connected to the Liderman alarm monitoring service. Access it from any browser to check the status of your accounts in real-time, receive auditory alerts, contact Liderman, and generate custom reports.",
+        "TituloDer": "Right Title",
+        "TituloIzq": "Left Title",
+        "TextoDer": "Text below the right title.",
+        "TextoIzq": "Text below the left title.",
+        "BotonCerrar": "Close"
+      }
+    },
+    "Modal3": {
+      "Common": {
+        "ImagenDerArriba": "/assets/Tecnologia/7.svg",
+        "ImagenIzqArriba": "/assets/Tecnologia/5.svg",
+        "ImagenDerAbajo": "/assets/Tecnologia/8.svg",
+        "ImagenIzqAbajo": "/assets/Tecnologia/6.svg"
+      },
+      "es": {
+        "Titulo": "Botón de pánico",
+        "Texto": "Viftual SmartPanics: Información de tus cuentas en la palma de tu mano",
+        "TituloDerArriba": "Incendio",
+        "TituloIzqArriba": "SOS Pánico",
+        "TituloDerAbajo": "En camino",
+        "TituloIzqAbajo": "Asistencia",
+        "TextoDerArriba": "Envía un evento de fuego a la central de monitoreo.",
+        "TextoIzqArriba": "Envía un evento de Pánico a la central de monitoreo.",
+        "TextoDerAbajo": "Define el tiempo de llegada a un determinado lugar y genera una alerta en caso el tiempo se agote.",
+        "TextoIzqAbajo": "Envia un pedido de asistencia o evento de alarma médica a la central de monitoreo.",
+        "BotonCerrar": "Cerrar"
+      },
+      "en": {
+        "Titulo": "Panic Button",
+        "Texto": "Viftual SmartPanics: Account information at your fingertips",
+        "TituloDerArriba": "Right Title",
+        "TituloIzqArriba": "Left Title",
+        "TituloDerAbajo": "Right Lower Title",
+        "TituloIzqAbajo": "Left Lower Title",
+        "TextoDerArriba": "Text below the right title.",
+        "TextoIzqArriba": "Text below the left title.",
+        "TextoDerAbajo": "Text below the right lower title.",
+        "TextoIzqAbajo": "Text below the left lower title.",
+        "BotonCerrar": "Close"
+      }
+    },
+    "Modal4": {
+      "Common": {
+        "Imagen1": "/assets/Tecnologia/2.svg",
+        "Imagen2": "/assets/Tecnologia/1.svg",
+        "Imagen3": "/assets/Tecnologia/3.svg",
+        "Imagen4": "/assets/Tecnologia/4.svg"
+      },
+      "es": {
+        "Titulo": "Reportes y notificaciones",
+        "Texto": "Queremos que tengas acceso a reportes automáticos y personalizados, diseñados para brindarte información precisa y relevante en todo momento.",
+        "Subtitulo1": "Notificaciones Push mediante",
+        "Subtitulo2": "Notificacaciones mediante",
+        "Subtitulo3": "notificaciones mediante",
+        "Subtitulo4": "Reportes de gestión",
+        "Texto1": "nuestra aplicación SmartPanics",
+        "Texto2": "correo electronico",
+        "Texto3": "SMS",
+        "Texto4": "dashboard de control",
+        "BotonCerrar": "Cerrar"
+      },
+      "en": {
+        "Titulo": "Reports and Notifications",
+        "Texto": "Our platform allows corporate clients to manage their accounts connected to the Liderman alarm monitoring service. Access from any browser to check the status of your accounts in real-time, receive auditory alerts, contact Liderman, and generate customized reports.",
+        "Subtitulo1": "Real-Time Monitoring",
+        "Subtitulo2": "Instant Alerts",
+        "Subtitulo3": "Custom Reports",
+        "Subtitulo4": "24/7 Support",
+        "Texto1": "Continuous tracking of all your connected alarms",
+        "Texto2": "Immediate notifications for any event",
+        "Texto3": "Generate detailed documents in multiple formats",
+        "Texto4": "Direct connection with our technical team",
+        "BotonCerrar": "Close"
+      }
+    },
+    "CardGrid": {
+      "Common": {
+        "ImagenCarta1": "/assets/Tecnologia/Recurso 1.svg",
+        "ImagenCarta2": "/assets/Tecnologia/Recurso 2.svg",
+        "ImagenCarta3": "/assets/Tecnologia/Recurso 3.svg",
+        "ImagenCarta4": "/assets/Tecnologia/Recurso 4.svg",
+        "ImagenCarta5": "/assets/Tecnologia/Recurso 5.svg",
+        "ImagenCarta6": "/assets/Tecnologia/Recurso 6.svg",
+        "ImagenCarta7": "/assets/Tecnologia/Recurso 7.svg"
+      },
+      "es": {
+        "Carta1": "Protección contra virus y malwares rasomware y Zero Day-automático.",
+        "Carta2": "Sencillo agente autónomo que protege los terminales tanto en línea, como fuera de línea.",
+        "Carta3": "Solución de protección para los terminales y servidores de la organización.",
+        "Carta4": "Defensa contra IOT.",
+        "Carta5": "Proteccioón en la nube.",
+        "Carta6": "Device Control-and Firewall Control",
+        "Carta7": "Instalación simple y rápida"
+      },
+      "en": {
+        "Carta1": "Protection against viruses, ransomware, malware, and Zero-Day attacks - automatic.",
+        "Carta2": "Simple autonomous agent that protects endpoints both online and offline.",
+        "Carta3": "Protection solution for the organization's endpoints and servers.",
+        "Carta4": "Defense against IoT threats.",
+        "Carta5": "Cloud protection.",
+        "Carta6": "Device Control and Firewall Control.",
+        "Carta7": "Simple and fast installation."
+      }
+    }
+  },
+
+  "Lidermania": {
+    "Titulos": {
+      "es": {
+        "Titulo1": {
+          "Titulo": "Mejores personas",
+          "Subtitulo": "brindan mejores resultados"
+        },
+        "Titulo2": {
+          "Titulo": "Trabaja con nosotros",
+          "Subtitulo": "nuestras vacantes más recientes"
+        }
+      },
+      "en": {
+        "Titulo1": {
+          "Titulo": "Better people",
+          "Subtitulo": "deliver better results"
+        },
+        "Titulo2": {
+          "Titulo": "Work with us",
+          "Subtitulo": "our latest job openings"
+        }
+      }
+    },
+    "HeaderGenerico": {
+      "Common": {
+        "Fondo": "/assets/Lidermania/lidermania-fondo.png",
+        "logo": "/assets/ImagenesGenerales/Logo-Liderman2.svg",
+        "ImagenDelCostado": "/assets/Lidermania/LIDERMANÍA-HEADER_header.png"
+      },
+      "es": {
+        "Titulo": "Lidermanía",
+        "Texto": "Implementamos un conjunto de prácticas y programas diseñados para atender las necesidades de nuestros Lidermans en los aspectos más importantes para ellos y sus familias, promoviendo un ambiente de apoyo, crecimiento y equilibrio personal.",
+        "Boton1": "Nuestra cultura ➔",
+        "Boton2": "Únete"
+      },
+      "en": {
+        "Titulo": "Leadermania",
+        "Texto": "We have implemented a range of practices and programs aimed at meeting the needs of our Lidermans and their families in the areas that matter most, promoting a supportive environment that encourages growth and personal balance.",
+        "Boton1": "Our culture ➔",
+        "Boton2": "Join us"
+      }
+    },
+    "DonaRotativa": {
+      "es": {
+        "Grupo1": {
+          "Titulo": "Ama Trato",
+          "Texto": "El relacionamiento de toda la empresa es horizontal, directo, honesto y con cariño."
+        },
+        "Grupo2": {
+          "Titulo": "Ama Pago",
+          "Texto": "Hemos implementado un sistema de pagos eficiente y transparente, cumpliendo en realizarlos siempre 03 días antes de cada quincena."
+        },
+        "Grupo3": {
+          "Titulo": "Ama Vida",
+          "Texto": "Promovemos una cultura de vida saludable a través de programas, actividades, beneficios y convenios."
+        },
+        "Grupo4": {
+          "Titulo": "Ama Crece",
+          "Texto": "Ponemos a su disposición diversos programas de capacitación que le permita crecer personal y profesionalmente."
+        }
+      },
+      "en": {
+        "Grupo1": {
+          "Titulo": "Love Respect",
+          "Texto": "The company's relationships are horizontal, direct, honest, and caring."
+        },
+        "Grupo2": {
+          "Titulo": "Love Payment",
+          "Texto": "We have implemented an efficient and transparent payment system, always paying 3 days before each mid-month."
+        },
+        "Grupo3": {
+          "Titulo": "Love Life",
+          "Texto": "We promote a healthy lifestyle through programs, activities, benefits, and partnerships."
+        },
+        "Grupo4": {
+          "Titulo": "Love Growth",
+          "Texto": "We offer various training programs that allow you to grow both personally and professionally."
+        }
+      },
+      "contenido": {
+        "Imagen1": "/assets/Lidermania/AMATRATO.png",
+        "Imagen2": "/assets/Lidermania/AMAPAGO.png",
+        "Imagen3": "/assets/Lidermania/AMAVIDA.png",
+        "Imagen4": "/assets/Lidermania/AMACRECE.png"
+      }
+    },
+    "TituloTextoEImagen2": {
+      "Common": {
+        "ImagenDelCostado": "/assets/Lidermania/LIDERMANIA.jpg"
+      },
+      "es": {
+        "Titulo": "Protección del bienestar social",
+        "Subtitulo": "Somos una empresa formal que cumple todos los beneficios sociales de ley para un correcto funcionamiento.",
+        "Subtitulo2": "Con Liderman tienes la seguridad y orientación de cubrir riesgos como un tercero solidario."
+      },
+      "en": {
+        "Titulo": "Protection of social well-being",
+        "Subtitulo": "We are a formal company that complies with all legally mandated social benefits for proper operation.",
+        "Subtitulo2": "With Liderman, you have the security and guidance to cover risks as a solidary third party."
+      }
+
+    },
+    "CarruselDeTrabajos": {
+      "Common":{
+        "IconoDeNoHayTrabajos": "",
+        "LupaDeBusqueda": "/assets/Lidermania/Lupa.svg",
+        "IconoDeUbicacion": "/assets/Lidermania/PuntoUbicacion.svg"
+      }
+    }
+  },
+
+  "PaginaLegal": {
+    "Titulos": {
+      "es": {
+        "Titulo1": {
+          "Titulo": "Te invitamos a revisar cada uno de ellos para conocer ",
+          "Subtitulo": "a detalle nuestras políticas y tus derechos como usuario. "
+        }
+      },
+      "en": {
+        "Titulo1": {
+          "Titulo": "We invite you to review each of them to learn ",
+          "Subtitulo": "in detail about our policies and your rights as a user."
+        }
+      }
+    },
+    "header": {
+      "Contenido": {
+        "logo": "/assets/ImagenesGenerales/Logo-Liderman2.svg",
+        "Fondo": "/assets/Servicio/fondo-servicios.png",
+        "ImagenDelCostado": "/assets/Legal/Header-Liderman.png"
+      },
+      "es": {
+        "Titulo": "Cumplimiento",
+        "Texto": "En Liderman, la integridad y la transparencia son parte de nuestro compromiso contigo.\nAquí encontrarás todos nuestros documentos legales y de cumplimiento, que reflejan nuestra responsabilidad con la protección de tus datos, el uso adecuado de esta página web y el respeto por las normativas que nos regulan."
+      },
+      "en": {
+        "Titulo": "Compliance",
+        "Texto": "At Liderman, integrity and transparency are part of our commitment to you.\nHere you will find all our legal and compliance documents, which reflect our responsibility in protecting your data, the proper use of this website, and our respect for the regulations that govern us."
+      }
+    },
+    "GridDocumentoLegal": {
+      "Secciones": {
+        "en": {
+          "Politicas": "Policies",
+          "Reglamentos": "Regulations",
+          "Procedimientos": "Procedures"
+        },
+        "es": {
+          "Politicas": "Políticas",
+          "Reglamentos": "Reglamentos",
+          "Procedimientos": "Procedimientos"
+        }
+      },
+      "Politicas": [
+        {
+          "es": {
+            "Nombre": "Política Antisoborno Grupo Liderman"
+          },
+          "en": {
+            "Nombre": "Anti-Bribery Policy – Liderman Group"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/Politica-Antisoborno-Grupo-Liderman.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política de Conflicto de Interés"
+          },
+          "en": {
+            "Nombre": "Conflict of Interest Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/Politica-Conflicto-de-Interes-Ver-01-120924.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política de Alcohol y Drogas"
+          },
+          "en": {
+            "Nombre": "Alcohol and Drug Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/Politica-de-Alcohol-y-Drogas.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política de Derechos Humanos"
+          },
+          "en": {
+            "Nombre": "Human Rights Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/Politica-de-Derechos-Humanos.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política de Equidad, Diversidad e Inclusión"
+          },
+          "en": {
+            "Nombre": "Equity, Diversity and Inclusion Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/Politica-de-Equidad-Diversidad-e-Inclusion.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política de Jornada Laboral"
+          },
+          "en": {
+            "Nombre": "Working Hours Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/Politica-de-Jornada-Laboral_Final-1.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política de Negativa al Trabajo Inseguro"
+          },
+          "en": {
+            "Nombre": "Right to Refuse Unsafe Work Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/Politica-de-Negativa-al-Trabajo-Inseguro.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política de Responsabilidad SST"
+          },
+          "en": {
+            "Nombre": "OHS Responsibility Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/Politica-de-Responsabilidad-en-SST-1.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política del Delator"
+          },
+          "en": {
+            "Nombre": "Whistleblower Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/POLITICA-DEL-DELATOR-Ver-01.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política del Sistema de Gestión Integrado de Alarmas"
+          },
+          "en": {
+            "Nombre": "Integrated Alarm Management System Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/POLITICA-DEL-DELATOR-Ver-01.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política de Igualdad Salarial"
+          },
+          "en": {
+            "Nombre": "Equal Pay Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/Politica-Igualdad-Salarial-Final_V2.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política y Procedimiento de Hostigamiento Sexual"
+          },
+          "en": {
+            "Nombre": "Sexual Harassment Policy and Procedure"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/Politica-y-Procedimiento-de-Hostigamiento-Sexual.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política de Protección de Datos Vigente"
+          },
+          "en": {
+            "Nombre": "Current Data Protection Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/Politica_de_Proteccio_n_de_Datos_Vigente.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política de Sostenibilidad"
+          },
+          "en": {
+            "Nombre": "Sustainability Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/politica_de_sostenibilidad-08072024.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política del Sistema de Gestión Integrado"
+          },
+          "en": {
+            "Nombre": "Integrated Management System Policy"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/POLITICA_SGI_Ver_11-Rev_20_12_24_14042024-1.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Política Anticorrupción Liderman"
+          },
+          "en": {
+            "Nombre": "Anti-Corruption Policy – Liderman"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Politicas/Política-Anticorrupcion-Liderman.pdf"
+          }
+        }
+      ],
+      "Reglamentos": [
+        {
+          "es": {
+            "Nombre": "Reglamento Interno de Seguridad y Salud en el Trabajo – Alarmas"
+          },
+          "en": {
+            "Nombre": "Internal Occupational Health and Safety Regulations – Alarms"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Reglamentos/Reglamento-Interno-de-Seguridad-y-Salud-en-el-Trabajo-Alarmas-Ver03-14042025.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Reglamento Interno de Seguridad y Salud en el Trabajo – Resguardos"
+          },
+          "en": {
+            "Nombre": "Internal Occupational Health and Safety Regulations – Guards"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Reglamentos/Reglamento-Interno-de-Seguridad-y-Salud-en-el-Trabajo-JV-RESGUARDO.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Reglamento Interno de Seguridad y Salud en el Trabajo – JV Selva"
+          },
+          "en": {
+            "Nombre": "Internal Occupational Health and Safety Regulations – JV Selva"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Reglamentos/Reglamento-Interno-de-Seguridad-y-Salud-en-el-Trabajo-JV-SELVA.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "RIT Alarmas 2025"
+          },
+          "en": {
+            "Nombre": "Internal Work Regulations – Alarms 2025"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Reglamentos/RIT.-ALARMAS-2025.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "RIT JV Resguardos 2025"
+          },
+          "en": {
+            "Nombre": "RIT – JV Security Staff 2025"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Reglamentos/RIT.-JV-RESGUARDO-2025.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "RIT Liderman Servicios 2025"
+          },
+          "en": {
+            "Nombre": "RIT – Liderman Services 2025"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Reglamentos/RIT.-LIDERMAN-SERVICIOS-2025.pdf"
+          }
+        }
+      ],
+      "Procedimientos": [
+        {
+          "es": {
+            "Nombre": "Manual del Sistema de Gestión Integrado"
+          },
+          "en": {
+            "Nombre": "Integrated Management System Manual"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Procedimientos/AL-SGI-M-001-Manual-del-Sistema-de-Gestion-Integrado-Ver-22-2.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Código de Conducta y Buen Comportamiento"
+          },
+          "en": {
+            "Nombre": "Code of Conduct and Good Behavior"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf": "/assets/Legal/Documentos/Procedimientos/Codigo_de_conducta_y_Buen_Comportamiento_Ver02.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Declaración de Conformidad"
+          },
+          "en": {
+            "Nombre": "Declaration of Conformity"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Procedimientos/DECLARACION-DE-CONFORMIDAD-Ver-01.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Procedimiento de Prevención de Recepción de Regalos"
+          },
+          "en": {
+            "Nombre": "Procedure for the Prevention of Gift Acceptance"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Procedimientos/JV-GD-P-085-Procedimiento-de-Prevencion-de-Recepcion-Regalos-Ver01.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Procedimiento de Atención a Reclamos, Sugerencias y Reportes"
+          },
+          "en": {
+            "Nombre": "Procedure for Handling Complaints, Suggestions, and Reports"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Procedimientos/JV-SGI-P-050-Procedimiento-de-Atencion-a-Reclamos-Sugerencias-y-Reportes-Ver-09.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Procedimiento de Denuncias por Actos o Sospechas de Soborno"
+          },
+          "en": {
+            "Nombre": "Procedure for Reporting Acts or Suspicions of Bribery"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Procedimientos/JV-SGI-P-091-Procedimiento-de-Denuncias-por-Actos-o-Sospechas-de-Soborno-Ver01.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Manual del Sistema de Gestión Integrado JV Resguardo"
+          },
+          "en": {
+            "Nombre": "Integrated Management System Manual – JV Security"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Procedimientos/Manual-del-Sistema-de-Gestion-Integrado-JV-RESGUARDO-120824.pdf"
+          }
+        },
+        {
+          "es": {
+            "Nombre": "Objetivos SGI"
+          },
+          "en": {
+            "Nombre": "SGI Objectives"
+          },
+          "Common": {
+            "Imagen": "/assets/Legal/Google_Docs_2020_Logo.svg.png",
+            "Pdf":"/assets/Legal/Documentos/Procedimientos/Objetivos-SGI-2024.pdf"
+          }
+        }
+      ]
+    }
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

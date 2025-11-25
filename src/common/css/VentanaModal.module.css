@@ -1,0 +1,83 @@
+/* Overlay para cubrir toda la pantalla */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro translúcido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer; /* Hace que el cursor cambie a 'pointer' al estar sobre el fondo */
+}
+
+/* Panel centrado en la pantalla */
+.modal {
+    background-color: #fff; /* Fondo blanco */
+    width: 80%;
+    height: 80%; /* Altura fija para el modal */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;  /* Organiza el modal de arriba hacia abajo */
+    position: relative;
+    z-index: 1001;
+    cursor: default;
+    overflow: hidden;
+    border-radius: 20px; /* Bordes redondeados */
+}
+
+/* Header del modal */
+.modalHeader {
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Texto blanco */
+    padding: 15px;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 10%; /* Altura fija para el header */
+}
+
+/* Título del header */
+.modalTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Cuerpo del modal */
+.modalBody {
+    padding: 20px;
+    background-color: #979746; /* Fondo gris claro */
+    color: #333; /* Texto oscuro para legibilidad */
+    flex-grow: 1; /* El cuerpo se expandirá para llenar el espacio disponible */
+    overflow: auto; /* Barra de desplazamiento si el contenido es demasiado grande */
+}
+
+/* Footer del modal */
+.modalFooter {
+    background-color: #cc6969; /* Fondo gris más oscuro */
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 20%; /* Altura fija para el footer */
+    position: relative;
+}
+
+/* Estilo para el botón de cerrar */
+.closeButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    top:10px;
+    position: absolute
+}
+
+.closeButton:hover {
+    background-color: #0056b3; /* Azul más oscuro cuando se pasa el cursor */
+}

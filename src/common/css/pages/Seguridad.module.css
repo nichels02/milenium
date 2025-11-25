@@ -1,0 +1,8 @@
+.GridGenerico{
+    margin-top: clamp(0px, 4.6875vw, 90px);
+    margin-bottom: clamp(0px, 9.375vw, 180px);
+}
+.CardBarajeable{
+    margin-top: clamp(0px, 6.25vw, 120px);
+    margin-bottom: clamp(0px, 8.854vw, 170px);
+}

@@ -1,0 +1,67 @@
+.contenedor {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    position: relative; /* Posiciona el contenedor de manera relativa */
+    width: 85vw; /* Ancho del contenedor */
+    text-align: left; /* Alineación del texto a la izquierda */
+    left: 7.5vw; /* Ajuste de posición horizontal */
+}
+
+.titulo {
+
+    font-size: calc(24px + (((clamp(320px, 100vw, 1920px) - 320px) / 1600) * 32)); /* Tamaño de fuente adaptable */
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--color-rojo-general);
+}
+
+.subtitulo {
+    margin: 0 !important;
+    font-weight: normal !important;
+    font-size: calc(18px + (((clamp(320px, 100vw, 1920px) - 320px) / 1600) * 22)) !important;
+    color: var(--color-general-gris-cambio);
+
+    /*!important;*/
+}
+.textoEspecial{
+    font-weight: normal;
+    font-size: clamp(18px, 2.8vw, 40px);
+    color: var(--color-texto-blanco);
+}
+.FondoEsBlanco{
+    color: var(--color-general-gris);
+}
+
+@media (max-width: 1250px)
+and (min-width: 927px)
+{
+    .TituloLegal{
+        font-size:
+                calc(24px + (((clamp(320px, 100vw, 1920px) - 320px) / 1600) * 20));
+    }
+
+}
+
+@media (max-width: 926px) {
+    .TituloLegal{
+        font-size:
+                calc(24px + (((clamp(320px, 100vw, 926px) - 320px) / 606) * 25));
+    }
+    .SubtituloLegal{
+        font-size: calc(18px + (((clamp(320px, 100vw, 926px) - 320px) / 606) * 22)) !important;
+    }
+
+}
+@media (max-width: 412px) {
+    .TituloLegal{
+        font-size:
+                calc(17.6px + (((clamp(320px, 100vw, 412px) - 320px) / 92) * 10));
+    }
+    .SubtituloLegal{
+        font-size: calc(16px + (((clamp(320px, 100vw, 412px) - 320px) / 92) * 10)) !important;
+    }
+}
+
+/*.contenedorLegal{*/
+/*    width: 60vw;*/
+/*}*/

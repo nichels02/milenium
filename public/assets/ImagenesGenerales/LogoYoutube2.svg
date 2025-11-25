@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 102.04 102.04">
+  <defs>
+    <!-- Máscara de recorte: el icono será transparente -->
+    <mask id="mascara-icono">
+      <rect width="100%" height="100%" fill="white"/> <!-- Área visible -->
+      <path fill="black" d="M67.56,30.56h-33.08c-5.97,0-10.82,4.84-10.82,10.82v19.3c0,5.97,4.84,10.82,10.82,10.82h33.08c5.97,0,10.82-4.84,10.82-10.82v-19.3c0-5.97-4.84-10.82-10.82-10.82ZM46.21,58.98v-15.92l13.78,7.96-13.78,7.96Z"/> <!-- Área recortada -->
+    </mask>
+  </defs>
+
+  <!-- Fondo gris con máscara aplicada -->
+  <rect width="102.04" height="102.04" rx="11.93" ry="11.93" fill="#494949" mask="url(#mascara-icono)"/>
+</svg>

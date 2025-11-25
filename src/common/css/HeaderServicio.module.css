@@ -1,0 +1,224 @@
+.header {
+    position: relative;
+    width: 100vw;
+    height: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.headerImageContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.headerImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.container {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    flex-direction: row; /* Aseguramos que en pantallas grandes siga siendo horizontal */
+}
+
+.left {
+    position: relative;
+    top: 100px;
+    left: calc((clamp(1300px, 100vw,1920px) - 1300px)*161/620);
+    /*161*/
+    width: 60%;
+    height: 25vw;
+    color: white;
+}
+
+.contenedorFondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-size: 100% 100%;       /* Deforma verticalmente */
+    background-repeat: no-repeat;   /* Evita que se repita */
+    background-position: center;    /* Lo centra */
+    z-index: 2;
+    pointer-events: none;
+    border-radius: inherit;
+}
+
+.title{
+    position: relative;
+    z-index: 3;
+    font-size: clamp(10px, 6.5vw, 150px);
+    font-weight: bold;
+    margin: 0;
+    /*5 30*/
+    padding-bottom: clamp(5px, calc(5px + (100vw - 320px)/(1920px - 320px) * (25)) ,30px);
+}
+
+
+.text{
+    position: relative;
+    z-index: 3;
+    margin-top: 20px;
+    color: #ffffff;
+    width: 90%;
+    height: auto;
+}
+.text p{
+    margin-top: 0;
+    font-size: clamp(16px, 1.8vw, 28px);
+    margin-bottom: clamp( 10px, 1.5625vw, 30px);
+}
+.left.EsTrue{
+    top: auto;
+    bottom: auto;
+    margin: 0 auto;
+    left: calc(((clamp(1300px, 100vw,1920px) - 1300px)*161/620) - 50px);
+}
+
+.right {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+    /*background: #0a4d8c;*/
+}
+/*@media (max-width: 1024px) {*/
+/*    .title{*/
+/*        position: absolute;*/
+/*        z-index: 3;*/
+/*        font-size: clamp(10px, 6.5vw, 150px);*/
+/*        font-weight: bold;*/
+/*        padding-bottom: 30px;*/
+/*        top:2%;*/
+/*    }*/
+/*    .text{*/
+/*        position: absolute;*/
+/*        z-index: 3;*/
+/*        font-size: clamp(10px, 1.8vw, 70px);*/
+/*        color: #ffffff;*/
+/*        padding-bottom: 30px;*/
+/*        bottom: 8%;*/
+/*    }*/
+/*}*/
+
+@media (max-width: 1680px) {
+    .right {
+        width: 50%;
+    }
+}
+@media (max-width: 1500px) {
+    .text p{
+        font-size: clamp(16px, 1.8vw, 28px);
+    }
+    .left.EsTrue{
+        left: calc(((clamp(1300px, 100vw,1920px) - 1300px)*161/620) );
+    }
+}
+@media (max-width: 1300px) {
+    .right {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Cambios para vista vertical */
+    .header{
+        height: 100vw;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;     /* O center si querés centrarlos */
+        text-align: center;       /* Si querés centrar el texto */
+    }
+    .left{
+        height: auto;
+        width: 70%;
+        top:0;
+    }
+    .left{
+        top: auto;
+    }
+    .text{
+        width: 100%;
+    }
+
+}
+@media (max-width: 600px){
+    .text{
+        z-index: 3;
+        font-size: clamp(10px, 1.8vw, 70px);
+        color: #ffffff;
+        padding-bottom: 0;
+    }
+    .header.EsTrue{
+        height: 120vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .header.EsTrue{
+        height: 145vw;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .header.EsTrue{
+        height: 140vw;
+    }
+    .container.EsTrue{
+        margin-top: 50px;
+    }
+}
+@media (max-width: 405px) {
+    .header.EsTrue{
+        height: 160vw;
+    }
+    .container.EsTrue{
+    }
+}
+@media (max-width: 390px) {
+    .container{
+        margin-top: 10%;
+    }
+    .right {
+        width: 50%;
+    }
+    .header{
+        height: 130vw;
+    }
+    .header.EsTrue{
+        height: 160vw;
+    }
+}
+@media (max-width: 370px) {
+    .header.EsTrue{
+        height: 180vw;
+    }
+}
+@media (max-width: 350px) {
+    .header.EsTrue{
+        height: 200vw;
+    }
+}

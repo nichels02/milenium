@@ -1,0 +1,188 @@
+
+
+/* Estilos para el contenedor padre */
+.parentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Usamos viewport width para asegurar el ancho completo */
+    min-height: auto;
+    padding: 20px;
+    margin:  2% 0;
+    overflow-x: hidden; /* Esto es clave para prevenir scroll horizontal */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    width: 100%;
+    max-width: min(85vw, 1600px); /* Usamos min() para un límite máximo absoluto */
+    height: auto;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Contenedores hijos */
+.textContainer, .imageContainer {
+    width: 100%;
+    max-width: 100%;
+    flex: 1 1 45%; /* Ajustamos para dejar espacio al gap */
+    min-width: min-content; /* Previene que se hagan demasiado pequeños */
+}
+
+/* Contenedor del texto */
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right:40px;
+}
+
+/* Estilos del título */
+.title {
+    font-size: clamp(20px, 3vw, 60px);
+    font-weight: bold;
+    color: var(--color-texto-negro-cambio);
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    width: 60%;
+}
+
+/* Estilo diferente para una parte del título */
+.highlight {
+    color: var(--color-rojo-general);
+    font-size: clamp(22px, 3.3vw, 60px);
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Estilos del texto */
+.text {
+    font-size: clamp(12px, 1.5vw, 30px);
+    color: var(--color-texto-negro-cambio);
+    line-height: 1.5;
+}
+
+/* Contenedor de la imagen */
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+/* Estilos de la imagen */
+.image {
+    max-width: 120%;
+    height: auto;
+    border-radius: 10px;
+    display: block; /* Elimina espacio fantasma debajo de la imagen */
+}
+
+
+
+/* Media Queries */
+@media (max-width: 910px) {
+    .title {
+        width: 70%;
+    }
+}
+@media (max-width: 800px) {
+
+    .title {
+        width: 100%;
+    }
+    .container {
+        max-width: 95vw;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0 15px;
+    }
+
+    .title {
+        font-size: clamp(18px, 5vw, 50px);
+    }
+
+    .highlight {
+        font-size: clamp(20px, 5vw, 50px);
+    }
+
+    .text {
+        font-size: clamp(14px, 3vw, 40px);
+    }
+
+    .textContainer, .imageContainer {
+        flex: 1 1 100%;
+        padding: 0;
+    }
+    .textContainer {
+        padding: 0 15px;
+    }
+    .image {
+        max-width: 80%;
+        height: auto;
+        border-radius: 10px;
+        display: block; /* Elimina espacio fantasma debajo de la imagen */
+    }
+}
+
+@media (max-width: 550px) {
+    .title {
+        width: 70%;
+        text-align: center;
+        margin: auto auto;
+    }
+    .parentContainer {
+        padding: 15px;
+    }
+
+    .container {
+        gap: 0.75rem;
+    }
+
+    .title {
+        font-size: clamp(16px, 6vw, 40px);
+    }
+
+    .highlight {
+        font-size: clamp(18px, 6vw, 40px);
+    }
+
+    .text {
+        font-size: clamp(12px, 4vw, 30px);
+    }
+}
+
+@media (max-width: 350px) {
+    .parentContainer {
+        padding: 10px;
+    }
+
+    .container {
+        gap: 0.5rem;
+    }
+
+    .title {
+        font-size: clamp(14px, 5.5vw, 30px);
+    }
+
+    .highlight {
+        font-size: clamp(16px, 5.5vw, 30px);
+    }
+
+    .text {
+        font-size: clamp(10px, 3.5vw, 25px);
+    }
+}
+
+
+/* Reset básico para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

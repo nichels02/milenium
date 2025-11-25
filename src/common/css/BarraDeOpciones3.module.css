@@ -1,0 +1,155 @@
+/* ---- Estilos de la barra de navegación ---- */
+.barra {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-fondo);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* IE y Edge antiguos */
+}
+.mi-contenedor::-webkit-scrollbar {
+    display: none;              /* Chrome, Safari y Opera */
+}
+
+/* Mostrar la barra cuando se active */
+.barra.visible {
+    transform: translateY(0);
+}
+
+/* ---- Botón para abrir la barra ---- */
+.toggleButton {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    background-color: var(--colorUI);
+    border: 2px solid var(--color-texto-negro-cambio2);
+    color: var(--color-texto-negro-cambio2);
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+/* ---- Estilos generales de los botones ---- */
+.boton {
+    background: none;
+    border: none;
+    color: var(--color-texto-negro-cambio);
+    font-size: 16px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+/* ---- Dropdown (Menú desplegable) ---- */
+.dropdown {
+    position: relative;
+}
+
+.dropdown .boton {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Icono del dropdown */
+.dropdownSymbol {
+    transition: transform 0.3s ease;
+}
+
+.dropdown.open .dropdownSymbol {
+    transform: rotate(180deg);
+}
+
+/* ---- Panel del dropdown ---- */
+.panel {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--colorUI);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    z-index: 10;
+}
+
+/* Ocultar panel cuando no está activo */
+.panel.hidden {
+    display: none;
+}
+
+/* Botones dentro del panel */
+.panel .boton {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
+
+
+/* ---- Icono del mundo para idioma ---- */
+.globeIcon {
+    fill: none;
+    stroke-width: 2;
+}
+
+/* Contenedor del idioma */
+.dropdownContainer {
+    position: relative;
+}
+
+.dropdownContainer .panel {
+    right: 0;
+    left: auto;
+}
+
+/* ---- Resaltado especial para "Únete" ---- */
+.highlight {
+    font-weight: bold;
+    color: var(--color-rojo-general-cambio);
+}
+
+
+/* ---- Responsive para móviles ---- */
+@media (max-width: 1000px) {
+    .barra {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggleButton {
+        font-size: 24px;
+        padding: 12px;
+    }
+
+    .dropdown, .dropdownContainer {
+        width: 100%;
+    }
+
+    .panel {
+        position: static;
+        width: 100%;
+    }
+
+    .panel .boton {
+        text-align: center;
+    }
+}

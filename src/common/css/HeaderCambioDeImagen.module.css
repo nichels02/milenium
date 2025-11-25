@@ -1,0 +1,193 @@
+/* Contenedor principal */
+.contenedorPadre {
+    width: 100vw;
+    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.backgroundOverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.5); /* oscurece solo la imagen */
+    z-index: 0;
+}
+
+/* Contenedor del texto + imagen (igualado al .content original) */
+.contenedorContenido {
+    position: relative;
+    top: clamp(30px, 5vh, 70px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: clamp(300px, 90%, 1200px);
+    height: 80%;
+    margin: auto;
+    overflow: visible;
+    z-index: 1;
+}
+
+/* Contenedor del texto (igualado a .textContainer) */
+.contenedorTexto {
+    color: white;
+    text-align: left;
+    max-width: 40%;
+    position: relative;
+    z-index: 2;
+}
+
+.titulo {
+    font-size: clamp(32px, 5vw, 80px);
+    margin-bottom: clamp(15px, 3vh, 30px);
+    line-height: 1.2;
+}
+
+.texto {
+    font-size: clamp(16px, 1.5vw, 28px);
+    line-height: 1.5;
+}
+
+/* Contenedor de la imagen principal (igualado a .imageContainer) */
+.contenedorImagen {
+    width: clamp(300px, 60%, 800px);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transform: translateY(clamp(-20px, -5%, -50px));
+    margin-right: clamp(-50px, -15%, -150px);
+    overflow: visible;
+}
+
+.imagenPrincipal {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: clamp(5px, 1vw, 10px);
+    margin-left: clamp(-30px, -10%, -100px);
+}
+
+/* Contenedor de botones (igualado a .carouselContainer) */
+.contenedorBotones {
+    width: clamp(300px, 90%, 1200px);
+    height: auto;
+    margin: auto;
+    margin-bottom: clamp(10px, 2vh, 20px);
+    border-radius: clamp(15px, 2vw, 25px);
+    padding: clamp(15px, 3%, 30px) clamp(30px, 5%, 60px);
+    position: relative;
+    margin-top: clamp(-30px, -5vh, -50px);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    gap: clamp(10px, 2vw, 20px);
+}
+
+/* Botones (igualado a .carouselButton) */
+.boton {
+    background-color: var(--color-rojo-general);
+    color: var(--color-texto-blanco)!important;
+    border: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: clamp(5px, 1vh, 10px) clamp(10px, 2vw, 20px);
+    font-size: clamp(16px, 1.3vw, 25px);
+    cursor: pointer;
+    transition: 0.3s;
+    width: clamp(100px, 18vw, 250px);
+    height: clamp(80px, 10vw, 130px);
+    border-radius: clamp(5px, 1vw, 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.boton:hover {
+    background-color: var(--color-rojo-generalOscuro);
+    transform: none; /* Eliminamos el scale para mantener consistencia */
+}
+.boton.active :hover{
+    background-color: var(--color-rojo-generalOscuro);
+    color: white;
+}
+.boton.active{
+    background-color: var(--color-rojo-generalOscuro);
+}
+/* 📌 Responsivo (actualizado) */
+
+@media (max-width: 1500px) {
+    .texto{
+        font-size: clamp(16px, 1.8vw, 28px);
+    }
+}
+@media (max-width: 1024px) {
+    .contenedorContenido {
+        flex-direction: column;
+        width: 95%;
+        top: clamp(20px, 3vh, 50px);
+    }
+
+    .contenedorTexto {
+        max-width: 80%;
+        text-align: center;
+        margin-bottom: 0;
+
+    }
+
+    .contenedorImagen {
+        width: 100%;
+        margin-right: 0;
+        transform: translateY(0);
+    }
+
+    .imagenPrincipal {
+        margin-left: 0;
+    }
+    .contenedorPadre {
+        height: auto;
+        min-height: 80vw;
+        padding: 10% 5%;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .boton {
+        width: clamp(120px, 30vw, 150px);
+        height: clamp(60px, 15vw, 80px);
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: clamp(24px, 8vw, 32px);
+    }
+
+    /*.texto {*/
+    /*    font-size: clamp(12px, 3vw, 14px);*/
+    /*}*/
+
+    .contenedorBotones {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 450px) {
+    .boton{
+        width: clamp(140px, 30vw, 150px);
+    }
+}
