@@ -1,0 +1,57 @@
+.contenedorPrincipal{
+    height: 600px;
+    width: 100vw;
+
+}
+.ContenedorPadre{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContenedorImagen{
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+}
+.video{
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+}
+.Imagen{
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+.ContenedorImagen{
+
+}
+
+@media (max-width: 1250px) {
+    .contenedorPrincipal{
+        height: 400px;
+
+    }
+}
+@media (max-width: 850px) {
+    .contenedorPrincipal{
+        height: 300px;
+
+    }
+}
+@media (max-width: 500px) {
+    .contenedorPrincipal{
+        height: 180px;
+
+    }
+}
+@media (max-width: 380px) {
+    .contenedorPrincipal{
+        height: 150px;
+
+    }
+}

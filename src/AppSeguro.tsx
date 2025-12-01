@@ -19,8 +19,8 @@ import BarraDeOpciones from './common/Componentes/BarraDeOpciones.tsx';
 import BarraDeOpciones2 from './common/Componentes/BarraDeOpciones2.tsx';
 import BarraDeOpciones3 from './common/Componentes/BarraDeOpciones3.tsx';
 import BarraDeOpcionesRedes from './common/Componentes/BarraDeOpcionesRedes.tsx';
-import FormularioDeContacto2 from "./common/Componentes/FormularioDeContacto2.tsx";
-import Footer from './common/Componentes/Footer.tsx';
+// import FormularioDeContacto2 from "./common/Componentes/FormularioDeContacto2.tsx";
+// import Footer from './common/Componentes/Footer.tsx';
 
 function ContenidoPrincipal() {
     const location = useLocation();
@@ -85,8 +85,8 @@ function ContenidoPrincipal() {
             {/* Mostrar estos componentes solo si la página terminó de cargar */}
             {isPageLoaded && (
                 <>
-                    <FormularioDeContacto2 />
-                    <Footer />
+                    {/*<FormularioDeContacto2 />*/}
+                    {/*<Footer />*/}
                 </>
             )}
         </>

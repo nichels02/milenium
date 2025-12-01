@@ -3,16 +3,16 @@
     "Titulos": {
       "es": {
         "Titulo1": {
-          "Titulo": "Soluciones",
-          "Subtitulo": "para tu tranquilidad"
+          "Titulo": "¿Qué nos diferencia?",
+          "Subtitulo": ""
         },
         "Titulo2": {
-          "Titulo": "Certificaciones",
-          "Subtitulo": "obtenidas"
+          "Titulo": "Video institucional",
+          "Subtitulo": ""
         },
         "Titulo3": {
-          "Titulo": "Presencia",
-          "Subtitulo": "en todos los sectores"
+          "Titulo": "Noticias",
+          "Subtitulo": ""
         },
         "Titulo4": {
           "Titulo": "Lidermanía",
@@ -52,23 +52,105 @@
         "Numero_years": "35",
         "Numero_clientes": "2,100"
       },
-      "es": {
-        "titulo": "Valemos tanto",
-        "subtitulo": "como lo que cuidamos",
-        "descripcion1": "Descubre nuestra expertise en la gestión de las personas, para hacer tu vida más segura y confiable.",
-        "botonPrimario": "Soluciones ➔",
-        "botonSecundario": "Únete",
-        "trabajadores": "Trabajadores a nivel global",
-        "years": "Años de liderazgo en el mercado",
-        "clientes": "Clientes satisfechos",
-        "Numero_trabajadores": "+25,000",
-        "Numero_years": "35",
-        "Numero_clientes": "2,100"
-      },
+      "es": [
+        {
+          "titulo": "Visión de **Águila** proyección sin límite",
+          "descripcion1": "Somos su aliado estratégico en seguridad integral. Hace más de 25 años ofrecemos soluciones de seguridad física y tecnológica de alto nivel, impulsadas por un equipo altamente calificado y responsable.",
+          "botonPrimario": "Contáctanos",
+          "botonSecundario": "Únete",
+          "trabajadores": "Trabajadores a nivel global",
+          "years": "Años de liderazgo en el mercado",
+          "clientes": "Clientes satisfechos",
+          "Numero_trabajadores": "+25,000",
+          "Numero_years": "35",
+          "Numero_clientes": "2,100"
+        },
+        {
+          "titulo": "Servicios de Seguridad",
+          "descripcion1": "Vigilancia física, escoltas, protección personal, seguridad aeroportuaria y portuaria, inspectores patrimoniales y personal entrenado en defensa, control táctico y protocolos internacionales.",
+          "botonPrimario": "Contáctanos",
+          "botonSecundario": "Únete",
+          "trabajadores": "Trabajadores a nivel global",
+          "years": "Años de liderazgo en el mercado",
+          "clientes": "Clientes satisfechos",
+          "Numero_trabajadores": "+25,000",
+          "Numero_years": "35",
+          "Numero_clientes": "2,100"
+        },
+        {
+          "titulo": "Soluciones Integrales",
+          "descripcion1": "Tecnología para una protección total: CCTV, control de accesos, alarmas anti intrusión, monitoreo GPS, rondas inteligentes y plataformas de seguimiento para respuesta inmediata.",
+          "botonPrimario": "Contáctanos",
+          "botonSecundario": "Únete",
+          "trabajadores": "Trabajadores a nivel global",
+          "years": "Años de liderazgo en el mercado",
+          "clientes": "Clientes satisfechos",
+          "Numero_trabajadores": "+25,000",
+          "Numero_years": "35",
+          "Numero_clientes": "2,100"
+        },
+        {
+          "titulo": "Cleanium Service",
+          "descripcion1": "Servicios de aseo profesional, fumigación, control de plagas y mantenimiento de jardinería que aseguran espacios limpios, seguros y operativos.",
+          "botonPrimario": "Contáctanos",
+          "botonSecundario": "Únete",
+          "trabajadores": "Trabajadores a nivel global",
+          "years": "Años de liderazgo en el mercado",
+          "clientes": "Clientes satisfechos",
+          "Numero_trabajadores": "+25,000",
+          "Numero_years": "35",
+          "Numero_clientes": "2,100"
+        }
+      ],
       "contenido": {
         "logo": "/assets/ImagenesGenerales/Logo-Liderman2.svg",
-        "imagen_De_Fondo": "/assets/Inicio/PORTADA.jpg"
+        "imagen_De_Fondo": "/assets/MileniumHome/fondo-header.png",
+        "imagenes": [
+          "/assets/MileniumHome/foto_1_header.png",
+          "/assets/MileniumHome/foto_2_header.png",
+          "/assets/MileniumHome/foto_3_header.png",
+          "/assets/MileniumHome/foto_4_header.png"
+
+        ]
       }
+    },
+    "BarraPrincipalMilenium":{
+      "Botones": [
+        {
+          "Texto": "Servicios de Seguridad",
+          "link": ""
+        },
+        {
+          "Texto": "Soluciones integrales",
+          "link": ""
+        },
+        {
+          "Texto": "Cleanium Service",
+          "link": ""
+        },
+        {
+          "Texto": "Contacto",
+          "link": ""
+        },
+        {
+          "Texto": "Trabaja con nosotros",
+          "link": ""
+        }
+      ],
+      "Banderas": [
+        {
+          "Imagen": "/assets/MileniumHome/BANDERA PANAMA.svg",
+          "link": ""
+        },
+        {
+          "Imagen": "/assets/MileniumHome/BANDERA GUATEMALA.svg",
+          "link": ""
+        },
+        {
+          "Imagen": "/assets/MileniumHome/BANDERA COSTARICA.svg",
+          "link": ""
+        }
+      ]
     },
     "BarraDeOpciones": {
       "es": {
@@ -242,37 +324,161 @@
       "common": {
         "items": [
           {
-            "src": "/assets/Inicio/imagen-AUTORIDAD-PORTUARIA-NACIONAL.jpg",
-            "alt": "1"
+            "src": "/assets/MileniumHome/Nueva carpeta/ISO 9007.png",
+            "alt": "1",
+            "Nombre": "ISO 9007:2015 RECERTIFICADO PARA PERIODO 2025 - 2028",
+            "EsDoble": true
           },
           {
-            "src": "/assets/Inicio/iso9001_.jpg",
-            "alt": "2"
+            "src": "/assets/MileniumHome/Nueva carpeta/ISO-18788.png",
+            "alt": "2",
+            "Nombre": "ISO-18788 PARA PERIODO 2025 - 2028",
+            "EsDoble": true
           },
           {
-            "src": "/assets/Inicio/iso14001.jpg",
-            "alt": "3"
+            "src": "/assets/MileniumHome/Nueva carpeta/MINISTERIO_DE_SEGURIDAD_PÚBLICA.png",
+            "alt": "3",
+            "Nombre": "MINISTERIO DE SEGURIDAD PÚBLICA",
+            "EsDoble": false
           },
           {
-            "src": "/assets/Inicio/ISO-18788.jpg",
-            "alt": "4"
+            "src": "/assets/MileniumHome/Nueva carpeta/AERONÁUTICA_MARÍTIMA_DE_PANAMÁ.png",
+            "alt": "4",
+            "Nombre": "AERONÁUTICA MARÍTIMA DE PANAMÁ",
+            "EsDoble": false
           },
           {
-            "src": "/assets/Inicio/ISO-37001.jpg",
-            "alt": "5"
+            "src": "/assets/MileniumHome/Nueva carpeta/AERONÁUTICA_CIVIL_DE_PANAMÁ.png",
+            "alt": "5",
+            "Nombre": "AERONÁUTICA CIVIL DE PANAMÁ",
+            "EsDoble": false
           },
           {
-            "src": "/assets/Inicio/logo-basc-peru.jpg",
-            "alt": "6"
-          },
-          {
-            "src": "/assets/Inicio/logo_DGAC.jpg",
-            "alt": "7"
-          },
-          {
-            "src": "/assets/Inicio/SGS-ISO-45001.jpg",
-            "alt": "8"
+            "src": "/assets/MileniumHome/Nueva carpeta/Certificacion-6.png",
+            "alt": "6",
+            "Nombre": "CÁMARA DE COMERCIO, INDUSTRIA Y AGRICULTURA",
+            "EsDoble": false
           }
+        ]
+      }
+    },
+    "MarqueeClientes": {
+      "common": {
+        "items": [
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_1.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_2.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_3.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_4.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_5.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },{
+            "src": "/assets/MileniumHome/LOGOS/logo_6.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },{
+            "src": "/assets/MileniumHome/LOGOS/logo_7.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_8.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_9.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_10.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_11.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_12.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_13.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_14.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_15.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_16.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_17.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_18.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          },
+          {
+            "src": "/assets/MileniumHome/LOGOS/logo_19.png",
+            "alt": "1",
+            "Nombre": "",
+            "EsDoble": true
+          }
+
+
         ]
       }
     },
@@ -406,8 +612,7 @@
         "BotonesYDesplegable": {
           "Peru": "Perú",
           "Usa": "Estados Unidos",
-          "Chile": "Chile",
-          "Ecuador": "Ecuador"
+          "Chile": "Chile"
         },
         "TituloPrincipal": "Líderes",
         "SubtituloPrincipal": "a nivel regional",
@@ -571,6 +776,16 @@
         "ImagenContenedorInferior": "/assets/Inicio/Recurso 24_nuevo.svg"
       }
     },
+    "FooterMilenium": {
+      "logoSmall": "/assets/MileniumHome/Logo-Millenium-blanco.png",
+      "titulo": "Millenium Security Service, S.A.",
+      "IconoUbicacion": "/assets/MileniumHome/Nueva carpeta (2)/UBICACION.svg",
+      "descripcion": "Ave. La Paz, Bethania, Locales 1,2,3 Panamá, Panamá +507 261-5011",
+      "iconoTelefono": "/assets/MileniumHome/Nueva carpeta (2)/telephone-fill.svg",
+      "telefono": "+507 261-5011",
+      "iconoCorreo": "/assets/MileniumHome/Nueva carpeta (2)/envelope.svg",
+      "correo": "contacto@milleniumpanama.com"
+    },
     "ValidadorFormulario": {
       "es": {
         "NombreVacio": "El nombre no puede estar vacío",
@@ -603,6 +818,69 @@
       }
 
     },
+
+
+    "VideoInstitucional": {
+      "Common": {
+        "Imagen": "/assets/MileniumHome/video-institucional.png",
+        "video": "/assets/MileniumHome/10-23 MILLENIUM_Institucional_v5.mp4"
+      }
+    },
+    "GridCartasExpandibles": [
+      {
+        "Imagen": "/assets/MileniumHome/AtencionPersonalizada.jpg",
+        "Titulo": "Atención personalizada"
+      },
+      {
+        "Imagen": "/assets/MileniumHome/NuestraGente.jpg",
+        "Titulo": "Nuestra gente"
+      },
+      {
+        "Imagen": "/assets/MileniumHome/NuestrosCertificados.jpg",
+        "Titulo": "Nuestras certificaciones"
+      },
+      {
+        "Imagen": "/assets/MileniumHome/NuestrosClientes.jpg",
+        "Titulo": "Nuestros clientes"
+      }
+    ],
+    "CarruselNoticias": {
+      "Cartas": [
+        {
+          "imagen": "/assets/MileniumHome/foto-noticia-1.png",
+          "Titulo": "Millenium Security:",
+          "Texto": "Premiando la Excelencia en Seguridad"
+        },
+        {
+          "imagen": "/assets/MileniumHome/foto-noticia-2.png",
+          "Titulo": "Millenium Security Service",
+          "Texto": "Se une como patrocinador clave de la Escuela Bilingüe República de Italia en el Programa Líder"
+        },
+        {
+          "imagen": "public/assets/MileniumHome/foto-noticia-3.png",
+          "Titulo": "Millenium Security Service",
+          "Texto": "Apuesta por la sostenibilidad: Instala paneles solares en sus oficinas y Centro de Monitoreo"
+        },
+        {
+          "imagen": "/assets/MileniumHome/foto-noticia-1.png",
+          "Titulo": "Millenium Security:",
+          "Texto": "Premiando la Excelencia en Seguridad"
+        },
+        {
+          "imagen": "/assets/MileniumHome/foto-noticia-2.png",
+          "Titulo": "Millenium Security Service",
+          "Texto": "Se une como patrocinador clave de la Escuela Bilingüe República de Italia en el Programa Líder"
+        },
+        {
+          "imagen": "public/assets/MileniumHome/foto-noticia-3.png",
+          "Titulo": "Millenium Security Service",
+          "Texto": "Apuesta por la sostenibilidad: Instala paneles solares en sus oficinas y Centro de Monitoreo"
+        }
+
+      ]
+    },
+
+
     "Footer": {
       "Common": {
         "LidermanLogoDark": "/assets/ImagenesGenerales/Logo-Liderman.svg",

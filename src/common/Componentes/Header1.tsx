@@ -1,45 +1,111 @@
 import { useContent } from "./Sistemas/useContent";
-import { useLanguage } from "./Sistemas/LanguageContext";
+// import { useLanguage } from "./Sistemas/LanguageContext";
+import { useState, useEffect } from "react";
 import styles from "../css/Header1.module.css";
-import ScrollLink from "./Sistemas/ScrollLink.tsx";
-import LazyImage from './Sistemas/LazyImage.tsx';
+import LazyImage from "./Sistemas/LazyImage";
 
 function Header1() {
-    const { language } = useLanguage();
     const content = useContent();
 
-    // ✅ Verifica que `content` y `content.home` existan antes de acceder
-    if (!content || !content.home) return <p>Cargando...</p>;
+    const textos = content?.home?.Header?.es;
+    const imagenesContenido = content?.home?.Header?.contenido;
+    const imagenesArray = imagenesContenido?.imagenes ?? [];
+    const totalImagenes = imagenesArray.length;
 
-    const textos = content.home.Header[language]; // ✅ Seguridad de tipos
-    const imagenes = content.home.Header.contenido; // ✅ Seguridad de tipos
+    const [index, setIndex] = useState(0);
+
+    // Cambia la imagen automáticamente cada 4 segundos
+    useEffect(() => {
+        if (totalImagenes === 0) return;
+
+        const interval = setInterval(() => {
+            setIndex(prev => (prev + 1) % totalImagenes);
+        }, 2500);
+
+        return () => clearInterval(interval);
+    }, [totalImagenes]);
+
+    if (!content || !textos || totalImagenes === 0) {
+        return <p>Cargando...</p>;
+    }
+
+    function parseHighlight(text: string, defaultClass: string, highlightClass: string) {
+        const parts = text.split(/(\*\*.*?\*\*)/g);
+        return parts.map((part, i) => {
+            const isHighlight = part.startsWith("**") && part.endsWith("**");
+            const cleanText = isHighlight ? part.slice(2, -2) : part;
+            return (
+                <span key={i} className={isHighlight ? highlightClass : defaultClass}>
+                    {cleanText}
+                </span>
+            );
+        });
+    }
 
     return (
         <header id="Home1" className={styles.header}>
             <div className={styles.headerImageContainer}>
-                <LazyImage src={imagenes.imagen_De_Fondo} alt="Header Image" className={styles.headerImage} />
+
+                {/* Imagen de fondo */}
+                <LazyImage
+                    src={imagenesContenido?.imagen_De_Fondo}
+                    alt="Header Image"
+                    className={styles.headerImage}
+                />
+
+                {/* Textos */}
                 <div className={styles.textContainer}>
-                    <h1 className={styles.text1}>{textos.titulo}</h1>
-                    <p className={styles.text2}>{textos.subtitulo}</p>
-                    <p className={styles.text3}>{textos.descripcion1}</p>
+                    <h1 className={styles.text1}>
+                        {parseHighlight(
+                            textos?.[index]?.titulo,
+                            styles.TitulotextoNormal,
+                            styles.Titulotextodestacado
+                        )}
+                    </h1>
+                    <p className={styles.text3}>{textos?.[index]?.descripcion1}</p>
+                    <button className={styles.buttonPrimary}>{textos?.[index]?.botonPrimario}</button>
                 </div>
-                <div className={styles.buttonContainer}>
-                    <ScrollLink to="/#Home1" scrollMode="bottom" className={styles.buttonPrimary} >
-                        {textos.botonPrimario}
-                    </ScrollLink>
-                    <ScrollLink to="/Lidermania#CarruselDeTrabajos" scrollMode="bottom" className={styles.buttonSecondary} >
-                        {textos.botonSecundario}
-                    </ScrollLink>
+
+                {/* Imagen que cambia automáticamente */}
+                <div className={styles.ContenedorContenedorImagen}>
+                    <div className={styles.ContenedorImagen}>
+                        <LazyImage
+                            src={imagenesArray[index]}
+                            alt={`Imagen-${index}`}
+                            className={styles.Imagen}
+                            loading="eager"
+                        />
+                    </div>
                 </div>
-                <LazyImage src={imagenes.logo} alt="Logo" className="logoHeader" />
-            </div>
-            <div className={styles.centeredBottomContainer}>
-                <div className={styles.gridItemTop}>{textos.Numero_trabajadores}</div>
-                <div className={styles.gridItemTop}>{textos.Numero_years}</div>
-                <div className={styles.gridItemTop}>{textos.Numero_clientes}</div>
-                <div className={styles.gridItemBottom}>{textos.trabajadores}</div>
-                <div className={styles.gridItemBottom}>{textos.years}</div>
-                <div className={styles.gridItemBottom}>{textos.clientes}</div>
+
+                {/* Barra de navegación */}
+                <div className={styles.BarraPrincipal}>
+                    <div className={styles.IntermedioBarraPrincipal}>
+                        <div className={styles.BarraContenedorDeBotones}>
+                            {content.home.BarraPrincipalMilenium.Botones.map((boton, i) => (
+                                <a
+                                    key={i}
+                                    href={boton.link}
+                                    className={`${styles.BotonItem} ${styles[`celda${i + 1}`]}`}
+                                >
+                                    {boton.Texto}
+                                </a>
+                            ))}
+                        </div>
+                        <div className={styles.BarraContenedorDeBanderas}>
+                            {content.home.BarraPrincipalMilenium.Banderas.map((bandera, i) => (
+                                <a key={i} href={bandera.link} className={styles.BanderaItem}>
+                                    <img
+                                        src={bandera.Imagen}
+                                        alt={`Bandera-${i}`}
+                                        className={styles.BanderaImagen}
+                                    />
+                                </a>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </header>
     );

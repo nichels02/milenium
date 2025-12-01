@@ -57,7 +57,6 @@ interface ContentData {
             };
             es: {
                 titulo: string;
-                subtitulo: string;
                 descripcion1: string;
                 botonPrimario: string;
                 botonSecundario: string;
@@ -67,12 +66,25 @@ interface ContentData {
                 Numero_trabajadores: string,
                 Numero_years: string,
                 Numero_clientes: string
-            };
+
+            }[];
             contenido: {
                 logo: string;
                 imagen_De_Fondo: string;
+                imagenes: string[];
             };
         };
+
+        BarraPrincipalMilenium:{
+            Botones: {
+                Texto: string;
+                link: string;
+            }[],
+            Banderas: {
+                Imagen: string;
+                link: string;
+            }[]
+        },
 
         BarraDeOpciones: {
             es: {
@@ -194,6 +206,19 @@ interface ContentData {
                     {
                         src: string;
                         alt: string;
+                        Nombre: string;
+                        EsDoble: boolean;
+                    }[]
+            }
+        }
+        MarqueeClientes: {
+            common: {
+                items:
+                    {
+                        src: string;
+                        alt: string;
+                        Nombre: string;
+                        EsDoble: boolean;
                     }[]
             }
         }
@@ -258,10 +283,9 @@ interface ContentData {
         Formulario: {
             es: {
                 BotonesYDesplegable: {
-                    Peru: string;
-                    Usa: string;
-                    Chile: string;
-                    Ecuador: string;
+                    "Panama": string;
+                    "Guatemala": string;
+                    "Costa Rica": string;
                 },
                 TituloPrincipal: string;
                 SubtituloPrincipal: string;
@@ -422,6 +446,16 @@ interface ContentData {
                 ImagenContenedorInferior: string;
             }
         },
+        FooterMilenium: {
+            logoSmall: string;
+            "IconoUbicacion": string;
+            titulo: string;
+            descripcion:string;
+            iconoTelefono: string;
+            telefono: string;
+            iconoCorreo: string;
+            correo: string;
+        },
         ValidadorFormulario: {
             es: {
                 NombreVacio: string;
@@ -454,6 +488,25 @@ interface ContentData {
             }
 
         },
+        VideoInstitucional: {
+            Common: {
+                Imagen: string;
+                video: string;
+            }
+        },
+        GridCartasExpandibles: {
+                Imagen: string;
+                Titulo: string;
+            }[],
+        CarruselNoticias: {
+            Cartas: {
+                imagen: string;
+                Titulo: string;
+                Texto: string;
+            }[]
+        },
+
+
         Footer: {
             Common: {
                 LidermanLogoDark: string;
@@ -557,6 +610,9 @@ interface ContentData {
                 }
             }
         }
+
+
+
     }
 
     Conocenos: {

@@ -24,25 +24,136 @@ h1, p {
     padding: 0;
 }
 
+.BarraPrincipal{
+    position: absolute; /* Posiciona el contenedor de textos de manera absoluta */
+    top: -5px;
+    width: 101%;
+    height: 100px;
+    background: transparent;
+    transform: translateX(-50%);
+    left: 50%;
+    border: 2px solid white;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.IntermedioBarraPrincipal{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.BarraContenedorDeBotones{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 5% ;
+    width: 60%;
+
+}
+.BotonItem{
+    color: var(--color-texto-blanco);
+    font-size: 20px;
+}
+
+.BarraContenedorDeBanderas{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 5%;
+    width: 200px;
+    height: 70%;
+    align-items: center;
+}
+.BanderaItem {
+    background: transparent;
+    aspect-ratio: 3 / 2;
+    max-height: 50%;
+    overflow: hidden; /* evita que se salga */
+    border-radius: 4px; /* opcional */
+}
+
+.BanderaImagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* evita deformación */
+    object-position: center; /* centra la imagen */
+}
+
+.ContenedorContenedorImagen{
+    position: absolute; /* Posiciona el contenedor de textos de manera absoluta */
+    transform: translateY(-50%);
+    top: 55%; /* Posición relativa desde la parte superior */
+    right: 5%;
+    overflow: hidden;
+}
+
+
 .textContainer {
     position: absolute; /* Posiciona el contenedor de textos de manera absoluta */
-    top: 35%; /* Posición relativa desde la parte superior */
-    left: 10%; /* Posición relativa desde la izquierda */
-    width: 45%; /* Ancho relativo al contenedor */
-    height: auto; /* Altura automática */
+    transform: translateY(-50%);
+    top: 55%; /* Posición relativa desde la parte superior */
+    left: 4%; /* Posición relativa desde la izquierda */
+    width: 930px; /* Ancho relativo al contenedor */
+    height: auto ; /* Altura automática */
+    gap: 30px;
     z-index: 1; /* Asegura que los textos estén por encima de la imagen */
     text-align: left; /* Alinea el texto a la izquierda */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
 }
+
+
+.ContenedorContenedorImagen {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 55%;
+    right: 5%;
+
+    width: 800px;  /* ajusta si deseas */
+    height: 600px;
+
+    overflow: hidden;
+}
+
+
+
+
+
+.ContenedorImagen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* IMPORTANTE para ocultar el slide */
+}
+
+.Imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: none; /* o lo puedes dejar para un fade suave */
+    position: relative; /* que esté dentro del contenedor */
+    z-index: 10;
+}
+
 
 .text1, .text2, .text3 {
     margin: 0; /* Elimina el margen predeterminado */
     padding: 0; /* Elimina el padding predeterminado */
-    line-height: 1; /* Ajusta la altura de línea para reducir el espacio */
 }
 
 .text1 {
     font-size: 5vw; /* Tamaño relativo al contenedor */
     color: var(--color-texto-blanco); /* Color del primer texto */
+}
+.TitulotextoNormal{
+
+}
+.Titulotextodestacado{
+    color: var(--color-Amarillo-General);
 }
 
 .text2 {
@@ -85,7 +196,7 @@ h1, p {
     /*padding: 1vw 2vw; !* Espaciado interno relativo al contenedor *!*/
     font-size: clamp(16px, 1.3vw, 25px);
     color: var(--color-texto-blanco); /* Color del texto */
-    background-color: var(--color-rojo-general-cambio);
+    background-color: var(--color-Azul-General);
     border: none; /* Elimina el borde */
     border-radius: 10px; /* Bordes redondeados */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
@@ -93,7 +204,7 @@ h1, p {
     display: flex; /* Habilita Flexbox */
     align-items: center; /* Centra el texto verticalmente */
     justify-content: center; /* Centra el texto horizontalmente */
-    height: 100%; /* Asegura que el botón ocupe toda la altura del contenedor */
+    height: 50px; /* Asegura que el botón ocupe toda la altura del contenedor */
     font-weight: 600;
 
 }
@@ -156,15 +267,86 @@ h1, p {
     justify-content: center; /* Centra horizontalmente */
     padding-bottom: 8%; /* Espacio vacío debajo del contenedor padre */
 }
+
+
+
+
+
+
+@media (max-width: 1880px) {
+    .textContainer {
+        width: 800px; /* Ancho relativo al contenedor */
+        height: auto; /* Altura automática */
+    }
+}
+@media (max-width: 1660px){
+    .textContainer {
+        width: 720px; /* Ancho relativo al contenedor */
+        height: auto; /* Altura automática */
+    }
+    .ContenedorContenedorImagen{
+        width: 700px;
+        height: auto;
+    }
+}
 @media (max-width: 1550px) {
     .text3 {
         width: 85%;
         font-size: clamp(20px,1.5vw,28px); /* Tamaño relativo al contenedor */
     }
 }
+@media (max-width: 1500px) {
+    .BotonItem{
+        max-width: 120px;
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+}
+@media (max-width: 1480px){
+    .textContainer {
+        width: 600px; /* Ancho relativo al contenedor */
+        height: auto; /* Altura automática */
+    }
+    .ContenedorContenedorImagen{
+        width: 650px;
+        height: auto;
+    }
+}
+@media (max-width: 1260px){
+    .headerImageContainer{
+        height: 1000px;
+    }
+    .headerImage {
+        width: 100%; /* Ocupa el 100% del ancho del contenedor */
+        height: 100%; /* Ajusta la altura automáticamente para mantener la relación de aspecto */
+        object-fit: cover;
+    }
+    .textContainer {
+        width: 60%; /* Ancho relativo al contenedor */
+        gap: 30px;
+        top: 60%; /* Ajusta la posición vertical según sea necesario */
+        /*top: auto;*/
+        left: 52%; /* Misma posición horizontal que el textContainer */
+        transform: translateX(-50%);
+    }
+    .ContenedorContenedorImagen{
+        width: 650px;
+        height: auto;
+        top: 10%;
+        left: 50%; /* Misma posición horizontal que el textContainer */
+        transform: translateX(-50%);
+    }
+}
 @media (max-width: 1200px) {
     .buttonContainer{
         top: 78%; /* Ajusta la posición vertical según sea necesario */
+    }
+}
+@media (max-width: 1000px){
+    .BotonItem{
+        font-size: 16px;
+        max-width: 120px;
     }
 }
 @media (max-width: 1024px) {
@@ -199,14 +381,30 @@ h1, p {
     .buttonContainer{
         /*top: 360px;*/
     }
-    .header {
-        padding-bottom: 8%; /* Espacio vacío debajo del contenedor padre */
-    }
     .centeredBottomContainer{
         bottom: 0px;
         /*bottom: clamp(-25px, -0.5vw, 0px);*/
         width: 75%;
         gap: 0; /* Espacio entre los elementos del grid */
+    }
+}
+@media (max-width: 840px){
+    .BotonItem{
+        font-size: 14px;
+        max-width: 80px;
+    }
+    .BanderaItem {
+        max-height: 40%;
+    }
+    .BarraContenedorDeBanderas{
+        right: 5%;
+        width: 160px;
+    }
+    .BarraContenedorDeBotones{
+        top: 50%;
+        left: 5% ;
+        width: 63%;
+
     }
 }
 @media (max-width: 800px) {
@@ -233,10 +431,6 @@ h1, p {
         width: 15%; /* Hace el logo más visible en pantallas pequeñas */
     }
 
-    .textContainer {
-        left: 8%; /* Asegura que el texto se mantenga centrado */
-        top: 25%;
-    }
     .buttonContainer{
         /*top: clamp(250px, 75%, 270px); !* Ajusta la posición vertical según sea necesario *!*/
         left: 8%;
@@ -258,16 +452,52 @@ h1, p {
         font-size: clamp(12px, 0.8vw, 24px);
     }
 
-    .header {
-        padding-bottom: 9%; /* Espacio vacío debajo del contenedor padre */
+}
+
+@media (max-width: 630px) {
+    .header{
+        padding-bottom: 0; /* Espacio vacío debajo del contenedor padre */
+    }
+    .BotonItem{
+    }
+    .BanderaItem {
+        max-height: 20%;
+    }
+    .BarraContenedorDeBanderas{
+        flex-direction: column;
+        justify-content: space-between; /* 1º arriba, último abajo, el resto se reparte */
+        align-items: flex-end;          /* Todo pegado al lado derecho */
+    }
+    .celda5 {
+        grid-column: 3; /* columna 3 */
+        grid-row: 2;     /* fila 2 */
+
+    }
+    .BarraContenedorDeBotones{
+        top: 50%;
+        left: 5% ;
+        width: 75%;
+        display: grid;
+        row-gap: 20px;
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas del mismo tamaño */
+        place-items: center;
+    }
+    .BarraPrincipal{
+        height: 200px;
+    }
+    .ContenedorContenedorImagen{
+        width: 95%;
+        top:20%
+    }
+    .textContainer{
+        top: 63%;
+    }
+    .header{
+        max-height: 900px;
     }
 }
 
-
 @media (max-width: 600px){
-    .header {
-        padding-bottom: 13%; /* Espacio vacío debajo del contenedor padre */
-    }
 
 
     .buttonContainer{
@@ -294,16 +524,40 @@ h1, p {
 
 }
 
+@media (max-width: 520px) {
 
-@media (max-width: 470px){
-    .header {
-        padding-bottom: 15%; /* Espacio vacío debajo del contenedor padre */
+    .textContainer{
+        top: 56%;
     }
+    .header{
+        max-height: 820px;
+    }
+}
+@media (max-width: 465px) {
+
+    .textContainer{
+        top: 53%;
+        width: 80%;
+    }
+    .header{
+        max-height: 820px;
+    }
+}
+@media (max-width: 470px){
     .buttonContainer{
         /*top: 70%;*/
     }
     .buttonPrimary,.buttonSecondary{
         min-width: 75px;
+    }
+}
+@media (max-width: 400px) {
+
+    .textContainer{
+        top: 47%;
+    }
+    .header{
+        max-height: 740px;
     }
 }
 @media (max-width: 337px) {

@@ -3,7 +3,7 @@ import styles from '../css/TituloYSubtituloGenerico.module.css';
 
 interface TituloYSubtituloGenericoProps {
     titulo: string;
-    subtitulo: string;
+    subtitulo?: string;
     className?: string;
     textoEspecial?: boolean;
     FondoEsBlanco?: boolean;
@@ -12,7 +12,7 @@ interface TituloYSubtituloGenericoProps {
 
 const TituloYSubtituloGenerico: React.FC<TituloYSubtituloGenericoProps> = ({
                                                                                titulo,
-                                                                               subtitulo,
+                                                                               subtitulo = "",
                                                                                className,
                                                                                textoEspecial = false,
                                                                                FondoEsBlanco = false,
@@ -26,6 +26,7 @@ const TituloYSubtituloGenerico: React.FC<TituloYSubtituloGenericoProps> = ({
                             ${FondoEsBlanco ? styles.FondoEsBlanco : ''}
                             ${TituloLegal ? styles.SubtituloLegal : ''}
                             `}
+                style={{ display: subtitulo === "" ? "none" : "block" }}
             >
                 {subtitulo}
             </h2>

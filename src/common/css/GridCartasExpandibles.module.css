@@ -1,0 +1,50 @@
+.contenedorPrincipal{
+    width: 100vw;
+    height: auto;
+}
+.ContenedorPadre{
+    width: 85%;
+    margin: auto;
+}
+.Gid{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.Carta {
+    position: relative;
+    width: 23%;
+    overflow: hidden;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.CartaImagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* La imagen no se deforma */
+    object-position: 100% 0%;
+    transform: scale(1.2) translateX(-5%) translateY(5%);
+    filter: grayscale(100%) brightness(80%);
+
+}
+.CartaImagen:hover{
+    filter: grayscale(0%) brightness(80%);
+}
+.CartaTitulo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.componenteActivo {
+    width: 100%;
+    margin-top: 20px; /* separación del grid */
+}

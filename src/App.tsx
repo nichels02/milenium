@@ -12,10 +12,10 @@ const Tecnologia = lazy(() => import('./pages/Tecnologia.tsx'));
 const Legal = lazy(() => import('./pages/Legal.tsx'));
 
 // Componentes compartidos
-import BarraDeOpciones from './common/Componentes/BarraDeOpciones.tsx';
-import BarraDeOpciones2 from './common/Componentes/BarraDeOpciones2.tsx';
-import BarraDeOpciones3 from './common/Componentes/BarraDeOpciones3.tsx';
-import BarraDeOpcionesRedes from './common/Componentes/BarraDeOpcionesRedes.tsx';
+// import BarraDeOpciones from './common/Componentes/BarraDeOpciones.tsx';
+// import BarraDeOpciones2 from './common/Componentes/BarraDeOpciones2.tsx';
+// import BarraDeOpciones3 from './common/Componentes/BarraDeOpciones3.tsx';
+// import BarraDeOpcionesRedes from './common/Componentes/BarraDeOpcionesRedes.tsx';
 
 // Sistemas importantes
 import { LanguageProvider } from './common/Componentes/Sistemas/LanguageContext';
@@ -24,8 +24,8 @@ import { ContentProvider } from "./common/Componentes/Sistemas/useContent.tsx";
 import { ScrollProvider } from "./common/Componentes/Sistemas/ScrollContext.tsx";
 
 // Lazy loading diferido para Footer y Formulario
-const LazyFormulario = lazy(() => import('./common/Componentes/FormularioDeContacto2.tsx'));
-const LazyFooter = lazy(() => import('./common/Componentes/Footer.tsx'));
+// const LazyFormulario = lazy(() => import('./common/Componentes/FormularioDeContacto2.tsx'));
+// const LazyFooter = lazy(() => import('./common/Componentes/Footer.tsx'));
 
 function PageWrapper({ children }: { children: React.ReactNode }) {
     const [pageLoaded, setPageLoaded] = useState(false);
@@ -66,8 +66,8 @@ function PageWrapper({ children }: { children: React.ReactNode }) {
             <div id="page-bottom-marker" style={{ height: '1px' }} />
             {pageLoaded && (
                 <Suspense fallback={null}>
-                    <LazyFormulario />
-                    <LazyFooter />
+                    {/*<LazyFormulario />*/}
+                    {/*<LazyFooter />*/}
                 </Suspense>
             )}
         </>
@@ -75,13 +75,13 @@ function PageWrapper({ children }: { children: React.ReactNode }) {
 }
 
 function App() {
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 958);
+    // const [isMobile, setIsMobile] = useState(window.innerWidth <= 958);
 
-    useEffect(() => {
-        const handleResize = () => setIsMobile(window.innerWidth <= 958);
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
-    }, []);
+    // useEffect(() => {
+    //     const handleResize = () => setIsMobile(window.innerWidth <= 958);
+    //     window.addEventListener("resize", handleResize);
+    //     return () => window.removeEventListener("resize", handleResize);
+    // }, []);
 
     return (
         <ScrollProvider>
@@ -91,15 +91,15 @@ function App() {
 
                         <ScrollToTop/>
 
-                        {!isMobile && (
-                            <>
-                                <BarraDeOpciones/>
-                                <BarraDeOpciones2/>
-                            </>
-                        )}
+                        {/*{!isMobile && (*/}
+                        {/*    <>*/}
+                        {/*        <BarraDeOpciones/>*/}
+                        {/*        <BarraDeOpciones2/>*/}
+                        {/*    </>*/}
+                        {/*)}*/}
 
-                        {isMobile && <BarraDeOpciones3/>}
-                        {!isMobile && <BarraDeOpcionesRedes/>}
+                        {/*{isMobile && <BarraDeOpciones3/>}*/}
+                        {/*{!isMobile && <BarraDeOpcionesRedes/>}*/}
 
 
                         <Suspense fallback={<div>Cargando página...</div>}>
